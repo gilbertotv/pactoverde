@@ -4,7 +4,7 @@ import { AppContext } from "../../context/AppContext";
 
 const HamburgerMenu = () => {
 	const { menuOpen, setMenuOpen } = useContext(AppContext);
-	const [y, setY] = useState(window.scrollY);
+	const [y, setY] = useState(0);
 	const [goingDown, setGoingDown] = useState(false);
 
 	const handleNavigation = (e) => {
@@ -25,13 +25,15 @@ const HamburgerMenu = () => {
 		};
 	}, [y]);
 
+	useEffect(() => {
+		setY(window.scrollY);
+	}, []);
+
 	return (
 		<button
 			className={`fixed right-6 top-6 z-20 w-10 h-10 focus:outline-none bg-transparent transition duration-200 ease-in-out ${
 				menuOpen ? "text-white" : "text-black"
-			} ${
-				!menuOpen && goingDown ? "opacity-0" : "opacity-1"
-			}`}
+			} ${!menuOpen && goingDown ? "opacity-0" : "opacity-1"}`}
 			onClick={() => setMenuOpen(!menuOpen)}
 		>
 			<span className="sr-only">Menu</span>

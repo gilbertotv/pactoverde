@@ -15,7 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "framer-motion": "^6.2.8",
     "gatsby": "^4.9.2",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-react-helmet": "^5.9.0",
     "gatsby-plugin-sass": "^5.9.0",

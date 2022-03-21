@@ -9,6 +9,7 @@ const HamburgerMenu = () => {
 
 	const handleNavigation = (e) => {
 		const window = e.currentTarget;
+		
 		if (y > window.scrollY) {
 			setGoingDown(false);
 		} else if (y < window.scrollY) {
@@ -31,7 +32,7 @@ const HamburgerMenu = () => {
 
 	return (
 		<button
-			className={`fixed right-6 top-6 z-20 w-10 h-10 focus:outline-none bg-transparent transition duration-200 ease-in-out ${
+			className={`fixed right-6 top-6 z-40 w-10 h-10 focus:outline-none bg-transparent transition duration-200 ease-in-out ${
 				menuOpen ? "text-white" : "text-black"
 			} ${!menuOpen && goingDown ? "opacity-0" : "opacity-1"}`}
 			onClick={() => setMenuOpen(!menuOpen)}
@@ -41,7 +42,7 @@ const HamburgerMenu = () => {
 				<span
 					aria-hidden="true"
 					className={`block absolute h-1 w-10 bg-current transform transition duration-500 ease-in-out ${
-						menuOpen ? "rotate-45" : "-translate-y-3"
+						menuOpen ? "rotate-45" : "-translate-y-4"
 					}`}
 				></span>
 				<span
@@ -53,7 +54,7 @@ const HamburgerMenu = () => {
 				<span
 					aria-hidden="true"
 					className={`block absolute h-1 w-10 bg-current transform  transition duration-500 ease-in-out ${
-						menuOpen ? "-rotate-45" : "translate-y-3"
+						menuOpen ? "-rotate-45" : "translate-y-4"
 					}`}
 				></span>
 			</div>

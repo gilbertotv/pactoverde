@@ -15,14 +15,12 @@ interface IProps {
 
 const HeaderPage = ({ children, title, titleColor, bgcolor }: IProps) => {
 	return (
-		<div className="h-screen">
-			<div
-				className={`h-screen sm:h-4/5 relative flex items-center overflow-hidden ${bgcolor}`}
-			>
+		<div className="min-h-screen h-screen sm:h-auto mb-4">
+			<div className={`min-h-headmob sm:min-h-head relative flex overflow-hidden ${bgcolor}`}>
 				<div className="container">
-					<div className="lg:w-1/2 sm:w-2/3 sm:translate-y-12">
+					<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-16">
 						<p
-							className={`text-3xl sm:text-4xl font-bold mb-16 sm:mb-8 ${titleColor}`}
+							className={`text-3xl sm:text-4xl font-bold mb-16 sm:mb-8 mt-36 sm:mt-52 xl:pr-72 ${titleColor}`}
 						>
 							{title}
 						</p>

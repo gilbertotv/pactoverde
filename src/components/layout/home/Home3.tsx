@@ -1,5 +1,5 @@
 import React from "react";
-import { navigate } from "gatsby";
+import { Link, navigate } from "gatsby";
 import Button from "../../shared/Button";
 import HomeLayoutTitle from "./HomeLayoutTitle";
 
@@ -51,9 +51,9 @@ const ColumnMore = ({
 			<br />
 			{role}
 		</p>
-		<a href="/" className="text-green1 font-bold">
+		<Link to="/articulos/articulo" className="text-green1 font-bold">
 			{linktext} &emsp; <ForwardIcon />
-		</a>
+		</Link>
 	</div>
 );
 

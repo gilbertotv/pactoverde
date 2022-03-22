@@ -9,7 +9,9 @@ const Footer = () => {
 				</div>
 				<div className="w-full sm:w-1/2 sm:text-right pt-4 sm:pt-0">
 					Diseño y desarollo web por{" "}
-					<a href="https://www.trazovivo.com">Trazo Vivo</a>
+					<a href="https://www.trazovivo.com" target="_blank">
+						Trazo Vivo
+					</a>
 				</div>
 			</div>
 		</div>

@@ -4,6 +4,7 @@ import Button from "../../shared/Button";
 import HomeLayoutTitle from "./HomeLayoutTitle";
 
 import Autor1 from "../../../images/autor1.png";
+import { navigate } from "gatsby";
 
 interface IAuthor {
 	name: string;
@@ -70,7 +71,11 @@ const AuthorDetail = ({
 				className="w-2/3 m-auto border-b border-red1"
 			/>
 			<p className="text-sm my-8">{description}</p>
-			<Button text="Ver artículo" variant="red" />
+			<Button
+				text="Ver artículo"
+				variant="red"
+				action={() => navigate("/articulos/articulo")}
+			/>
 			<CloseIcon
 				className="absolute cursor-pointer right-0 top-0"
 				setIndex={setIndex}

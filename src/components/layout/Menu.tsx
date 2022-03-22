@@ -47,7 +47,7 @@ const Menu = () => {
 		<>
 			<HamburgerMenu />
 			<nav
-				className={`w-screen h-screen fixed top-0 lef-0 z-30 transition duration-500 ease-in-out bg-greenmain ${
+				className={`w-screen h-screen absolute sm:fixed top-0 left-0 z-30 transition duration-500 ease-in-out bg-greenmain ${
 					menuOpen ? "visible opacity-1" : "invisible opacity-0"
 				}`}
 			>

@@ -37,21 +37,36 @@ const ColumnMore = ({
 	linktext,
 	showed,
 	delay,
+	border = true,
+}: {
+	title: string;
+	summary: string;
+	author: string;
+	role: string;
+	linktext: string;
+	showed: boolean;
+	delay: number;
+	border?: boolean;
 }) => (
 	<div className="relative md:w-1/3 pl-6 pr-20 py-8 mb-12">
 		<div
-			className={`absolute w-px left-0 top-0 border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
-				showed ? "h-full visible" : "h-0 invisible"
+			className={`absolute h-px sm:w-px left-0 bottom-0 sm:top-0 border-t sm:border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
+				showed
+					? `w-full sm:h-full ${border ? "visible" : "invisible"}`
+					: "w-0 sm:h-0 invisible"
 			}`}
 		></div>
-		<p className="font-medium text-sm text-green1 mb-4">{title}</p>
+		<p className="font-medium text-base text-green1 mb-4">{title}</p>
 		<p className="text-sm italic mb-4">{summary}</p>
 		<p className="text-sm mb-12">
 			<span className="text-base font-bold">{author}</span>
 			<br />
 			{role}
 		</p>
-		<Link to="/articulos/articulo" className="text-green1 font-bold">
+		<Link
+			to="/articulos/articulo"
+			className="text-green1 font-normal hover:font-bold"
+		>
 			{linktext} &emsp; <ForwardIcon />
 		</Link>
 	</div>
@@ -72,7 +87,7 @@ const Home3 = ({ showed }) => {
 			<img
 				src={TexturaHome3}
 				alt="Pacto Verde"
-				className="absolute top-0 -right-1/2 sm:right-0"
+				className="absolute -top-28 sm:-top-20 md:-top-16 lg:-top-8 -right-36 sm:right-0"
 			/>
 			<div className="w-full flex flex-col md:flex-row">
 				<ColumnMore
@@ -102,6 +117,7 @@ const Home3 = ({ showed }) => {
 					linktext="Leer más"
 					showed={showed}
 					delay={1000}
+					border={false}
 				/>
 			</div>
 			<Button

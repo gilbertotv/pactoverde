@@ -24,9 +24,9 @@ const Layout = (props: IProps) => {
 			</Helmet>
 			<Header />
 			<motion.main
-				initial={{ opacity: 0, x: -300 }}
-				animate={{ opacity: 1, x: 0 }}
-				exit={{ opacity: 0, x: 300 }}
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
 				transition={{
 					type: "spring",
 					mass: 0.35,

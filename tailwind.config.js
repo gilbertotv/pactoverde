@@ -4,11 +4,11 @@ module.exports = {
 		container: {
 			center: true,
 			padding: {
-				DEFAULT: "15px",
+				DEFAULT: "45px",
 				sm: "1rem",
 				lg: "2rem",
-				xl: "3rem",
-				"2xl": "4rem",
+				xl: "5rem",
+				"2xl": "6rem",
 			},
 		},
 		extend: {

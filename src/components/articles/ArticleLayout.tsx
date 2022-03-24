@@ -20,7 +20,7 @@ const ArticleLayout = ({ children, arts }: IProps) => {
 	return (
 		<div className="container">
 			<div className="flex">
-				<div className="w-full sm:w-3/4 md:w-4/5 sm:mr-20">
+				<div className="w-full sm:w-3/4 md:w-4/5 sm:mr-20 text-base md:text-xl">
 					{children}
 					<div className="border-t my-16">
 						<div className="my-8">
@@ -38,7 +38,7 @@ const ArticleLayout = ({ children, arts }: IProps) => {
 						</div>
 						<div className="my-8 sm:grid sm:grid-cols-2 lg:grid-cols-2">
 							<div className="sm:text-left py-4 sm:py-0">
-								Lorem ipsum dolor sit amet, consectetuer adipiscing
+								Escríbenos si te interesa colaborar con nostrxs
 							</div>
 							<div className="flex justify-center py-4 sm:py-0">
 								<Button text="Contacto" variant="green" />

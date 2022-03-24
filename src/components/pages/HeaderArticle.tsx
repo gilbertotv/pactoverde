@@ -26,38 +26,47 @@ const HeaderPage = ({
 	subAuthor,
 }: IProps) => {
 	return (
-		<div className="min-h-screen h-screen sm:h-auto mb-4">
-			<div className={`min-h-headmob sm:min-h-head relative flex overflow-hidden ${bgcolor}`}>
-				<div className="container">
-					<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-16 flex flex-col">
-						<p
-							className={`text-3xl sm:text-4xl font-bold mb-16 sm:mb-8 mt-36 sm:mt-52 xl:pr-72 ${titleColor}`}
-						>
-							{title}
-						</p>
-						<SubHeader
-							image={subImage}
-							color={subColor}
-							text={subText}
-							author={subAuthor}
-						/>
+		<>
+			<div className="sm:min-h-screen sm:h-screen sm:h-auto mb-4">
+				<div
+					className={`min-h-headmob sm:min-h-head relative flex overflow-hidden ${bgcolor}`}
+				>
+					<div className="container">
+						<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-16 flex flex-col">
+							<p
+								className={`text-3xl sm:text-4xl font-bold mb-16 sm:mb-8 mt-36 sm:mt-52 xl:pr-72 ${titleColor}`}
+							>
+								{title}
+							</p>
+							<SubHeader
+								image={subImage}
+								color={subColor}
+								text={subText}
+								author={subAuthor}
+							/>
+						</div>
 					</div>
+					{variant === "circle" ? (
+						<img
+							src={textura2}
+							alt="Pacto Verde"
+							className="absolute -bottom-20 -right-24 sm:right-0"
+						/>
+					) : (
+						<img
+							src={textura1}
+							alt="Pacto Verde"
+							className="absolute -bottom-16 -right-44 sm:right-0"
+						/>
+					)}
 				</div>
-				{variant === "circle" ? (
-					<img
-						src={textura2}
-						alt="Pacto Verde"
-						className="absolute -bottom-20 right-0"
-					/>
-				) : (
-					<img
-						src={textura1}
-						alt="Pacto Verde"
-						className="absolute -bottom-16 -right-44 sm:right-0"
-					/>
-				)}
 			</div>
-		</div>
+			{subAuthor && (
+				<div className="container">
+					<p className="block sm:hidden py-6 my-6 border-b border-gray4">{subText}</p>
+				</div>
+			)}
+		</>
 	);
 };
 

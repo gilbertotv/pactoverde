@@ -64,7 +64,7 @@ const AuthorDetail = ({
 					showed ? "h-full md:visible" : "h-0 invisible"
 				}`}
 			></div>
-			<p className="text-red1 font-bold mb-4 visible sm:invisible">{name}</p>
+			<p className="text-red1 font-bold mb-4 block sm:hidden">{name}</p>
 			<img
 				src={Autor1}
 				alt="pacto Verde"
@@ -122,7 +122,7 @@ const Autorxs = ({ showed }) => {
 		},
 		{ name: "Clemente Ruiz Durán", image: { Autor1 }, description: "" },
 	];
-	const [indexAuthor, setIndexAuthor] = useState<number | null>(0);
+	const [indexAuthor, setIndexAuthor] = useState<number | null>(null);
 
 	return (
 		<HomeLayoutTitle
@@ -131,7 +131,7 @@ const Autorxs = ({ showed }) => {
 			subtitle="La publicación reúne a un nutrido grupo de voces expertas y reconocidas del sector público, privado, productivo, de la sociedad civil y de organismos internacionales comprometidas con la misión y visión de un posible Pacto Verde para México.”"
 			showed={showed}
 		>
-			<div className="w-full flex flex-col md:flex-row">
+			<div className="w-full flex flex-col md:flex-row md:py-12">
 				{indexAuthor !== null && (
 					<AuthorDetail
 						author={authors[indexAuthor]}
@@ -154,7 +154,7 @@ const Autorxs = ({ showed }) => {
 										key={`author${i}`}
 										className={` ${
 											i === indexAuthor ? "text-red1" : "text-gray1"
-										} text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
+										} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
 										onClick={() => setIndexAuthor(i)}
 									>
 										{author.name}
@@ -174,7 +174,7 @@ const Autorxs = ({ showed }) => {
 										i + Math.ceil(authors.length / 2) === indexAuthor
 											? "text-red1"
 											: "text-gray1"
-									} text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
+									} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
 									onClick={() =>
 										setIndexAuthor(i + Math.ceil(authors.length / 2))
 									}

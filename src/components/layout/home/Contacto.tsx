@@ -14,10 +14,10 @@ const Contacto = ({ showed }) => {
 		<div className="min-h-screen flex flex-col">
 			<div className="sm:mt-32 text-white flex justify-center relative">
 				<div className="container">
-					<h2 className={`inline-block text-gray1 text-4xl sm:text-6xl`}>
+					<h2 className={`inline-block text-gray1 text-4xl sm:text-6xl mt-8 sm:mt-12`}>
 						Escríbenos si te interesa colaborar con nostrxs
 					</h2>
-					<form className="w-full text-black sm:mt-12 my-4">
+					<form className="w-full text-black mt-12 my-4">
 						<div className="sm:grid sm:grid-cols-2 sm:gap-12 ">
 							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
 								<input

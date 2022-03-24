@@ -23,11 +23,11 @@ const ArticleHeader = ({
 					<div className="">
 						<p className="text-base sm:text-2xl">{title}</p>
 					</div>
-					<div className="flex gap-2">
-						<img src={mail} alt="Email" className="w-8 h-8 sm:w-12 sm:h-12" />
-						<img src={fb} alt="Facebook" className="w-8 h-8 sm:w-12 sm:h-12" />
-						<img src={tw} alt="Twitter" className="w-8 h-8 sm:w-12 sm:h-12" />
-						<img src={wa} alt="Whatsapp" className="w-8 h-8 sm:w-12 sm:h-12" />
+					<div className="flex gap-2 items-center pl-4 sm:pr-8">
+						<img src={mail} alt="Email" className="cursor-pointer h-6 sm:h-8" />
+						<img src={fb} alt="Facebook" className="cursor-pointer h-6 sm:h-8" />
+						<img src={tw} alt="Twitter" className="cursor-pointer h-6 sm:h-8" />
+						<img src={wa} alt="Whatsapp" className="cursor-pointer h-6 sm:h-8" />
 					</div>
 				</div>
 			</div>

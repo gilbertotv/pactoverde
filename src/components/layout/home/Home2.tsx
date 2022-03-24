@@ -17,7 +17,7 @@ const Home2 = ({ showed }) => {
 							} border border-pinkhome top-1/2 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2 sm:-mt-12 md:mt-0 transition-all duration-1000 ease-in-out`}
 						></div>
 						<div className={`w-full md:w-1/2 pr-4 py-12`}>
-							<p className="text-5xl text-white font-thin">
+							<p className="text-4xl sm:text-5xl text-white font-thin">
 								La explotación y destrucción de los bienes comunes y planetarios
 								han erosionado el sentido de{" "}
 								<span className="font-semibold text-pinkhome">

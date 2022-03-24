@@ -48,18 +48,19 @@ const Articles = () => {
 							className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 						></div>
 						<p className="mb-4">
-							¿Qué significa un pacto verde? Un pacto siempre es un compromiso,
-							un acuerdo de voluntades materializado o no a través de un
-							documento firmado. Eso es lo ideal, un documento en el que se
-							plasmen los propósitos y mecanismos para llevarlo a cabo. Lo
-							relevante es estar en concordancia con un fin específico
-							establecido por todos los convocados sin importar su ubicación
-							social, económica o política, y que se cumplan los acuerdos
-							adquiridos.
+							¿Qué significa un pacto verde?
+							<br /> Un pacto siempre es un compromiso, un acuerdo de voluntades
+							materializado o no a través de un documento firmado. Eso es lo
+							ideal, un documento en el que se plasmen los propósitos y
+							mecanismos para llevarlo a cabo. Lo relevante es estar en
+							concordancia con un fin específico establecido por todos los
+							convocados sin importar su ubicación social, económica o política,
+							y que se cumplan los acuerdos adquiridos.
 						</p>
 						<p className="mb-4">
-							¿Verde? Queda claro que se trata de los objetivos establecidos en
-							la Agenda 2030 de los Acuerdos de París, de cómo cada país firmó y
+							¿Verde? <br />
+							Queda claro que se trata de los objetivos establecidos en la
+							Agenda 2030 de los Acuerdos de París, de cómo cada país firmó y
 							estuvo de acuerdo en establecer medidas, acciones y compromisos
 							para que en 2050 no se rebase el grado y medio de calentamiento
 							global en el mundo. Ahí se acordó revisar periódicamente los
@@ -82,21 +83,22 @@ const Articles = () => {
 						<img src={articulo1} className="my-12 w-full" alt="Pacto Verde" />
 						<p className="mb-4">
 							¿Cuáles han sido las dificultades para la concreción de un
-							verdadero Pacto Verde en México? Me parece esencial reconocer que
-							los compromisos medioambientales que adquieren las instituciones
-							mexicanas muchas veces se quedan en la esfera de lo declarativo y,
-							después de realizar declaraciones o suscribir importantes
-							documentos, ni la acción de los funcionarios ni el diseño de las
-							políticas públicas se corresponden a los textos suscritos o a los
-							discursos dichos. Lamentablemente, la política ecológica en
-							nuestro país adolece de una alta dosis de simulación. Pienso que
-							resulta indispensable hacer un análisis riguroso de las políticas
-							públicas sectoriales y su correspondencia con los compromisos
-							medioambientales y en torno al cambio climático que ha asumido el
-							país. Asimismo, creo que es necesario revisar el papel de las
-							empresas paraestatales del sector energético, principalmente Pemex
-							y CFE, para tener la certeza de que sus decisiones se enmarcan en
-							el cumplimiento de los Acuerdos de París.
+							verdadero Pacto Verde en México? <br />
+							Me parece esencial reconocer que los compromisos medioambientales
+							que adquieren las instituciones mexicanas muchas veces se quedan
+							en la esfera de lo declarativo y, después de realizar
+							declaraciones o suscribir importantes documentos, ni la acción de
+							los funcionarios ni el diseño de las políticas públicas se
+							corresponden a los textos suscritos o a los discursos dichos.
+							Lamentablemente, la política ecológica en nuestro país adolece de
+							una alta dosis de simulación. Pienso que resulta indispensable
+							hacer un análisis riguroso de las políticas públicas sectoriales y
+							su correspondencia con los compromisos medioambientales y en torno
+							al cambio climático que ha asumido el país. Asimismo, creo que es
+							necesario revisar el papel de las empresas paraestatales del
+							sector energético, principalmente Pemex y CFE, para tener la
+							certeza de que sus decisiones se enmarcan en el cumplimiento de
+							los Acuerdos de París.
 						</p>
 					</div>
 					<div className="relative sm:translate-x-24 lg:translate-x-48 py-8 mb-16 sm:mb-24">
@@ -140,37 +142,38 @@ const Articles = () => {
 							abordar.
 						</p>
 						<p className="mb-4">
-							El papel de las nuevas generaciones Sin duda, la comprensión de la
-							problemática del cambio climático por parte de los jóvenes resulta
-							fundamental. Se trata de multiplicar miles de aliados en la
-							sociedad civil para generar una masa crítica que obligue a las
-							autoridades a implementar las políticas correctas y que, mediante
-							una conducta ciudadana consciente y comprometida, estimule que la
-							sociedad civil tenga una actitud responsable en sus actividades
-							económicas. Todos los esfuerzos que se realicen en el sector
-							educativo, en todos los niveles, pueden ser de enorme utilidad
-							para fomentar el compromiso ecologista de la niñez, la
-							adolescencia y la juventud. En la reforma al artículo 3°
-							constitucional, que es el que consagra los derechos a la educación
-							en México, se estableció que la educación debía fomentar el
-							cuidado del medio ambiente; con ello se abrió una ventana de
-							oportunidad para incidir en programas de estudio y prácticas
-							escolares para promover una conciencia ecologista. Hay que
-							aprovecharla. Hay que convocar un amplio movimiento de
+							El papel de las nuevas generaciones <br />
+							Sin duda, la comprensión de la problemática del cambio climático
+							por parte de los jóvenes resulta fundamental. Se trata de
+							multiplicar miles de aliados en la sociedad civil para generar una
+							masa crítica que obligue a las autoridades a implementar las
+							políticas correctas y que, mediante una conducta ciudadana
+							consciente y comprometida, estimule que la sociedad civil tenga
+							una actitud responsable en sus actividades económicas. Todos los
+							esfuerzos que se realicen en el sector educativo, en todos los
+							niveles, pueden ser de enorme utilidad para fomentar el compromiso
+							ecologista de la niñez, la adolescencia y la juventud. En la
+							reforma al artículo 3° constitucional, que es el que consagra los
+							derechos a la educación en México, se estableció que la educación
+							debía fomentar el cuidado del medio ambiente; con ello se abrió
+							una ventana de oportunidad para incidir en programas de estudio y
+							prácticas escolares para promover una conciencia ecologista. Hay
+							que aprovecharla. Hay que convocar un amplio movimiento de
 							adolescentes y jóvenes en favor de la preservación medioambiental
 							y la restauración del entorno.
 						</p>
 						<p className="mb-4">
-							¿Y el entorno empresarial? Las actividades económicas en México
-							tradicionalmente no se han compadecido de la problemática
-							ecológica. Además de que es deseable que los grandes capitanes de
-							la industria se pongan a tono con las directrices de la
-							contemporaneidad y asuman y cumplan compromisos en cuanto al papel
-							del sector industrial en los Acuerdos de París, hay que
-							desarrollar una política mixta de regulaciones que eviten excesos
-							y deterioro, así como de estímulos que alienten mejores prácticas.
-							Sería recomendable que en un diálogo Gobierno-representación
-							empresarial, se llegara a algunos compromisos.
+							¿Y el entorno empresarial?
+							<br /> Las actividades económicas en México tradicionalmente no se
+							han compadecido de la problemática ecológica. Además de que es
+							deseable que los grandes capitanes de la industria se pongan a
+							tono con las directrices de la contemporaneidad y asuman y cumplan
+							compromisos en cuanto al papel del sector industrial en los
+							Acuerdos de París, hay que desarrollar una política mixta de
+							regulaciones que eviten excesos y deterioro, así como de estímulos
+							que alienten mejores prácticas. Sería recomendable que en un
+							diálogo Gobierno-representación empresarial, se llegara a algunos
+							compromisos.
 						</p>
 						<p className="mb-4">
 							El rescate de la naturaleza Es indispensable la protección
@@ -207,17 +210,17 @@ const Articles = () => {
 							importancia del tema.
 						</p>
 						<p className="mb-4">
-							Los irreductibles Tal vez debemos aspirar a un pacto verde que no
-							solo reproduzca las frases y los conceptos de los importantes
-							acuerdos internacionales en la materia, sino que establezca un
-							número determinado de compromisos irreductibles, de obligado
-							cumplimiento para las partes, que permitan la persistencia del
-							país y su viabilidad en el tiempo garantizando condiciones de
-							bienestar para su población y de recuperación y protección para su
-							entorno natural. Convenir en esos irreductibles y lograr su
-							realización en el tiempo puede ser una medida pequeña pero
-							alcanzable si existiese el compromiso de todos por la
-							perdurabilidad de México.
+							Los irreductibles <br />
+							Tal vez debemos aspirar a un pacto verde que no solo reproduzca
+							las frases y los conceptos de los importantes acuerdos
+							internacionales en la materia, sino que establezca un número
+							determinado de compromisos irreductibles, de obligado cumplimiento
+							para las partes, que permitan la persistencia del país y su
+							viabilidad en el tiempo garantizando condiciones de bienestar para
+							su población y de recuperación y protección para su entorno
+							natural. Convenir en esos irreductibles y lograr su realización en
+							el tiempo puede ser una medida pequeña pero alcanzable si
+							existiese el compromiso de todos por la perdurabilidad de México.
 						</p>
 					</div>
 				</ArticleLayout>

@@ -11,7 +11,7 @@ const SubHeader = ({ image, author, text, color }: IProps) => {
 	return (
 		<div className="w-full flex flex-col sm:mt-auto">
 			{author && <p className={`text-2xl font-light mb-8 ${color}`}>{author}</p>}
-			<div className="flex flex-col sm:flex-row pb-72 sm:pb-0">
+			<div className="flex flex-col sm:flex-row sm:pb-0">
 				<p
 					className={`sm:ml-12 text-base font-normal sm:order-2 ${color} ${
 						author && "hidden sm:block"

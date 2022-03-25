@@ -29,7 +29,7 @@ module.exports = {
 			},
 			minHeight: {
 				head: "600px",
-				headmob: "80%",
+				headmob: "600px",
 			},
 		},
 	},

@@ -7,7 +7,7 @@ interface IProps {
 
 const ThumbsContainer = ({ thumbs }: IProps) => {
 	return (
-		<div className="pb-20 pt-20 sm:pt-0">
+		<div className="pb-20 mt-12 sm:mt-4">
 			<div className="container">
 				<div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-8">
 					{thumbs.map((thumb, i) => (

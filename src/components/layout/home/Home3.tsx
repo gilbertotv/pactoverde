@@ -48,11 +48,11 @@ const ColumnMore = ({
 	delay: number;
 	border?: boolean;
 }) => (
-	<div className="relative md:w-1/3 pl-6 pr-20 py-8 mb-12">
+	<div className="relative flex flex-col md:w-1/3 pl-6 pr-20 py-8 mb-12">
 		<div
 			className={`absolute h-px sm:w-px left-0 bottom-0 sm:top-0 border-t sm:border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
 				showed
-					? `w-full sm:h-full ${border ? "visible" : "invisible"}`
+					? `w-full sm:h-full ${border ? "visible" : "invisible sm:visible"}`
 					: "w-0 sm:h-0 invisible"
 			}`}
 		></div>
@@ -65,7 +65,7 @@ const ColumnMore = ({
 		</p>
 		<Link
 			to="/articulos/articulo"
-			className="text-green1 font-normal hover:font-bold"
+			className="text-green1 font-normal hover:font-bold mt-auto"
 		>
 			{linktext} &emsp; <ForwardIcon />
 		</Link>
@@ -87,7 +87,7 @@ const Home3 = ({ showed }) => {
 			<img
 				src={TexturaHome3}
 				alt="Pacto Verde"
-				className="absolute -top-28 sm:-top-20 md:-top-16 lg:-top-8 -right-36 sm:right-0"
+				className="absolute bottom-full translate-y-24 -right-48 sm:right-0"
 			/>
 			<div className="w-full flex flex-col md:flex-row">
 				<ColumnMore

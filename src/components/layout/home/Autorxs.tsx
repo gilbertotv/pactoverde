@@ -131,7 +131,7 @@ const Autorxs = ({ showed }) => {
 			subtitle="La publicación reúne a un nutrido grupo de voces expertas y reconocidas del sector público, privado, productivo, de la sociedad civil y de organismos internacionales comprometidas con la misión y visión de un posible Pacto Verde para México.”"
 			showed={showed}
 		>
-			<div className="w-full flex flex-col md:flex-row md:py-12">
+			<div className="w-full flex flex-col md:flex-row ">
 				{indexAuthor !== null && (
 					<AuthorDetail
 						author={authors[indexAuthor]}

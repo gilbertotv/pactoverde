@@ -20,7 +20,7 @@ const HeaderPage = ({ children, title, titleColor, bgcolor }: IProps) => {
 				<div className="container">
 					<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-16 pb-12 sm:pb-4">
 						<p
-							className={`text-3xl sm:text-4xl font-bold mb-8 mt-28 sm:mt-52 xl:pr-72 ${titleColor}`}
+							className={`text-3xl sm:text-4xl font-bold mb-8 mt-28 sm:mt-52 xl:pr-32 ${titleColor}`}
 						>
 							{title}
 						</p>

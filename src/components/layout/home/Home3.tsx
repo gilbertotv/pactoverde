@@ -35,6 +35,7 @@ const ColumnMore = ({
 	author,
 	role,
 	linktext,
+	link,
 	showed,
 	delay,
 	border = true,
@@ -44,6 +45,7 @@ const ColumnMore = ({
 	author: string;
 	role: string;
 	linktext: string;
+	link: string;
 	showed: boolean;
 	delay: number;
 	border?: boolean;
@@ -63,10 +65,7 @@ const ColumnMore = ({
 			<br />
 			{role}
 		</p>
-		<Link
-			to="/articulos/articulo"
-			className="text-green1 font-normal hover:font-bold mt-auto"
-		>
+		<Link to={link} className="text-green1 font-normal hover:font-bold mt-auto">
 			{linktext} &emsp; <ForwardIcon />
 		</Link>
 	</div>
@@ -97,6 +96,7 @@ const Home3 = ({ showed }) => {
 					author="Beatriz Paredes Rangel"
 					role="Senadora de la LXV Legislatura de México"
 					linktext="Leer más"
+					link="/articulos/irreductibles_pacto_verde"
 					showed={showed}
 					delay={300}
 				/>
@@ -106,15 +106,17 @@ const Home3 = ({ showed }) => {
 					author="Leticia Vázquez Esteban"
 					role="Activista masewal y cooperativista de Tosepan"
 					linktext="Leer más"
+					link="/articulos/pueblos_originarios"
 					showed={showed}
 					delay={500}
 				/>
 				<ColumnMore
-					title="El Big Push mexicano:"
+					title="El Big Push mexicano: Plan verde para un desarrollo sostenible"
 					summary="Un cambio estructural necesita impulsar al empleo, la innovación, distribución del ingreso y acuerdos público-privados."
 					author="Jorge Mario Martínez Piva"
 					role="Titular de la Unidad de Comercio Internacional e Industria de la CEPAL"
 					linktext="Leer más"
+					link="/articulos/big_push"
 					showed={showed}
 					delay={1000}
 					border={false}

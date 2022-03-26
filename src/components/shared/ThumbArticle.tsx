@@ -9,6 +9,7 @@ export interface IThumbProps {
 	summary?: string;
 	subsummary?: string;
 	buttonText: string;
+	url: string;
 }
 
 const ThumbArticle = ({
@@ -17,6 +18,7 @@ const ThumbArticle = ({
 	summary,
 	subsummary,
 	buttonText,
+	url,
 }: IThumbProps) => {
 	return (
 		<div className="relative w-full sm:h-full sm:pb-12 mb-12 sm:mb-4">
@@ -30,7 +32,9 @@ const ThumbArticle = ({
 				<Button
 					text={buttonText}
 					variant="green"
-					action={() => navigate("/articulos/articulo")}
+					action={() =>
+						url.includes("http") ? window.open(url) : navigate(url)
+					}
 				/>
 			</div>
 		</div>

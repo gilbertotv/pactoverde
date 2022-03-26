@@ -19,7 +19,7 @@ const SubHeader = ({ image, author, text, color }: IProps) => {
 				>
 					{text}
 				</p>
-				<img src={image} alt="Pacto Verde" className="w-40 h-52 sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 -translate-x-1/2 sm:translate-x-0" />
+				<img src={image} alt="Pacto Verde" className="sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 -translate-x-1/2 sm:translate-x-0" />
 			</div>
 		</div>
 	);

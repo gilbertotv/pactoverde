@@ -18,6 +18,7 @@ const ThumbsContainer = ({ thumbs }: IProps) => {
 							summary={thumb.summary}
 							subsummary={thumb.subsummary}
 							buttonText={thumb.buttonText}
+							url={thumb.url}
 						/>
 					))}
 				</div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { navigate } from "gatsby";
 
 import Layout from "../components/layout/Layout";
 import HeaderPage from "../components/pages/HeaderPage";
@@ -13,10 +14,10 @@ const Reflexiones = () => {
 	const thumbs: IThumbProps[] = [
 		{
 			image: thumb1,
-			title: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-			summary:
-				"Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+			title: "Un pacto verde para México.",
+			summary: "",
 			buttonText: "Leer más",
+			url: "/reflexiones/pactoverde",
 		},
 	];
 	return (
@@ -31,7 +32,11 @@ const Reflexiones = () => {
 					pacto verde para México y elaboradas por diversas autoras y autores.
 				</p>
 				<p className="mb-8">Contáctanos si te interesa colaborar.</p>
-				<Button text="Contacto" variant="green" />
+				<Button
+					text="Contacto"
+					variant="green"
+					action={() => navigate("/#contacto")}
+				/>
 			</HeaderPage>
 			<ThumbsContainer thumbs={thumbs} />
 			<Footer />

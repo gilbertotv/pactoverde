@@ -12,9 +12,11 @@ const Contacto = ({ showed }) => {
 
 	return (
 		<div className="min-h-screen flex flex-col">
-			<div className="sm:mt-32 text-white flex justify-center relative">
+			<div className="text-white flex grow justify-center relative items-center">
 				<div className="container">
-					<h2 className={`inline-block text-gray1 text-4xl sm:text-6xl mt-8 sm:mt-12`}>
+					<h2
+						className={`inline-block text-gray1 text-4xl sm:text-6xl`}
+					>
 						Escríbenos si te interesa colaborar con nostrxs
 					</h2>
 					<form className="w-full text-black mt-12 my-4">
@@ -22,7 +24,7 @@ const Contacto = ({ showed }) => {
 							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
 								<input
 									name="name"
-									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none"
+									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
 									type="text"
 									placeholder="Nombre"
 									aria-label="Name"
@@ -38,7 +40,7 @@ const Contacto = ({ showed }) => {
 							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
 								<input
 									name="email"
-									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none"
+									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
 									type="mail"
 									placeholder="Email"
 									aria-label="Email"
@@ -56,7 +58,7 @@ const Contacto = ({ showed }) => {
 							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
 								<input
 									name="message"
-									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none"
+									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
 									type="tel"
 									placeholder="Mensaje"
 									aria-label="Mensaje"

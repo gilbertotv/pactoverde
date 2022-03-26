@@ -13,11 +13,11 @@ const ArticleHeader = ({
 	percentage: number;
 }) => {
 	return (
-		<div className="w-full h-20 z-20 fixed top-0 bottom-0 bg-white">
+		<div className="w-full h-20 z-20 fixed top-0 bottom-0 bg-white shadow-md border-b border-gray2">
 			<div className="container">
 				<div className="flex justify-between py-4">
 					<div
-						className="absolute h-2 bg-green4 left-0 bottom-0"
+						className="absolute h-1 bg-green4 left-0 bottom-0"
 						style={{ width: `${percentage}%` }}
 					></div>
 					<div className="">

@@ -52,10 +52,10 @@ const ColumnMore = ({
 }) => (
 	<div className="relative flex flex-col md:w-1/3 pl-6 pr-20 py-8 mb-12">
 		<div
-			className={`absolute h-px sm:w-px left-0 bottom-0 sm:top-0 border-t sm:border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
+			className={`absolute h-px md:w-px left-0 bottom-0 sm:top-0 border-t sm:border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
 				showed
-					? `w-full sm:h-full ${border ? "visible" : "invisible sm:visible"}`
-					: "w-0 sm:h-0 invisible"
+					? `w-full md:h-full ${border ? "visible" : "invisible sm:visible"}`
+					: "w-full md:h-0 invisible"
 			}`}
 		></div>
 		<p className="font-medium text-base text-green1 mb-4">{title}</p>

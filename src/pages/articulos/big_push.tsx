@@ -8,6 +8,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import autor from "../../images/autores/autor3.png";
 import articulo1 from "../../images/articulos/articulo3-1.png";
 import articulo2 from "../../images/articulos/articulo3-2.png";
+import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
 	const otherArts = [
@@ -33,13 +34,17 @@ const Articles = () => {
 			<ArticleLayout
 				arts={otherArts}
 				header="El Big Push mexicano: Plan Verde para un desarrollo sostenible"
-				siguiente="/articulos/big_push"
+				siguiente="/articulos/pactar_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
 						className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 					></div>
-					<img src={articulo1} className="m-auto mb-12 max-w-full" alt="Pacto Verde" />
+					<img
+						src={articulo1}
+						className="m-auto mb-12 max-w-full"
+						alt="Pacto Verde"
+					/>
 					<p className="mb-4">
 						El análisis de diversas experiencias exitosas de desarrollo
 						económico y social muestra que estas han derivado de intensos
@@ -111,7 +116,11 @@ const Articles = () => {
 						político-institucional en el que se respetan derechos y se fortalece
 						la democracia.
 					</p>
-					<img src={articulo2} className="m-auto my-12 max-w-full" alt="Pacto Verde" />
+					<img
+						src={articulo2}
+						className="m-auto my-12 max-w-full"
+						alt="Pacto Verde"
+					/>
 					<p className="mb-4">
 						El concepto de gran impulso ambiental se construye sobre de la
 						propuesta de Rosenstein-Rodan del gran impulso (big push) para el
@@ -209,32 +218,24 @@ const Articles = () => {
 						como México, tienen enormes recursos tanto naturales como humanos.
 					</p>
 				</div>
-				<div className="mt-8">
-					<p className="text-green1 font-bold mb-4 text-xl">Referencias</p>
-					<p className="font-bold">
-						Altenburg, T. y Dani Rodrik (2017). Green Industrial Policy:
-						Accelerating Structural Change Towards
-					</p>
-					<p className="mb-4">
-						Wealthy Green Economies. Altenburg, T. y C. Assmann (eds.). Green
-						Industrial Policy. Concept, Policies, Country Experiences, Ginebra y
-						Bonn: UN Environment / German Development Institute (Deutsches
-						Institut für Entwicklungspolitk, DIE).
-					</p>
-					<p className="font-bold">
-						Mazzucato, M. (2019). El valor de las cosas. Quién produce y quién
-						gana en la economía global
-					</p>
-					<p className="mb-4">Madrid: Taurus.</p>
-					<p className="font-bold">
-						Cepal (2016). Horizontes 2030: la igualdad en el centro del
-						desarrollo sostenible.
-					</p>
-					<p className="mb-4">
-						Disponible en:
-						cepal.org/sites/default/files/publication/files/40159/S1600653_es.pdf
-					</p>
-				</div>
+				<Referencias
+					referencias={[
+						{
+							ref: "Altenburg, T. y Dani Rodrik (2017). Green Industrial Policy: Accelerating Structural Change Towards",
+							subref:
+								"Wealthy Green Economies. Altenburg, T. y C. Assmann (eds.). Green Industrial Policy. Concept, Policies, Country Experiences, Ginebra y Bonn: UN Environment / German Development Institute (Deutsches Institut für Entwicklungspolitk, DIE).",
+						},
+						{
+							ref: "Mazzucato, M. (2019). El valor de las cosas. Quién produce y quién gana en la economía global",
+							subref: "Madrid: Taurus.",
+						},
+						{
+							ref: "Cepal (2016). Horizontes 2030: la igualdad en el centro del desarrollo sostenible.",
+							subref: "Disponible en: ",
+							link: "cepal.org/sites/default/files/publication/files/40159/S1600653_es.pdf",
+						},
+					]}
+				/>
 			</ArticleLayout>
 			<Footer />
 		</Layout>

@@ -66,7 +66,7 @@ const Articulo = () => {
 			subsummary:
 				"Secretario Ejecutivo del Consejo Nacional de la Agenda 2030 del Gobierno de México",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/pactar_verde",
 		},
 		{
 			image: thumb5,
@@ -76,7 +76,7 @@ const Articulo = () => {
 			subsummary:
 				"Director del Centro Internacional de Investigación de la Economía Social y Solidaria",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/regeneracion_ecologica",
 		},
 		{
 			image: thumb6,
@@ -84,7 +84,7 @@ const Articulo = () => {
 			summary: "Julia Carabias Lillo",
 			subsummary: "Política y ecóloga de la Facultad de Ciencias, UNAM",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/pilares_pacto_verde",
 		},
 		{
 			image: thumb7,
@@ -94,7 +94,7 @@ const Articulo = () => {
 			subsummary:
 				"Directora de la Unidad de Investigación sobre Educación y Política Educativa, CIDE",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/hacia_pacto_verde",
 		},
 		{
 			image: thumb8,
@@ -102,7 +102,7 @@ const Articulo = () => {
 			summary: "Alfonso Ramírez Cuéllar",
 			subsummary: "Diputado federal por la LXIV Legislatura",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/pacto_verde_mexico",
 		},
 		{
 			image: thumb9,
@@ -110,7 +110,7 @@ const Articulo = () => {
 			summary: "Patricia Mercado Castro",
 			subsummary: "Senadora de la LXV Legislatura de México",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/derecho_movilidad",
 		},
 		{
 			image: thumb10,
@@ -119,7 +119,7 @@ const Articulo = () => {
 			subsummary:
 				"Empresaria y expresidenta del Consejo Ejecutivo de Empresas Globales en México",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/papel_sector_empresarial",
 		},
 		{
 			image: thumb11,
@@ -129,7 +129,7 @@ const Articulo = () => {
 			subsummary:
 				"Director general de la Unidad de Inteligencia Económica Global en la Secretaría de Economía",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/diversificacion_sostenible",
 		},
 		{
 			image: thumb12,
@@ -139,7 +139,7 @@ const Articulo = () => {
 			subsummary:
 				"Directora Ejecutiva del World Resources Institute (WRI) México",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/siete_claves",
 		},
 		{
 			image: thumb13,
@@ -149,7 +149,7 @@ const Articulo = () => {
 			subsummary:
 				"Investigador del Centro Tepoztlán V. L. Urquidi y consultor de la CEPAL",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/inversiones_sostenibles",
 		},
 		{
 			image: thumb14,
@@ -158,7 +158,7 @@ const Articulo = () => {
 			subsummary:
 				"Experto y consultor en políticas de ciencia, tecnología e innovación en México",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/ciencia_tecnologia_innovacion",
 		},
 		{
 			image: thumb15,
@@ -168,7 +168,7 @@ const Articulo = () => {
 			subsummary:
 				"Directora del programa de transición energética en México de la Agencia Alemana de Cooperación al desarrollo sustentable en México (GIZ)",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/transicion_energetica",
 		},
 		{
 			image: thumb16,

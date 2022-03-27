@@ -130,84 +130,84 @@ const Autorxs = ({ showed }) => {
 			image: Autor4,
 			description:
 				"Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda 2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria en asuntos de pobreza, desigualdades y economía desde el gobierno federal, la sociedad civil y Naciones Unidas, en México y América Latina.",
-			link: "",
+			link: "/articulos/pactar_verde",
 		},
 		{
 			name: "Alberto  Irezabal Vilaclara",
 			image: Autor5,
 			description:
 				"Ingeniero industrial por la Universidad Iberoamericana y doctor en Gestión Avanzada de Organizaciones y Economía Social por la Universidad Mondragón, en España. Es director del Centro Internacional de Investigación de la Economía Social y Solidaria. Tiene una extensa experiencia de trabajo con comunidades tseltales de Chiapas en finanzas solidarias. ",
-			link: "",
+			link: "/articulos/regeneracion_ecologica",
 		},
 		{
 			name: "Julia Carabias Lillo",
 			image: Autor6,
 			description:
 				"Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la conservación, manejo y restauración de ecosistemas tropicales y a las políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el Doctorado Honoris causa de la UNAM.",
-			link: "",
+			link: "/articulos/pilares_pacto_verde",
 		},
 		{
 			name: "Blanca Heredia Rubio",
 			image: Autor7,
 			description:
 				"Doctora en Ciencia Política porla Universidad de Columbia, es académica del CIDE, directora fundadora de la unidad de investigación sobre educación y política educativa. Trabaja y escribe ampliamente sobre política mexicana, política educativa y talento intelectual joven. ",
-			link: "",
+			link: "/articulos/hacia_pacto_verde",
 		},
 		{
 			name: "Alfonso Ramírez Cuéllar",
 			image: Autor8,
 			description:
 				"Diputado federal por la LXIV Legislatura y coordinador del grupo de trabajo por la transición hacendaria. Antropólogo, historiador y abogado, es fundador de El Barzón y un líder prominente de la izquierda mexicana, en donde se destaca su lucha en defensa del consumidor y en contra de los monopolios. En la actual legislatura, su trabajo se ha enfocado en la definición de políticas públicas para una gestión sostenible del agua en el país. ",
-			link: "",
+			link: "/articulos/pacto_verde_mexico",
 		},
 		{
 			name: "Patricia Mercado Castro",
 			image: Autor9,
 			description:
 				"Senadora de la LXV Legislatura, preside la Comisión de Zonas Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido candidata a la presidencia de México y secretaria de Gobierno de la Ciudad de México (2015-2018).",
-			link: "",
+			link: "/articulos/derecho_movilidad",
 		},
 		{
 			name: "Claudia Jañez Sánchez",
 			image: Autor10,
 			description:
 				"Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas Globales en México (2019 a 2021), presidenta para América Latina y directora global de Diversidad e Inclusión de DuPont hasta febrero de 2021. Ha sido reconocida por diversas revistas (Expansión, Fortune, Forbes y Líderes en México) como una de las líderes más importantes e influyentes en los negocios.",
-			link: "",
+			link: "/articulos/papel_sector_empresarial",
 		},
 		{
 			name: "Luis Fernando Godoy Rueda",
 			image: Autor11,
 			description:
 				"Es director general en la Unidad de Inteligencia Económica Global en la Secretaría de Economía. Es maestro en Administración Pública por la Universidad de Columbia, tiene más de 10 años de experiencia en el sector público, privado y en organismos internacionales como OPI Analytics, la CEPAL y Data-Pop Alliance, entre otros. ",
-			link: "",
+			link: "/articulos/diversificacion_sostenible",
 		},
 		{
 			name: "Adriana Lobo",
 			image: Autor12,
 			description:
 				"Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI México), experta en temas de desarrollo de políticas públicas para la sustentabilidad y movilidad urbana a nivel local, nacional y regional.",
-			link: "",
+			link: "/articulos/siete_claves",
 		},
 		{
 			name: "Jorge Máttar",
 			image: Autor13,
 			description:
 				"Licenciado y maestro en Economía por la Universidad de Cambridge. Es investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor en planificación, desarrollo y política industrial de la Comisión Económica para América Latina y el Caribe (CEPAL) y otras organizaciones.",
-			link: "",
+			link: "/articulos/inversiones_sostenibles",
 		},
 		{
 			name: "Carlo Altamirano Allende",
 			image: Autor14,
 			description:
 				"Licenciado y maestro en Física por la UNAM y doctor en Dimensiones Sociales y Humanas de la Ciencia y la Tecnología por la Universidad Estatal de Arizona, investiga y es consultor en el área de política científica, tecnológica y de innovación. Ha colaborado con el Conacyt, la Academia Nacional de Ciencias de Estados Unidos y la Asociación Americana para el Avance de la Ciencia (AAAS). ",
-			link: "",
+			link: "/articulos/ciencia_tecnologia_innovacion",
 		},
 		{
 			name: "Adriana Aragón Tapia",
 			image: Autor15,
 			description:
 				"Maestra en Economía Ambiental en Reino Unido, y Especialista en Política y Gestión Energética y Medioambiental por Flacso, actualmente es directora del programa de Apoyo a la Implementación de la Transición Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo sustentable en Mexico (GIZ). Es experta en temas de normatividad y gestión ambiental, política climática y energética. ",
-			link: "",
+			link: "/articulos/transicion_energetica",
 		},
 		{
 			name: "Marcela Aedo",

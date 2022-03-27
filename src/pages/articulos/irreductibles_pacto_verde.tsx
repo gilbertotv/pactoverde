@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor1.png";
-import articulo1 from "../../images/articulo1.png";
+import articulo1 from "../../images/articulos/articulo1-1.png";
 
 const Articles = () => {
 	const otherArts = [

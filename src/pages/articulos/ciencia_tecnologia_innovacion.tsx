@@ -34,7 +34,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Ciencia, tecnología e innovación para un Pacto Verde para México"
+				header="Ciencia, tecnología e innovación Pacto Verde"
 				siguiente="/articulos/transicion_energetica"
 			>
 				<div className="relative pb-16 sm:pb-24">

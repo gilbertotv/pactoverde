@@ -38,7 +38,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Sin inversiones ambientalmente sostenibles no hay Pacto Verde mexicano"
+				header="Sin inversiones ambientalmente sostenibles"
 				siguiente="/articulos/ciencia_tecnologia_innovacion"
 			>
 				<div className="relative pb-16 sm:pb-24">

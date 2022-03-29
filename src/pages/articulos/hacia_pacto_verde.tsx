@@ -38,7 +38,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Hacia un pacto verde para México: el papel de la política educativa"
+				header="Hacia un pacto verde para México"
 				siguiente="/articulos/pacto_verde_mexico"
 			>
 				<div className="relative pb-16 sm:pb-24">

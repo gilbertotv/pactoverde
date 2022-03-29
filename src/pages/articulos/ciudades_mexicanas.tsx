@@ -36,7 +36,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Las ciudades mexicanas del futuro: Hacia una transformación social-ecológica"
+				header="Hacia una transformación social-ecológica"
 				siguiente="/articulos/perspectiva_cuidados"
 			>
 				<div className="relative pb-16 sm:pb-24">

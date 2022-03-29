@@ -39,7 +39,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="La transformación productiva de apoyo a la economía verde"
+				header="La transformación productiva de apoyo"
 				siguiente="/articulos/irreductibles_pacto_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">

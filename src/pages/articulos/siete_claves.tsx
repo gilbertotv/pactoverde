@@ -37,7 +37,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Siete claves para levantarnos después de la pandemia y construir resiliencia"
+				header="Siete claves para levantarnos"
 				siguiente="/articulos/inversiones_sostenibles"
 			>
 				<div className="relative pb-16 sm:pb-24">

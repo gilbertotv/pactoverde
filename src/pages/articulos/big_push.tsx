@@ -39,7 +39,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="El Big Push mexicano: Plan Verde para un desarrollo sostenible"
+				header="El Big Push mexicano"
 				siguiente="/articulos/pactar_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">

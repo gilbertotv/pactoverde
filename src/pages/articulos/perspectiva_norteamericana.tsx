@@ -40,7 +40,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Una perspectiva norteamericana para un Pacto Verde para México"
+				header="Una perspectiva norteamericana"
 				siguiente="/articulos/ciudades_mexicanas"
 			>
 				<div className="relative pb-16 sm:pb-24">

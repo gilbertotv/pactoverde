@@ -38,7 +38,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="La perspectiva de los cuidados para la economía verde"
+				header="La perspectiva de los cuidados para la economía"
 				siguiente="/articulos/fiscalizacion_emisiones"
 			>
 				<div className="relative pb-16 sm:pb-24">

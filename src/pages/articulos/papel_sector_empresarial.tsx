@@ -36,7 +36,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="El papel del sector empresarial para un Pacto Verde para México"
+				header="El papel del sector empresarial"
 				siguiente="/articulos/diversificacion_sostenible"
 			>
 				<div className="relative pb-16 sm:pb-24">

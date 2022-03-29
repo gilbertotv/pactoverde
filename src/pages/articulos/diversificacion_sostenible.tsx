@@ -39,7 +39,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Diversificación sostenible: hacia una política industrial verde en México"
+				header="Diversificación sostenible"
 				siguiente="/articulos/siete_claves"
 			>
 				<div className="relative pb-16 sm:pb-24">

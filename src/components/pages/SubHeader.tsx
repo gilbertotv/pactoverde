@@ -25,13 +25,11 @@ const SubHeader = ({ image, author, color, children }: IProps) => {
 				>
 					{children}
 				</div>
-				<div style={{ minWidth: "10rem" }}>
-					<img
-						src={image}
-						alt="Pacto Verde"
-						className="sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 -translate-x-1/2 sm:translate-x-0 sm:w-full"
-					/>
-				</div>
+				<img
+					src={image}
+					alt="Pacto Verde"
+					className="w-40 sm:self-start sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 -translate-x-1/2 sm:translate-x-0"
+				/>
 			</div>
 		</div>
 	);

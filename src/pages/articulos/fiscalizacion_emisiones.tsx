@@ -50,7 +50,7 @@ const Articles = () => {
 			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
-				header="Fiscalización de las emisiones de GEI para un Pacto Verde para México"
+				header="Fiscalización de las emisiones de GEI"
 				siguiente="/articulos/transformacion_productiva"
 			>
 				<div className="relative pb-16 sm:pb-24">

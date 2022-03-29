@@ -37,7 +37,7 @@ const Articles = () => {
 
 			<ArticleLayout
 				arts={otherArts}
-				header="El papel de los pueblos originarios hacia un pacto verde para México"
+				header="El papel de los pueblos originarios"
 				siguiente="/articulos/big_push"
 			>
 				<div className="relative pb-16 sm:pb-24">

@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor15.png";
+import autor from "../../images/autores/autor15.jpg";
 import articulo1 from "../../images/articulos/articulo15-1.png";
 import articulo2 from "../../images/articulos/articulo15-2.png";
 
@@ -29,18 +29,24 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Adriana Aragón Tapi"
-				subText="Maestra en Economía Ambiental en Reino Unido, y Especialista en Política y Gestión Energética y Medioambiental por Flacso, actualmente es directora del programa de Apoyo a la Implementación de la Transición Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo sustentable en Mexico (GIZ). Es experta en temas de normatividad y gestión ambiental, política climática y energética."
-			/>
+			>
+				Maestra en Economía Ambiental en Reino Unido, y Especialista en Política
+				y Gestión Energética y Medioambiental por Flacso, actualmente es
+				directora del programa de Apoyo a la Implementación de la Transición
+				Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo
+				sustentable en Mexico (GIZ). Es experta en temas de normatividad y
+				gestión ambiental, política climática y energética.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Transición energética a nivel local para un Pacto Verde para México"
-				siguiente="/articulos/papel_sector_empresarial"
+				siguiente="/articulos/politica_agricola"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
 						className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 					></div>
-					<img src={articulo1} className="my-12 max-w-full" alt="Pacto Verde" />
+					<img src={articulo1} className="mb-12 max-w-full" alt="Pacto Verde" />
 					<ArtParagraphs
 						paragraphs={[
 							"La transición energética busca la transformación del sector energético mundial de fósiles a cero carbono en la segunda mitad de este siglo,  lo que implica la necesidad de aumentar el uso de energías por fuentes renovables y la eficiencia energética a un ritmo acelerado. La transición energética permitirá contar con soluciones más sostenibles y competitivas para la generación y el suministro de energía y para su aprovechamiento sostenible permitiendo reducir las emisiones de gases contaminantes y la descarbonización del sector energético (urgente a nivel mundial).",

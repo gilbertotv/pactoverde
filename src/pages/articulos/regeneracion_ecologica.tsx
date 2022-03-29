@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor5.png";
+import autor from "../../images/autores/autor5.jpg";
 import articulo1 from "../../images/articulos/articulo5-1.png";
 import articulo2 from "../../images/articulos/articulo5-2.png";
 import Referencias from "../../components/shared/Referencias";
@@ -29,8 +29,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Alberto Irezabal Vilaclara"
-				subText="Ingeniero industrial por la Universidad Iberoamericana y doctor en Gestión Avanzada de Organizaciones y Economía Social por la Universidad Mondragón, en España. Es director del Centro Internacional de Investigación de la Economía Social y Solidaria. Tiene una extensa experiencia de trabajo con comunidades tseltales de Chiapas en finanzas solidarias. "
-			/>
+			>
+				Ingeniero industrial por la Universidad Iberoamericana y doctor en
+				Gestión Avanzada de Organizaciones y Economía Social por la Universidad
+				Mondragón, en España. Es director del Centro Internacional de
+				Investigación de la Economía Social y Solidaria. Tiene una extensa
+				experiencia de trabajo con comunidades tseltales de Chiapas en finanzas
+				solidarias.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="El Big Push mexicano: Plan Verde para un desarrollo sostenible"

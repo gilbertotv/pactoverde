@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor11.png";
+import autor from "../../images/autores/autor11.jpg";
 import articulo1 from "../../images/articulos/articulo11-1.png";
 import articulo2 from "../../images/articulos/articulo11-2.png";
 import ArtSubtitle from "../../components/shared/ArtSubtitle";
@@ -30,8 +30,13 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Luis Fernando Godoy Rueda"
-				subText="Es director general en la Unidad de Inteligencia Económica Global en la Secretaría de Economía. Es maestro en Administración Pública por la Universidad de Columbia, tiene más de 10 años de experiencia en el sector público, privado y en organismos internacionales como OPI Analytics, la CEPAL y Data-Pop Alliance, entre otros."
-			/>
+			>
+				Es director general en la Unidad de Inteligencia Económica Global en la
+				Secretaría de Economía. Es maestro en Administración Pública por la
+				Universidad de Columbia, tiene más de 10 años de experiencia en el
+				sector público, privado y en organismos internacionales como OPI
+				Analytics, la CEPAL y Data-Pop Alliance, entre otros.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Diversificación sostenible: hacia una política industrial verde en México"
@@ -43,7 +48,7 @@ const Articles = () => {
 					></div>
 					<img
 						src={articulo1}
-						className="m-auto my-12 max-w-full"
+						className="m-auto mb-12 max-w-full"
 						alt="Pacto Verde"
 					/>
 					<ArtParagraphs

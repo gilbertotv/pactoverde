@@ -8,7 +8,7 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import ArtSubtitle from "../../components/shared/ArtSubtitle";
 import ArtList from "../../components/shared/ArtList";
 
-import autor from "../../images/autores/autor13.png";
+import autor from "../../images/autores/autor13.jpg";
 import articulo1 from "../../images/articulos/articulo13-1.png";
 
 const Articles = () => {
@@ -29,8 +29,13 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Jorge Máttar"
-				subText="Licenciado y maestro en Economía por la Universidad de Cambridge. Es investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor en planificación, desarrollo y política industrial de la Comisión Económica para América Latina y el Caribe (CEPAL) y otras organizaciones."
-			/>
+			>
+				Licenciado y maestro en Economía por la Universidad de Cambridge. Es
+				investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor
+				en planificación, desarrollo y política industrial de la Comisión
+				Económica para América Latina y el Caribe (CEPAL) y otras
+				organizaciones.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Sin inversiones ambientalmente sostenibles no hay Pacto Verde mexicano"

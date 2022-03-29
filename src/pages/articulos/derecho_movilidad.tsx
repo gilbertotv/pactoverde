@@ -7,7 +7,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
-import autor from "../../images/autores/autor9.png";
+import autor from "../../images/autores/autor9.jpg";
 import articulo1 from "../../images/articulos/articulo9-1.png";
 import articulo2 from "../../images/articulos/articulo9-2.png";
 
@@ -30,8 +30,12 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Patricia Mercado Castro"
-				subText="Senadora de la LXV Legislatura, preside la Comisión de Zonas Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido candidata a la presidencia de México y secretaria de Gobierno de la Ciudad de México (2015-2018)."
-			/>
+			>
+				Senadora de la LXV Legislatura, preside la Comisión de Zonas
+				Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido
+				candidata a la presidencia de México y secretaria de Gobierno de la
+				Ciudad de México (2015-2018).
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="El derecho humano a la movilidad"
@@ -41,7 +45,7 @@ const Articles = () => {
 					<div
 						className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 					></div>
-					<img src={articulo1} className="my-12 max-w-full" alt="Pacto Verde" />
+					<img src={articulo1} className="mb-12 max-w-full" alt="Pacto Verde" />
 					<ArtParagraphs
 						paragraphs={[
 							"La gestión de la movilidad de nuestras ciudades está todavía muy lejos de los objetivos planteados por las agendas internacionales  y la visión nacional de “no dejar a nadie atrás”",

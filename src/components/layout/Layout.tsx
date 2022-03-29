@@ -34,7 +34,7 @@ const Layout = (props: IProps) => {
 					duration: 0.5,
 				}}
 			>
-				<main>{props.children}</main>
+				<main className="overflow-hidden">{props.children}</main>
 			</motion.main>
 		</>
 	);

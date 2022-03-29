@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor4.png";
+import autor from "../../images/autores/autor4.jpg";
 import articulo1 from "../../images/articulos/articulo4-1.png";
 
 const Articles = () => {
@@ -27,8 +27,13 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Alfredo González"
-				subText="Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda 2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria en asuntos de pobreza, desigualdades y economía desde el gobierno federal, la sociedad civil y Naciones Unidas, en México y América Latina."
-			/>
+			>
+				Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda
+				2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria
+				en asuntos de pobreza, desigualdades y economía desde el gobierno
+				federal, la sociedad civil y Naciones Unidas, en México y América
+				Latina.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Pactar verde y caminar hacia 2030"

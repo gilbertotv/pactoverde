@@ -7,7 +7,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
-import autor from "../../images/autores/autor7.png";
+import autor from "../../images/autores/autor7.jpg";
 import articulo1 from "../../images/articulos/articulo7-1.png";
 import articulo2 from "../../images/articulos/articulo7-2.png";
 
@@ -30,8 +30,12 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Blanca Heredia Rubio"
-				subText="Doctora en Ciencia Política porla Universidad de Columbia, es académica del CIDE, directora fundadora de la unidad de investigación sobre educación y política educativa. Trabaja y escribe ampliamente sobre política mexicana, política educativa y talento intelectual joven."
-			/>
+			>
+				Doctora en Ciencia Política porla Universidad de Columbia, es académica
+				del CIDE, directora fundadora de la unidad de investigación sobre
+				educación y política educativa. Trabaja y escribe ampliamente sobre
+				política mexicana, política educativa y talento intelectual joven.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Hacia un pacto verde para México: el papel de la política educativa"

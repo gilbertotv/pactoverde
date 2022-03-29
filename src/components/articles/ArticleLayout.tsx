@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, navigate } from "gatsby";
-import ArticleHeader from "../shared/ArticleHeader";
+import ArticleHeader from "./ArticleHeader";
 import Button from "../shared/Button";
 
 import { useScrollPercentage } from "react-scroll-percentage";

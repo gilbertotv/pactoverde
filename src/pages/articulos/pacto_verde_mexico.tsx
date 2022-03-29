@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor8.png";
+import autor from "../../images/autores/autor8.jpg";
 import articulo1 from "../../images/articulos/articulo8-1.png";
 
 const Articles = () => {
@@ -26,8 +26,15 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Alfonso Ramírez Cuéllar"
-				subText="Diputado federal por la LXIV Legislatura y coordinador del grupo de trabajo por la transición hacendaria. Antropólogo, historiador y abogado, es fundador de El Barzón y un líder prominente de la izquierda mexicana, en donde se destaca su lucha en defensa del consumidor y en contra de los monopolios. En la actual legislatura, su trabajo se ha enfocado en la definición de políticas públicas para una gestión sostenible del agua en el país."
-			/>
+			>
+				Diputado federal por la LXIV Legislatura y coordinador del grupo de
+				trabajo por la transición hacendaria. Antropólogo, historiador y
+				abogado, es fundador de El Barzón y un líder prominente de la izquierda
+				mexicana, en donde se destaca su lucha en defensa del consumidor y en
+				contra de los monopolios. En la actual legislatura, su trabajo se ha
+				enfocado en la definición de políticas públicas para una gestión
+				sostenible del agua en el país.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Un pacto verde para México"

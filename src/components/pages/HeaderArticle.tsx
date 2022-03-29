@@ -11,8 +11,12 @@ interface IProps {
 	variant?: string;
 	subImage: any;
 	subColor: string;
-	subText: string;
 	subAuthor?: string;
+	children:
+		| boolean
+		| React.ReactChild
+		| React.ReactFragment
+		| React.ReactPortal;
 }
 
 const HeaderPage = ({
@@ -22,7 +26,7 @@ const HeaderPage = ({
 	variant,
 	subImage,
 	subColor,
-	subText,
+	children,
 	subAuthor,
 }: IProps) => {
 	return (
@@ -38,12 +42,9 @@ const HeaderPage = ({
 							>
 								{title}
 							</p>
-							<SubHeader
-								image={subImage}
-								color={subColor}
-								text={subText}
-								author={subAuthor}
-							/>
+							<SubHeader image={subImage} color={subColor} author={subAuthor}>
+								{children}
+							</SubHeader>
 						</div>
 					</div>
 					{variant === "circle" ? (
@@ -63,7 +64,9 @@ const HeaderPage = ({
 			</div>
 			{subAuthor && (
 				<div className="container">
-					<p className="block sm:hidden py-6 my-6 border-b border-gray4">{subText}</p>
+					<div className="block sm:hidden py-6 my-6 border-b border-gray4">
+						{children}
+					</div>
 				</div>
 			)}
 		</>

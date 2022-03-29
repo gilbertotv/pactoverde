@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor3.png";
+import autor from "../../images/autores/autor3.jpg";
 import articulo1 from "../../images/articulos/articulo3-1.png";
 import articulo2 from "../../images/articulos/articulo3-2.png";
 import Referencias from "../../components/shared/Referencias";
@@ -29,8 +29,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Jorge Mario Martínez Piva"
-				subText="Jefe de la Unidad de Comercio Internacional e Industria de la Sede Subregional de la CEPAL en México. Es licenciado en Derecho por la Universidad de Costa Rica, máster en Economía por la Universidad Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma de Madrid. Su trabajo combina los temas comerciales, de integración regional y de política industrial."
-			/>
+			>
+				Jefe de la Unidad de Comercio Internacional e Industria de la Sede
+				Subregional de la CEPAL en México. Es licenciado en Derecho por la
+				Universidad de Costa Rica, máster en Economía por la Universidad
+				Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma
+				de Madrid. Su trabajo combina los temas comerciales, de integración
+				regional y de política industrial.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="El Big Push mexicano: Plan Verde para un desarrollo sostenible"

@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor2.png";
+import autor from "../../images/autores/autor2.jpg";
 import articulo1 from "../../images/articulos/articulo2-1.png";
 
 const Articles = () => {
@@ -27,8 +27,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Leticia Vásquez Esteban"
-				subText="Mujer masewal cooperativista que actualmente coordina el Proyecto de Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió en la Universidad Intercultural del Estado de Puebla la licenciatura en Desarrollo Sustentable y trabaja en temas como defensa del territorio, juventudes y feminismo."
-			/>
+			>
+				Mujer masewal cooperativista que actualmente coordina el Proyecto de
+				Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió
+				en la Universidad Intercultural del Estado de Puebla la licenciatura en
+				Desarrollo Sustentable y trabaja en temas como defensa del territorio,
+				juventudes y feminismo.
+			</HeaderArticle>
+
 			<ArticleLayout
 				arts={otherArts}
 				header="El papel de los pueblos originarios hacia un pacto verde para México"

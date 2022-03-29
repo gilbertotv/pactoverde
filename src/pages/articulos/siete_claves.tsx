@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor12.png";
+import autor from "../../images/autores/autor12.jpg";
 import articulo1 from "../../images/articulos/articulo12-1.png";
 import articulo2 from "../../images/articulos/articulo12-2.png";
 import ArtList from "../../components/shared/ArtList";
@@ -30,8 +30,11 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Adriana Lobo de Almeida"
-				subText="Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI México), experta en temas de desarrollo de políticas públicas para la sustentabilidad y movilidad urbana a nivel local, nacional y regional."
-			/>
+			>
+				Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI
+				México), experta en temas de desarrollo de políticas públicas para la
+				sustentabilidad y movilidad urbana a nivel local, nacional y regional.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Siete claves para levantarnos después de la pandemia y construir resiliencia"
@@ -41,7 +44,7 @@ const Articles = () => {
 					<div
 						className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 					></div>
-					<img src={articulo1} className="my-12 max-w-full" alt="Pacto Verde" />
+					<img src={articulo1} className="m-auto mb-12 max-w-full" alt="Pacto Verde" />
 					<ArtParagraphs
 						paragraphs={[
 							"Las crisis desatadas, agravadas y expuestas a raíz de la pandemia mundial de COVID-19 deben servirnos como un recordatorio de nuestra vulnerabilidad como seres humanos y, a su vez, como un llamado urgente a la acción.",

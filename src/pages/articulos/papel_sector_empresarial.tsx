@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor10.png";
+import autor from "../../images/autores/autor10.jpg";
 import articulo1 from "../../images/articulos/articulo10-1.png";
 
 const Articles = () => {
@@ -26,8 +26,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Claudia Jañez Sánchez"
-				subText="Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas Globales en México (2019 a 2021), presidenta para América Latina y directora global de Diversidad e Inclusión de DuPont hasta febrero de 2021. Ha sido reconocida por diversas revistas (Expansión, Fortune, Forbes y Líderes en México) como una de las líderes más importantes e influyentes en los negocios."
-			/>
+			>
+				Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas
+				Globales en México (2019 a 2021), presidenta para América Latina y
+				directora global de Diversidad e Inclusión de DuPont hasta febrero de
+				2021. Ha sido reconocida por diversas revistas (Expansión, Fortune,
+				Forbes y Líderes en México) como una de las líderes más importantes e
+				influyentes en los negocios.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="El papel del sector empresarial para un Pacto Verde para México"

@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
-import autor from "../../images/autores/autor14.png";
+import autor from "../../images/autores/autor14.jpg";
 import articulo1 from "../../images/articulos/articulo14-1.png";
 
 const Articles = () => {
@@ -24,8 +24,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Carlo Altamirano Allende"
-				subText="Licenciado y maestro en Física por la UNAM y doctor en Dimensiones Sociales y Humanas de la Ciencia y la Tecnología por la Universidad Estatal de Arizona, investiga y es consultor en el área de política científica, tecnológica y de innovación. Ha colaborado con el Conacyt, la Academia Nacional de Ciencias de Estados Unidos y la Asociación Americana para el Avance de la Ciencia (AAAS)."
-			/>
+			>
+				Licenciado y maestro en Física por la UNAM y doctor en Dimensiones
+				Sociales y Humanas de la Ciencia y la Tecnología por la Universidad
+				Estatal de Arizona, investiga y es consultor en el área de política
+				científica, tecnológica y de innovación. Ha colaborado con el Conacyt,
+				la Academia Nacional de Ciencias de Estados Unidos y la Asociación
+				Americana para el Avance de la Ciencia (AAAS).
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Ciencia, tecnología e innovación para un Pacto Verde para México"

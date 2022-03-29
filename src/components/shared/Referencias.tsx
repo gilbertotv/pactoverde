@@ -13,7 +13,7 @@ const Referencias = ({ referencias }: { referencias: Reference[] }) => {
 			{referencias.map((ref, i) => (
 				<React.Fragment key={`ref${i}`}>
 					<p className="font-bold">{ref.ref}</p>
-					<p className="mb-4">
+					<p className="mb-4 break-all">
 						{ref.subref}
 						{ref.link && (
 							<a href={ref.link} target="_blank">

@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor6.png";
+import autor from "../../images/autores/autor6.jpg";
 import articulo1 from "../../images/articulos/articulo6-1.png";
 import Referencias from "../../components/shared/Referencias";
 
@@ -28,8 +28,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-black"
 				subAuthor="Por: Julia Carabias Lillo"
-				subText="Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la conservación, manejo y restauración de ecosistemas tropicales y a las políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el Doctorado Honoris causa de la UNAM."
-			/>
+			>
+				Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la
+				conservación, manejo y restauración de ecosistemas tropicales y a las
+				políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos
+				Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario
+				Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el
+				Doctorado Honoris causa de la UNAM.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Pilares para un Pacto Verde para México"

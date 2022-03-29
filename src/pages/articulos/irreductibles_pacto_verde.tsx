@@ -5,7 +5,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
-import autor from "../../images/autores/autor1.png";
+import autor from "../../images/autores/autor1.jpg";
 import articulo1 from "../../images/articulos/articulo1-1.png";
 
 const Articles = () => {
@@ -27,8 +27,14 @@ const Articles = () => {
 				subImage={autor}
 				subColor="text-white"
 				subAuthor="Por: Beatriz Paredes Rangel"
-				subText="Actual senadora de la LXV Legislatura, con una extensa trayectoria en el servicio público como legisladora, gobernadora de Tlaxcala (1987-1992), dirigente de la Confederación Nacional Campesina y presidenta del PRI (2007-2011), así como embajadora de México en Brasil (2012-2016) y en Cuba (1993-1994). Tiene especial interés en la generación de políticas públicas para un desarrollo sostenible para México."
-			/>
+			>
+				Actual senadora de la LXV Legislatura, con una extensa trayectoria en el
+				servicio público como legisladora, gobernadora de Tlaxcala (1987-1992),
+				dirigente de la Confederación Nacional Campesina y presidenta del PRI
+				(2007-2011), así como embajadora de México en Brasil (2012-2016) y en
+				Cuba (1993-1994). Tiene especial interés en la generación de políticas
+				públicas para un desarrollo sostenible para México.
+			</HeaderArticle>
 			<ArticleLayout
 				arts={otherArts}
 				header="Los irreductibles en un pacto verde para México"

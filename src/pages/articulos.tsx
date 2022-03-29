@@ -177,7 +177,7 @@ const Articulo = () => {
 			subsummary:
 				"Experta en cooperación internacional y políticas públicas, consultora de la CEPAL",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/politica_agricola",
 		},
 		{
 			image: thumb17,
@@ -186,7 +186,7 @@ const Articulo = () => {
 			subsummary:
 				"Coordinadora del proyecto de Transformación Social-Ecológica en América Latina de la FES",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/transformacion_social",
 		},
 		{
 			image: thumb18,
@@ -196,7 +196,7 @@ const Articulo = () => {
 			subsummary:
 				"Coordinador de sindicatos del ramo industrial, automotriz, de la salud, entre otros.",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/trabajadores_industria",
 		},
 		{
 			image: thumb19,
@@ -205,7 +205,7 @@ const Articulo = () => {
 			subsummary:
 				"Experta en comercio y medio ambiente, consultora de la CEPAL",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/perspectiva_norteamericana",
 		},
 		{
 			image: thumb20,
@@ -215,7 +215,7 @@ const Articulo = () => {
 			subsummary:
 				"Coordinador del Programa de Estudios Urbanos de El Colegio Mexiquense",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/ciudades_mexicanas",
 		},
 		{
 			image: thumb21,
@@ -223,7 +223,7 @@ const Articulo = () => {
 			summary: "Claudia Maldonado Trujillo",
 			subsummary: "Investigadora de la UAM y consejera académica del Coneval",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/perspectiva_cuidados",
 		},
 		{
 			image: thumb22,
@@ -233,7 +233,7 @@ const Articulo = () => {
 			subsummary:
 				"Académicos del Centro de Investigación Económica y Presupuestaria (CIEP)",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/fiscalizacion_emisiones",
 		},
 		{
 			image: thumb23,
@@ -241,7 +241,7 @@ const Articulo = () => {
 			summary: "Clemente Ruiz Durán",
 			subsummary: "Profesor investigador de la UNAM",
 			buttonText: "Leer artículo",
-			url: "/articulos/articulo",
+			url: "/articulos/transformacion_productiva",
 		},
 	];
 	return (
@@ -253,8 +253,11 @@ const Articulo = () => {
 				variant="circle"
 				subImage={artHeader1}
 				subColor="text-black"
-				subText="Estos artículos, escritos por un grupo plural, reconocido y diverso de expertas y expertos, componen la revista “Un pacto verde para México” y forman la base de la agenda de trabajo."
-			/>
+			>
+				Estos artículos, escritos por un grupo plural, reconocido y diverso de
+				expertas y expertos, componen la revista “Un pacto verde para México” y
+				forman la base de la agenda de trabajo.
+			</HeaderArticle>
 			<ThumbsContainer thumbs={thumbs} />
 			<div className="container">
 				<div className="sm:grid sm:grid-cols-2 lg:grid-cols-3">

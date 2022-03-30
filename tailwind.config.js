@@ -1,6 +1,12 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
 	content: ["./src/**/*.tsx"],
 	theme: {
+		screens: {
+			xs: "400px",
+			...defaultTheme.screens,
+		},
 		container: {
 			center: true,
 			padding: {

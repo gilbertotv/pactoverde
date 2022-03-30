@@ -58,7 +58,15 @@ const ArticleLayout = ({
 										Descarga la publicación completa aquí
 									</div>
 									<div className="flex justify-center py-4 sm:py-0">
-										<Button text="Descargar" variant="green" />
+										<Button
+											text="Descargar"
+											variant="green"
+											action={() =>
+												window.open(
+													"http://library.fes.de/pdf-files/bueros/mexiko/18815-20220210.pdf"
+												)
+											}
+										/>
 									</div>
 								</div>
 								<div className="my-8 sm:grid sm:grid-cols-2 lg:grid-cols-2">

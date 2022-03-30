@@ -91,7 +91,7 @@ const AuthorDetail = ({
 			<p className="text-sm my-4">{description}</p>
 			<Button text="Ver artículo" variant="red" action={() => navigate(link)} />
 			<CloseIcon
-				className="absolute cursor-pointer right-0 top-0"
+				className="absolute cursor-pointer -right-12 sm:right-0 top-0"
 				setIndex={setIndex}
 			/>
 		</div>

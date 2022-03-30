@@ -32,8 +32,8 @@ const Contacto = ({ showed }) => {
 									onChange={(e) => handleChanges(e)}
 								/>
 								<div
-									className={`absolute h-px border-b border-red1 lef-0 bottom-0 transition-all duration-1000 ease-in-out ${
-										showed ? "visible w-full" : "invisible w-0"
+									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out ${
+										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
 									}`}
 								></div>
 							</div>
@@ -48,8 +48,8 @@ const Contacto = ({ showed }) => {
 									onChange={(e) => handleChanges(e)}
 								/>
 								<div
-									className={`absolute h-px border-b border-red1 lef-0 bottom-0 transition-all duration-1000 ease-in-out delay-500 ${
-										showed ? "visible w-full" : "invisible w-0"
+									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out delay-500 ${
+										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
 									}`}
 								></div>
 							</div>
@@ -66,8 +66,8 @@ const Contacto = ({ showed }) => {
 									onChange={(e) => handleChanges(e)}
 								/>
 								<div
-									className={`absolute h-px border-b border-red1 lef-0 bottom-0 transition-all duration-1000 ease-in-out delay-1000 ${
-										showed ? "visible w-full" : "invisible w-0"
+									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out delay-1000 ${
+										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
 									}`}
 								></div>
 							</div>

@@ -21,7 +21,7 @@ const Home1 = () => {
 				/>
 				<div className="absolute left-1/2 -translate-x-1/2 bottom-12 w-full sm:w-2/3 lg:w-1/2">
 					<div className="container">
-						<p className="font-thin text-5xl sm:text-6xl lg:text-6xl leading-snug text-white mb-8 w-full">
+						<p className="font-thin text-3xl xs:text-5xl sm:text-6xl lg:text-6xl leading-snug text-white mb-8 w-full">
 							Una vía para la protección del planeta con{" "}
 							<span className="font-medium">justicia social y económica.</span>
 						</p>

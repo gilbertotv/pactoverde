@@ -10,7 +10,7 @@ import ArtList from "../../components/shared/ArtList";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor16.jpg";
-import articulo1 from "../../images/articulos/articulo16-1.png";
+import articulo1 from "../../images/articulos/articulo16-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -64,12 +64,12 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute top-0 left-0"></div>
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
-						La región de América Latina, y específicamente México,
+						La región de América Latina, y específicamente México,{" "}
 						<span className="text-red1 font-medium">
 							es altamente biodiversa y rica en recursos para la producción
 							agropecuaria, lo que la posiciona como una zona determinante para
 							contribuir a los objetivos globales de sostenibilidad ambiental y
-							conservación de especies
+							conservación de especies{" "}
 						</span>
 						y líder en producción de alimentos y otros productos agrícolas.
 					</p>

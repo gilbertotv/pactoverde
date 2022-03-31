@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor1.jpg";
-import articulo1 from "../../images/articulos/articulo1-1.png";
+import articulo1 from "../../images/articulos/articulo1-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -106,7 +106,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						No se pueden tener pactos verdes si no existen genuinos
-						medioambientalistas. Y esa es una tarea
+						medioambientalistas. Y esa es una tarea{" "}
 						<span className="text-green1 font-medium">
 							—la de generar una conciencia medioambiental en el país—
 						</span>{" "}

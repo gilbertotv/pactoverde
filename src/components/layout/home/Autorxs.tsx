@@ -73,16 +73,13 @@ const CloseIcon = ({
 const AuthorDetail = ({
 	author,
 	setIndex,
-	showed,
 }: {
 	author: IAuthor;
 	setIndex: any;
-	showed: boolean;
 }) => {
 	const { name, image, description, link } = author;
 	return (
-		<div className="relative mb-4 sm:mb-0 sm:pl-6 sm:pr-20 sm:pr-2 lg:pr-20 mb-8 sm:mb-12 flex flex-col sm:items-center">
-			<p className="text-red1 font-bold mb-4 sm:hidden">{name}</p>
+		<div className="relative mb-4 sm:mb-0 md:pl-6 sm:pr-20 sm:pr-2 lg:pr-20 mb-8 md:mb-12 flex flex-col md:items-center">
 			<img
 				src={image}
 				alt="pacto Verde"
@@ -91,7 +88,7 @@ const AuthorDetail = ({
 			<p className="text-sm my-4">{description}</p>
 			<Button text="Ver artículo" variant="red" action={() => navigate(link)} />
 			<CloseIcon
-				className="absolute cursor-pointer -right-12 sm:right-0 top-0"
+				className="absolute cursor-pointer -right-12 sm:right-0 top-0 w-6 sm:w-auto"
 				setIndex={setIndex}
 			/>
 		</div>
@@ -271,8 +268,8 @@ const Autorxs = ({ showed }) => {
 			showed={showed}
 		>
 			<div className="w-full flex flex-col md:flex-row ">
-				{indexAuthor !== null && (
-					<div className="relative hidden sm:block md:w-1/3 sm:order-3">
+				{indexAuthor && (
+					<div className="relative hidden md:block md:w-1/3 md:order-3">
 						<div
 							className={`absolute left-0 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out delay-1000 ${
 								showed ? "h-full md:visible" : "h-0 invisible"
@@ -281,7 +278,6 @@ const Autorxs = ({ showed }) => {
 						<AuthorDetail
 							author={authors[indexAuthor]}
 							setIndex={() => setIndexAuthor(null)}
-							showed={showed}
 						/>
 					</div>
 				)}
@@ -297,23 +293,21 @@ const Autorxs = ({ showed }) => {
 								.slice(0, Math.ceil(authors.length / 2))
 								.map((author, i) => (
 									<React.Fragment key={`author${i}`}>
-										{indexAuthor === i ? (
-											<div className="sm:hidden">
+										<p
+											className={` ${
+												indexAuthor === i ? "text-red1" : "text-gray1"
+											} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
+											onClick={() => setIndexAuthor(i)}
+										>
+											{author.name}
+										</p>
+										{indexAuthor === i && (
+											<div className="md:hidden">
 												<AuthorDetail
-													author={authors[indexAuthor]}
+													author={authors[i]}
 													setIndex={() => setIndexAuthor(null)}
-													showed={showed}
 												/>
 											</div>
-										) : (
-											<p
-												className={` ${
-													i === indexAuthor ? "text-red1" : "text-gray1"
-												} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
-												onClick={() => setIndexAuthor(i)}
-											>
-												{author.name}
-											</p>
 										)}
 									</React.Fragment>
 								))}
@@ -326,27 +320,25 @@ const Autorxs = ({ showed }) => {
 							></div>
 							{authors.slice(Math.ceil(authors.length / 2)).map((author, i) => (
 								<React.Fragment key={`author${i}`}>
-									{indexAuthor === i + Math.ceil(authors.length / 2) ? (
-										<div className="sm:hidden">
+									<p
+										className={` ${
+											indexAuthor === i + Math.ceil(authors.length / 2)
+												? "text-red1"
+												: "text-gray1"
+										} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
+										onClick={() =>
+											setIndexAuthor(i + Math.ceil(authors.length / 2))
+										}
+									>
+										{author.name}
+									</p>
+									{indexAuthor === i + Math.ceil(authors.length / 2) && (
+										<div className="md:hidden">
 											<AuthorDetail
-												author={authors[indexAuthor]}
+												author={authors[i + Math.ceil(authors.length / 2)]}
 												setIndex={() => setIndexAuthor(null)}
-												showed={showed}
 											/>
 										</div>
-									) : (
-										<p
-											className={` ${
-												i + Math.ceil(authors.length / 2) === indexAuthor
-													? "text-red1"
-													: "text-gray1"
-											} text-base sm:text-sm font-medium mb-4 cursor-pointer hover:text-red1`}
-											onClick={() =>
-												setIndexAuthor(i + Math.ceil(authors.length / 2))
-											}
-										>
-											{author.name}
-										</p>
 									)}
 								</React.Fragment>
 							))}

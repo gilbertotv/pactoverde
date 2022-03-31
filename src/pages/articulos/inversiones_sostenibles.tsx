@@ -9,7 +9,7 @@ import ArtSubtitle from "../../components/shared/ArtSubtitle";
 import ArtList from "../../components/shared/ArtList";
 
 import autor from "../../images/autores/autor13.jpg";
-import articulo1 from "../../images/articulos/articulo13-1.png";
+import articulo1 from "../../images/articulos/articulo13-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -59,7 +59,7 @@ const Articles = () => {
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
 							Cada iniciativa de inversión pública, privada, foránea, mixta o
-							combinación de las tres debe cumplir con exigencias ambientales,
+							combinación de las tres debe cumplir con exigencias ambientales,{" "}
 						</span>
 						más allá de los criterios económicos, sociales y políticos.
 					</p>

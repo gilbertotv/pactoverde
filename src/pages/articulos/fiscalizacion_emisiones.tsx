@@ -8,8 +8,8 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor22.png";
-import articulo1 from "../../images/articulos/articulo22-1.png";
-import articulo2 from "../../images/articulos/articulo22-2.png";
+import articulo1 from "../../images/articulos/articulo22-1.jpg";
+import articulo2 from "../../images/articulos/articulo22-2.jpg";
 
 const Articles = () => {
 	const otherArts = [

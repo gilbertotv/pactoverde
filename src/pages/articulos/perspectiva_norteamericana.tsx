@@ -10,8 +10,8 @@ import ArtList from "../../components/shared/ArtList";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor19.jpg";
-import articulo1 from "../../images/articulos/articulo19-1.png";
-import articulo2 from "../../images/articulos/articulo19-2.png";
+import articulo1 from "../../images/articulos/articulo19-1.jpg";
+import articulo2 from "../../images/articulos/articulo19-2.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -67,7 +67,7 @@ const Articles = () => {
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-green1 font-medium">
 							Las actuales políticas ambientales de Estados Unidos y México van
-							en sentidos opuestos.
+							en sentidos opuestos.{" "}
 						</span>
 						Mientras el primero actúa para revertir la política de su antecesor,
 						en México se debilitan las instituciones a cargo de la protección

@@ -54,8 +54,13 @@ const ColumnMore = ({
 		<div
 			className={`absolute h-px md:w-px left-0 bottom-0 sm:top-0 border-t sm:border-l border-gray transition-all duration-1000 ease-in-out delay-${delay} ${
 				showed
-					? `w-full md:h-full ${border ? "visible" : "invisible sm:visible"}`
-					: "w-full md:h-0 invisible"
+					? `md:h-full ${border ? "visible" : "invisible sm:visible"}`
+					: "md:h-0 invisible"
+			}`}
+		></div>
+		<div
+			className={`absolute h-px w-full left-0 bottom-0 border-t border-gray md:hidden ${
+				border ? "" : "hidden"
 			}`}
 		></div>
 		<p className="font-medium text-base text-green1 mb-4">{title}</p>

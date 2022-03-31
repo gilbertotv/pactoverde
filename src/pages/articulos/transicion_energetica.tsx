@@ -7,8 +7,8 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor15.jpg";
-import articulo1 from "../../images/articulos/articulo15-1.png";
-import articulo2 from "../../images/articulos/articulo15-2.png";
+import articulo1 from "../../images/articulos/articulo15-1.jpg";
+import articulo2 from "../../images/articulos/articulo15-2.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -70,7 +70,7 @@ const Articles = () => {
 						<span className="text-red1 font-medium">
 							Desde una visión de “abajo hacia arriba”, se han ido impulsando
 							procesos participativos en la toma de decisiones de política
-							energética y climática,
+							energética y climática,{" "}
 						</span>
 						y en el diseño e implementación de proyectos sostenibles que abonan
 						a la mitigación del cambio climático y crean oportunidades de

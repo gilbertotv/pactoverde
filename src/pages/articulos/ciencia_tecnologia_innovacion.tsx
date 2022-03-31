@@ -7,7 +7,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor14.jpg";
-import articulo1 from "../../images/articulos/articulo14-1.png";
+import articulo1 from "../../images/articulos/articulo14-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -54,7 +54,7 @@ const Articles = () => {
 						<span className="text-green1 font-medium">
 							Es claro que México necesita de una agenda clara y unificada de
 							largo aliento para cumplir con los objetivos planteados por un
-							posible pacto verde.
+							posible pacto verde.{" "}
 						</span>
 						Evidentemente, los recursos públicos para el sector no se
 						incrementarán de la noche a la mañana, pues la ciencia y la

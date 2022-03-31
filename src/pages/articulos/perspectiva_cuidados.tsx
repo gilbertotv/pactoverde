@@ -8,7 +8,7 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor21.jpg";
-import articulo1 from "../../images/articulos/articulo21-1.png";
+import articulo1 from "../../images/articulos/articulo21-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -64,7 +64,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						En materia de bienestar, destaca el papel central de las funciones
-						de cuidado en la protección de la vida,
+						de cuidado en la protección de la vida,{" "}
 						<span className="text-green1 font-medium">
 							la reproducción y el bienestar, por un lado, y el énfasis en una
 							visión postconsumista del bienestar, por otro.

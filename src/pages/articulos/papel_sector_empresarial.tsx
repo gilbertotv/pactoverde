@@ -7,7 +7,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor10.jpg";
-import articulo1 from "../../images/articulos/articulo10-1.png";
+import articulo1 from "../../images/articulos/articulo10-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -57,7 +57,7 @@ const Articles = () => {
 						<span className="text-green1 font-medium">
 							El sector público, el sector privado y la sociedad civil debemos
 							apostar por un diálogo mucho más constructivo, basado en la
-							confianza mutua y en la corresponsabilidad,
+							confianza mutua y en la corresponsabilidad,{" "}
 						</span>
 						así como unir esfuerzos para rediseñar la actividad productiva y
 						económica de México para lograr un país más competitivo, moderno,

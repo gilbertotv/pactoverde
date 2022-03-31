@@ -7,8 +7,8 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor12.jpg";
-import articulo1 from "../../images/articulos/articulo12-1.png";
-import articulo2 from "../../images/articulos/articulo12-2.png";
+import articulo1 from "../../images/articulos/articulo12-1.jpg";
+import articulo2 from "../../images/articulos/articulo12-2.jpg";
 import ArtList from "../../components/shared/ArtList";
 
 const Articles = () => {
@@ -65,11 +65,11 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						Este panorama obliga a ciudadanos, políticos, académicos,
-						financieros, ONG y dirigentes empresariales a
+						financieros, ONG y dirigentes empresariales a{" "}
 						<span className="text-green1 font-medium">
 							embarcarnos colectivamente en un viaje de transformación que nos
 							lleve a un nuevo contrato social basado en el compromiso de
-							aumentar el apoyo a los más vulnerables,
+							aumentar el apoyo a los más vulnerables,{" "}
 						</span>
 						a la protección de los sistemas naturales de los que todos
 						dependemos y a una acción colectiva más eficaz para hacer frente a

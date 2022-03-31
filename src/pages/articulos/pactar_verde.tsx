@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor4.jpg";
-import articulo1 from "../../images/articulos/articulo4-1.png";
+import articulo1 from "../../images/articulos/articulo4-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -166,7 +166,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						Un pacto verde, para que realmente sea sostenible en México y en el
-						mundo, tiene que
+						mundo, tiene que{" "}
 						<span className="text-green1 font-medium">
 							proponer transiciones diferenciadas que se coordinen entre sí bajo
 							los principios de justicia y equidad.

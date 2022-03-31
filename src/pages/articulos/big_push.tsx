@@ -6,8 +6,8 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor3.jpg";
-import articulo1 from "../../images/articulos/articulo3-1.png";
-import articulo2 from "../../images/articulos/articulo3-2.png";
+import articulo1 from "../../images/articulos/articulo3-1.jpg";
+import articulo2 from "../../images/articulos/articulo3-2.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
@@ -93,11 +93,11 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						Un gran impulso ambiental requiere al menos de tres elementos
-						modernizadores:
+						modernizadores:{" "}
 						<span className="text-green1 font-medium">
 							una política industrial adecuada al siglo XXI; una sólida política
 							de ciencia, tecnología e innovación, y acuerdos público-privados
-							para coordinar las inversiones productivas
+							para coordinar las inversiones productivas{" "}
 						</span>
 						hacia la sostenibilidad ambiental.
 					</p>

@@ -23,7 +23,7 @@ const ArticleHeader = ({
 					<div className="" style={{ maxWidth: "calc(100% - 180px)" }}>
 						<p className="text-base sm:text-2xl">{title}</p>
 					</div>
-					<div className="flex gap-4 items-center pl-4 sm:pr-8">
+					<div className="flex gap-4 items-center justify-between pl-4 sm:pr-16 md:pr-20 lg:pr-24">
 						<img src={mail} alt="Email" className="cursor-pointer " />
 						<img src={fb} alt="Facebook" className="cursor-pointer " />
 						<img src={tw} alt="Twitter" className="cursor-pointer " />

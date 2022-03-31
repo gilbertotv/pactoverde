@@ -10,7 +10,7 @@ import ArtList from "../../components/shared/ArtList";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor18.jpg";
-import articulo1 from "../../images/articulos/articulo18-1.png";
+import articulo1 from "../../images/articulos/articulo18-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -60,7 +60,7 @@ const Articles = () => {
 						<span className="text-red1 font-medium">
 							Los sindicatos debemos abrir nuestras agendas para incorporar la
 							lucha por el medio ambiente desde una perspectiva de género y de
-							derechos humanos,
+							derechos humanos,{" "}
 						</span>
 						convirtiéndonos en un espacio de reflexión y crítica de las grandes
 						empresas globales y de las políticas públicas que las avalan.

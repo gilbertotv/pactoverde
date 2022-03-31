@@ -9,7 +9,7 @@ import ArtList from "../../components/shared/ArtList";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor20.jpg";
-import articulo1 from "../../images/articulos/articulo20-1.png";
+import articulo1 from "../../images/articulos/articulo20-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -58,7 +58,7 @@ const Articles = () => {
 							Una visión progresista del desarrollo latinoamericano enfocada a
 							las ciudades necesita reconocer las limitaciones objetivas que
 							enfrentan en la actualidad los movimientos orientados a la
-							construcción de una “nueva sociedad”,
+							construcción de una “nueva sociedad”,{" "}
 						</span>
 						cuando los caminos en este sentido han sido truncados por las
 						presiones y agresiones externas, pero también por los radicalismos y

@@ -7,7 +7,7 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor8.jpg";
-import articulo1 from "../../images/articulos/articulo8-1.png";
+import articulo1 from "../../images/articulos/articulo8-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -58,7 +58,7 @@ const Articles = () => {
 						<span className="text-green1 font-medium">
 							La Conagua ha estimado que se requieren, como mínimo, 90,285
 							millones de pesos durante los próximos cuatro años para cumplir
-							con la Agenda del Agua 2030.
+							con la Agenda del Agua 2030.{" "}
 						</span>
 						En contraste, el presupuesto para Conagua ha disminuido
 						drásticamente: pasó de 32,300 mdp en 2018 a 24,674 mdp en 2021, lo

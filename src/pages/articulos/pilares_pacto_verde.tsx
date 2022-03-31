@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor6.jpg";
-import articulo1 from "../../images/articulos/articulo6-1.png";
+import articulo1 from "../../images/articulos/articulo6-1.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
@@ -103,7 +103,7 @@ const Articles = () => {
 						<span className="text-green1 font-medium">
 							Necesitamos revisar cómo, dónde y qué producimos, quién lo hace y
 							qué consumimos para revertir el deterioro del patrimonio natural y
-							cultural del país.
+							cultural del país.{" "}
 						</span>
 						Un sistema alimentario sustentable, con soluciones basadas en la
 						naturaleza, debe reconocer las diferencias del territorio nacional

@@ -4,7 +4,7 @@ import Footer from "../../components/layout/Footer";
 import Layout from "../../components/layout/Layout";
 import HeaderPage from "../../components/pages/HeaderPage";
 
-import reflexion1 from "../../images/reflexiones/reflexion1.png";
+import reflexion1 from "../../images/reflexiones/reflexion1.jpg";
 
 const Pactoverde = () => {
 	return (

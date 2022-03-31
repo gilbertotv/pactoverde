@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor2.jpg";
-import articulo1 from "../../images/articulos/articulo2-1.png";
+import articulo1 from "../../images/articulos/articulo2-1.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -106,7 +106,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						Nuestra lucha evoca e invoca un cambioprofundo de las reglas con las
-						que se rige elsistema mundo, porque
+						que se rige elsistema mundo, porque{" "}
 						<span className="text-red1 font-medium">
 							cuestiona las formas deproducción y de consumo.
 						</span>

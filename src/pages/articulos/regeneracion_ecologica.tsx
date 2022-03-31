@@ -6,8 +6,8 @@ import Layout from "../../components/layout/Layout";
 import HeaderArticle from "../../components/pages/HeaderArticle";
 
 import autor from "../../images/autores/autor5.jpg";
-import articulo1 from "../../images/articulos/articulo5-1.png";
-import articulo2 from "../../images/articulos/articulo5-2.png";
+import articulo1 from "../../images/articulos/articulo5-1.jpg";
+import articulo2 from "../../images/articulos/articulo5-2.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
@@ -81,7 +81,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Es viable un estilo de producción agroecológica y regenerativa
+							Es viable un estilo de producción agroecológica y regenerativa{" "}
 						</span>
 						que contribuya tanto a la soberanía alimentaria de las familias
 						campesinas como a la del país, a través de los diversos productos

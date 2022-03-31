@@ -7,8 +7,8 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor17.jpg";
-import articulo1 from "../../images/articulos/articulo17-1.png";
-import articulo2 from "../../images/articulos/articulo17-2.png";
+import articulo1 from "../../images/articulos/articulo17-1.jpg";
+import articulo2 from "../../images/articulos/articulo17-2.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -57,7 +57,7 @@ const Articles = () => {
 							Pensar un modelo diferente para México, uno que impulse, no un
 							“pacto verde” en términos de un crecimiento verde de la economía y
 							un acuerdo entre las élites políticas y económicas, sino una
-							transformación social y ecológica
+							transformación social y ecológica{" "}
 						</span>
 						que incluya a los diferentes actores sociales, sobre todo a aquellos
 						más vulnerables hoy en día, implica pensar en cambios estructurales

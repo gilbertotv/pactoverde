@@ -8,8 +8,8 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor9.jpg";
-import articulo1 from "../../images/articulos/articulo9-1.png";
-import articulo2 from "../../images/articulos/articulo9-2.png";
+import articulo1 from "../../images/articulos/articulo9-1.jpg";
+import articulo2 from "../../images/articulos/articulo9-2.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -69,7 +69,7 @@ const Articles = () => {
 						<span className="text-red1 font-medium">
 							Resulta necesario que las autoridades de los tres órdenes de
 							gobierno reconozcan el papel protagónico de los desplazamientos en
-							sus asentamientos humanos,
+							sus asentamientos humanos,{" "}
 						</span>
 						y destinen recursos públicos de manera eficaz hacia el diseño y la
 						implementación de políticas y proyectos que hagan más eficientes sus

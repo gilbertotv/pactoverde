@@ -7,8 +7,8 @@ import HeaderArticle from "../../components/pages/HeaderArticle";
 import ArtParagraphs from "../../components/shared/ArtParagraphs";
 
 import autor from "../../images/autores/autor11.jpg";
-import articulo1 from "../../images/articulos/articulo11-1.png";
-import articulo2 from "../../images/articulos/articulo11-2.png";
+import articulo1 from "../../images/articulos/articulo11-1.jpg";
+import articulo2 from "../../images/articulos/articulo11-2.jpg";
 import ArtSubtitle from "../../components/shared/ArtSubtitle";
 
 const Articles = () => {

@@ -8,8 +8,8 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import Referencias from "../../components/shared/Referencias";
 
 import autor from "../../images/autores/autor7.jpg";
-import articulo1 from "../../images/articulos/articulo7-1.png";
-import articulo2 from "../../images/articulos/articulo7-2.png";
+import articulo1 from "../../images/articulos/articulo7-1.jpg";
+import articulo2 from "../../images/articulos/articulo7-2.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -65,7 +65,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						Para avanzar en los hechos, también resultará muy importante
-						concentrar la atención en dos ámbitos claves:
+						concentrar la atención en dos ámbitos claves:{" "}
 						<span className="text-red1 font-medium">
 							la formación docente y la incorporación de asignaturas y/o
 							contenidos curriculares centrados en el medio ambiente en los

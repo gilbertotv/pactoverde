@@ -8,9 +8,9 @@ import ArtParagraphs from "../../components/shared/ArtParagraphs";
 import ArtSubtitle from "../../components/shared/ArtSubtitle";
 
 import autor from "../../images/autores/autor23.jpg";
-import articulo1 from "../../images/articulos/articulo23-1.png";
-import articulo2 from "../../images/articulos/articulo23-2.png";
-import articulo3 from "../../images/articulos/articulo23-3.png";
+import articulo1 from "../../images/articulos/articulo23-1.jpg";
+import articulo2 from "../../images/articulos/articulo23-2.jpg";
+import articulo3 from "../../images/articulos/articulo23-3.jpg";
 
 const Articles = () => {
 	const otherArts = [
@@ -75,7 +75,7 @@ const Articles = () => {
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
 							Se requiere de un gran esfuerzo público-privado para modificar la
-							estructura de generación eléctrica,
+							estructura de generación eléctrica,{" "}
 						</span>
 						así como de un gran pacto público-privado que impulse este proceso.
 					</p>

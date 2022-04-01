@@ -9,19 +9,16 @@ import autor from "../../images/autores/autor2.jpg";
 import articulo1 from "../../images/articulos/articulo2-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='El papel de los pueblos originarios hacia "Un pacto verde para México"'
+			description='El papel de los pueblos originarios hacia "Un pacto verde para México"'
+			url="/articulos/pueblos_originarios"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
-				title="El papel de los pueblos originarios hacia un pacto verde para México"
+				title='El papel de los pueblos originarios hacia "Un pacto verde para México"'
 				titleColor="text-white"
 				variant="circle"
 				subImage={autor}
@@ -36,9 +33,9 @@ const Articles = () => {
 			</HeaderArticle>
 
 			<ArticleLayout
-				arts={otherArts}
 				header="El papel de los pueblos originarios"
 				siguiente="/articulos/big_push"
+				url="/pueblos_originarios"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -105,10 +102,10 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute top-0 left-0"></div>
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
-						Nuestra lucha evoca e invoca un cambioprofundo de las reglas con las
-						que se rige elsistema mundo, porque{" "}
+						Nuestra lucha evoca e invoca un cambio profundo de las reglas con
+						las que se rige el sistema mundo, porque{" "}
 						<span className="text-red1 font-medium">
-							cuestiona las formas deproducción y de consumo.
+							cuestiona las formas de producción y de consumo.
 						</span>
 					</p>
 				</div>
@@ -225,7 +222,7 @@ const Articles = () => {
 						horizontalidad, no para insertarnos a programas hechos para
 						nosotrxs, sino para proponer, compartir y recuperar. Para
 						coconstruir, codiseñar y deconstruir lo que haga falta. Retomo la
-						palabra de los hermanxs zapatistas: “Nunca más un México sin
+						palabra de los hermanxs zapatistas: "Nunca más un México sin
 						nosotrxs". Ahora, para comenzar este diálogo primero es necesario
 						que nos escuchen, que nos conozcan, que conozcan nuestras demandas
 						y, por lo tanto, también nuestra historia, porque hasta ahora sigue

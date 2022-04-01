@@ -79,18 +79,26 @@ const AuthorDetail = ({
 }) => {
 	const { name, image, description, link } = author;
 	return (
-		<div className="relative mb-4 sm:mb-0 md:pl-6 sm:pr-20 sm:pr-2 lg:pr-20 mb-8 md:mb-12 flex flex-col md:items-center">
-			<img
-				src={image}
-				alt="pacto Verde"
-				className="w-40 m-auto border-b border-red1"
-			/>
-			<p className="text-sm my-4">{description}</p>
-			<Button text="Ver artículo" variant="red" action={() => navigate(link)} />
-			<CloseIcon
-				className="absolute cursor-pointer -right-12 sm:right-0 top-0 w-6 sm:w-auto"
-				setIndex={setIndex}
-			/>
+		<div className=" mb-4 sm:mb-0 md:pl-6 sm:pr-20 sm:pr-2 lg:pr-20 mb-8 md:mb-12 flex flex-col md:items-center">
+			<div className="relative">
+				<img
+					src={image}
+					alt="pacto Verde"
+					className="w-40 m-auto border-b border-red1"
+				/>
+				<CloseIcon
+					className="absolute cursor-pointer -right-16 -top-12 md:top-0 w-6 sm:w-auto"
+					setIndex={setIndex}
+				/>
+				<p className="text-sm my-4">{description}</p>
+			</div>
+			<div className="md:absolute md:bottom-0">
+				<Button
+					text="Ver artículo"
+					variant="red"
+					action={() => navigate(link)}
+				/>
+			</div>
 		</div>
 	);
 };
@@ -264,11 +272,11 @@ const Autorxs = ({ showed }) => {
 		<HomeLayoutTitle
 			title="Conoce a las autoras y los autores"
 			color="red1"
-			subtitle="La publicación reúne a un nutrido grupo de voces expertas y reconocidas del sector público, privado, productivo, de la sociedad civil y de organismos internacionales comprometidas con la misión y visión de un posible Pacto Verde para México.”"
+			subtitle='La publicación reúne a un nutrido grupo de voces expertas y reconocidas del sector público, privado, productivo, de la sociedad civil y de organismos internacionales comprometidas con la misión y visión de un posible "Un pacto verde para México".'
 			showed={showed}
 		>
 			<div className="w-full flex flex-col md:flex-row ">
-				{indexAuthor && (
+				{indexAuthor !== null && (
 					<div className="relative hidden md:block md:w-1/3 md:order-3">
 						<div
 							className={`absolute left-0 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out delay-1000 ${
@@ -286,7 +294,7 @@ const Autorxs = ({ showed }) => {
 						<div className="relative sm:1/2 md:w-1/3 pl-6 pr-20 sm:pr-2 lg:pr-20">
 							<div
 								className={`absolute left-0 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out delay-300 ${
-									showed ? "h-full md:visible" : "h-0 invisible"
+									showed ? "h-full invisible md:visible" : "h-0 invisible"
 								}`}
 							></div>
 							{authors
@@ -315,7 +323,7 @@ const Autorxs = ({ showed }) => {
 						<div className="relative sm:1/2 md:w-1/3 pl-6 pr-20 sm:pr-2 lg:pr-20">
 							<div
 								className={`absolute left-0 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out delay-500 ${
-									showed ? "h-full md:visible" : "h-0 invisible"
+									showed ? "h-full invisible md:visible" : "h-0 invisible"
 								}`}
 							></div>
 							{authors.slice(Math.ceil(authors.length / 2)).map((author, i) => (

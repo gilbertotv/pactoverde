@@ -17,6 +17,7 @@ interface IProps {
 		| React.ReactChild
 		| React.ReactFragment
 		| React.ReactPortal;
+		subImage2?: any;
 }
 
 const HeaderPage = ({
@@ -28,6 +29,7 @@ const HeaderPage = ({
 	subColor,
 	children,
 	subAuthor,
+	subImage2,
 }: IProps) => {
 	return (
 		<>
@@ -36,13 +38,13 @@ const HeaderPage = ({
 					className={`min-h-headmob sm:min-h-head relative flex overflow-hidden ${bgcolor}`}
 				>
 					<div className="container">
-						<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-16 flex flex-col">
+						<div className="h-full lg:w-2/3 md:w-3/4 lg:pr-12 flex flex-col">
 							<p
 								className={`text-3xl sm:text-4xl font-bold mb-8 mt-28 sm:mt-52 xl:pr-32 ${titleColor}`}
 							>
 								{title}
 							</p>
-							<SubHeader image={subImage} color={subColor} author={subAuthor}>
+							<SubHeader image={subImage} color={subColor} author={subAuthor} image2={subImage2}>
 								{children}
 							</SubHeader>
 						</div>

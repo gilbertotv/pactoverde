@@ -11,12 +11,13 @@ import articulo1 from "../../images/articulos/articulo17-1.jpg";
 import articulo2 from "../../images/articulos/articulo17-2.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="Hacia una transformación social-ecológica en México"
+			description="Hacia una transformación social-ecológica en México"
+			url="/articulos/transformacion_social"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green2"
 				title="Hacia una transformación social-ecológica en México"
@@ -33,9 +34,9 @@ const Articles = () => {
 				América Latina de la Fundación Friedrich-Ebert.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Hacia una transformación social-ecológica en México"
 				siguiente="/articulos/trabajadores_industria"
+				url="/transformacion_social"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -55,7 +56,7 @@ const Articles = () => {
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-green1 font-medium">
 							Pensar un modelo diferente para México, uno que impulse, no un
-							“pacto verde” en términos de un crecimiento verde de la economía y
+							"pacto verde" en términos de un crecimiento verde de la economía y
 							un acuerdo entre las élites políticas y económicas, sino una
 							transformación social y ecológica{" "}
 						</span>
@@ -68,7 +69,7 @@ const Articles = () => {
 					<ArtParagraphs
 						paragraphs={[
 							"Si pensamos en las últimas cuatro décadas de neoliberalismo en el país, podemos asociarlo a la creciente degradación ambiental de nuestros ecosistemas, al aumento de la deforestación de los territorios, el incremento de las concesiones y proyectos mineros —sobre todo de minería a gran escala y a cielo abierto—, el crecimiento desordenado de las ciudades, la contaminación, degradación y disminución de las fuentes de agua dulce, la disminución de la propiedad comunitaria y ejidal de la tierra, así como a la pérdida de la agrobiodiversidad y de las tierras de cultivo. El discurso basado en la idea del desarrollo a través de la explotación de los recursos naturales que se ha manejado en toda la región desde mediados del siglo XX, y que se profundizó durante el neoliberalismo, no ha logrado acabar con la desigualdad estructural y la pobreza. En todo caso, ha logrado abrir nuevos territorios a la lógica del mercado a actividades extractivas. Hay que pensar en otras alternativas al discurso del desarrollo y de la economía verde, las cuales no han logrado salir de la lógica extractivista para los países latinoamericanos y de la lógica de la mercantilización de la vida.",
-							"Pensar un modelo diferente para México, uno que impulse, no un “pacto verde” en términos de un crecimiento verde de la economía y un acuerdo entre las élites políticas y económicas, sino una transformación social y ecológica que incluya a los diferentes actores sociales, sobre todo a aquellos más vulnerables hoy en día, implica pensar en cambios estructurales en el país.",
+							'Pensar un modelo diferente para México, uno que impulse, no un "pacto verde" en términos de un crecimiento verde de la economía y un acuerdo entre las élites políticas y económicas, sino una transformación social y ecológica que incluya a los diferentes actores sociales, sobre todo a aquellos más vulnerables hoy en día, implica pensar en cambios estructurales en el país.',
 						]}
 					/>
 					<img src={articulo2} className="my-12 max-w-full" alt="Pacto Verde" />

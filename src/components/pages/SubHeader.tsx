@@ -9,9 +9,10 @@ interface IProps {
 		| React.ReactChild
 		| React.ReactFragment
 		| React.ReactPortal;
+	image2: any;
 }
 
-const SubHeader = ({ image, author, color, children }: IProps) => {
+const SubHeader = ({ image, author, color, children, image2 }: IProps) => {
 	return (
 		<div className="w-full flex flex-col sm:mt-auto">
 			{author && (
@@ -25,11 +26,22 @@ const SubHeader = ({ image, author, color, children }: IProps) => {
 				>
 					{children}
 				</div>
-				<img
-					src={image}
-					alt="Pacto Verde"
-					className="w-40 sm:self-start sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 -translate-x-1/2 sm:translate-x-0"
-				/>
+				<div className="flex flex-col shrink-0">
+					<img
+						src={image}
+						alt="Pacto Verde"
+						className={`w-40 sm:self-start sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0 ${
+							image2 ? "-translate-x-full sm:translate-x-0" : "-translate-x-1/2 sm:translate-x-0"
+						}`}
+					/>
+					{image2 && (
+						<img
+							src={image2}
+							alt="Pacto Verde"
+							className="w-40 sm:mt-4 sm:self-start sm:order-1 absolute z-10 sm:relative bottom-0 left-1/2 sm:left-0"
+						/>
+					)}
+				</div>
 			</div>
 		</div>
 	);

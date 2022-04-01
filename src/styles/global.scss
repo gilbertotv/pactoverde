@@ -6,3 +6,9 @@ body {
 	font-family: "Barlow";
 	font-weight: 300;
 }
+
+[contenteditable="true"]:empty:before {
+	content: attr(placeholder);
+	display: block;
+	color: #808080;
+}

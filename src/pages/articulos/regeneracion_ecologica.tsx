@@ -11,16 +11,13 @@ import articulo2 from "../../images/articulos/articulo5-2.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="Economía social y solidaria para la regeneración ecológica en México"
+			description="Economía social y solidaria para la regeneración ecológica en México"
+			url="/articulos/regeneracion_ecologica"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
 				title="Economía social y solidaria para la regeneración ecológica en México"
@@ -38,9 +35,9 @@ const Articles = () => {
 				solidarias.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Economía social y solidaria"
 				siguiente="/articulos/pilares_pacto_verde"
+				url="/regeneracion_ecologica"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -62,9 +59,9 @@ const Articles = () => {
 						en las regiones y los sectores más vulnerables. Uno de los últimos
 						llamados de emergencia fue el que realizó António Guterres,
 						secretario general de la Naciones Unidas, en su discurso inaugural
-						ante la asamblea general de 2021: “estamos ante la orilla del
+						ante la asamblea general de 2021: "estamos ante la orilla del
 						abismo, caminando en la dirección equivocada […]. Enfrentamos la
-						mayor cascada de crisis de nuestras vidas” (ONU, 2021). Y es que
+						mayor cascada de crisis de nuestras vidas" (ONU, 2021). Y es que
 						cuando hablamos de crisis civilizatoria tenemos que entender que
 						todo está conectado, y que pretender resolver el problema
 						multidimensional del cambio climático implica obligatoriamente

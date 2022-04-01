@@ -9,19 +9,16 @@ import autor from "../../images/autores/autor1.jpg";
 import articulo1 from "../../images/articulos/articulo1-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Los irreductibles en "Un pacto verde para México"'
+			description='Los irreductibles en "Un pacto verde para México"'
+			url="/articulos/irreductibles_pacto_verde"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
-				title="Los irreductibles en un pacto verde para México"
+				title='Los irreductibles en "Un pacto verde para México"'
 				titleColor="text-white"
 				variant="lines"
 				subImage={autor}
@@ -36,9 +33,9 @@ const Articles = () => {
 				públicas para un desarrollo sostenible para México.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Los irreductibles en un pacto verde para México"
+				header='Los irreductibles en "Un pacto verde para México"'
 				siguiente="/articulos/pueblos_originarios"
+				url="/irreductibles_pacto_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -82,7 +79,7 @@ const Articles = () => {
 					<p className="mb-4">
 						<span className="text-green1 font-bold">
 							¿Cuáles han sido las dificultades para la concreción de un
-							verdadero Pacto Verde en México?
+							verdadero pacto verde en México?
 						</span>
 						<br />
 						Me parece esencial reconocer que los compromisos medioambientales

@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Button from "../../shared/Button";
 import Footer from "../Footer";
 
 const Contacto = ({ showed }) => {
 	const [form, setForm] = useState({ name: "", email: "", message: "" });
+	const comment = useRef(null);
 
 	const handleChanges = (e) => {
 		e.preventDefault();
@@ -14,14 +15,12 @@ const Contacto = ({ showed }) => {
 		<div className="min-h-screen flex flex-col">
 			<div className="text-white flex grow justify-center relative items-center">
 				<div className="container">
-					<h2
-						className={`inline-block text-gray1 text-4xl sm:text-6xl`}
-					>
-						Escríbenos si te interesa colaborar con nostrxs
+					<h2 className={`inline-block text-gray1 text-4xl sm:text-6xl`}>
+						Escríbenos si te interesa colaborar con nosotrxs
 					</h2>
 					<form className="w-full text-black mt-12 my-4">
 						<div className="sm:grid sm:grid-cols-2 sm:gap-12 ">
-							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
+							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0 sm:w-4/5">
 								<input
 									name="name"
 									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
@@ -33,11 +32,11 @@ const Contacto = ({ showed }) => {
 								/>
 								<div
 									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out ${
-										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
+										showed ? "visible w-full" : "invisible w-0"
 									}`}
 								></div>
 							</div>
-							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
+							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0 sm:w-4/5">
 								<input
 									name="email"
 									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
@@ -49,14 +48,20 @@ const Contacto = ({ showed }) => {
 								/>
 								<div
 									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out delay-500 ${
-										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
+										showed ? "visible w-full" : "invisible w-0"
 									}`}
 								></div>
 							</div>
 						</div>
 						<div className="sm:grid sm:grid-cols-2 sm:gap-12 sm:mt-16 ">
-							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0">
-								<input
+							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0 sm:w-4/5">
+								<span
+									ref={comment}
+									contentEditable="true"
+									className="outline-none w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
+									placeholder="Mensaje"
+								></span>
+								{/*<input
 									name="message"
 									className="appearance-none bg-transparent w-full mr-3 pb-6 px-2 focus:outline-none text-lg sm:text-2xl"
 									type="tel"
@@ -64,10 +69,10 @@ const Contacto = ({ showed }) => {
 									aria-label="Mensaje"
 									value={form.message}
 									onChange={(e) => handleChanges(e)}
-								/>
+								/>*/}
 								<div
 									className={`absolute h-px border-b border-red1 left-0 bottom-0 transition-all duration-1000 ease-in-out delay-1000 ${
-										showed ? "visible w-full sm:w-4/5" : "invisible w-0"
+										showed ? "visible w-full" : "invisible w-0"
 									}`}
 								></div>
 							</div>

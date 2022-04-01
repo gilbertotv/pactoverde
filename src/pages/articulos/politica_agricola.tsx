@@ -13,18 +13,16 @@ import autor from "../../images/autores/autor16.jpg";
 import articulo1 from "../../images/articulos/articulo16-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Política agrícola para "Un pacto verde para México"'
+			description='Política agrícola para "Un pacto verde para México"'
+			url="/articulos/politica_agricola"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
-				title="Política agrícola para un Pacto Verde para México"
+				title='Política agrícola para "Un pacto verde para México"'
 				titleColor="text-black"
 				variant="circle"
 				subImage={autor}
@@ -37,9 +35,9 @@ const Articles = () => {
 				todas las etapas del ciclo de políticas públicas.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Política agrícola para un Pacto Verde para México"
+				header='Política agrícola para "Un pacto verde para México"'
 				siguiente="/articulos/transformacion_social"
+				url="/politica_agricola"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -59,6 +57,12 @@ const Articles = () => {
 							"Debido a los eventos climáticos extremos, actualmente hay una alta volatilidad en los precios de los alimentos.",
 						]}
 					/>
+					<ArtParagraphs
+						paragraphs={[
+							"Es urgente optimizar el rendimiento agrícola de manera sostenible para alimentar a la población mundial pues, aunque logremos mitigar el impacto de la acción del hombre sobre el planeta, seguiremos padeciendo los efectos del calentamiento global durante los próximos 100 años, hasta que se logre iniciar su recuperación.",
+							'Frente a esta realidad, y tomando en cuenta los compromisos internacionales de tratados y convenios sobre cambio climático, en diciembre de 2019 la Comisión Europea (CE) decidió implementar el "Pacto Verde Europeo", con el fin de impulsar la sostenibilidad, reducir el impacto ambiental y garantizar la seguridad alimentaria. El objetivo es transformar el modelo agrícola y alimentario en Europa y alinearlo con la protección al medio ambiente y la lucha contra el cambio climático para alcanzar la neutralidad climática de la UE en 2050.',
+						]}
+					/>
 				</div>
 				<div className="relative sm:translate-x-24 lg:translate-x-48 py-8 mb-16 sm:mb-24">
 					<div className="h-px w-full border-t border-gray2 absolute top-0 left-0"></div>
@@ -75,12 +79,6 @@ const Articles = () => {
 					</p>
 				</div>
 				<div className="">
-					<ArtParagraphs
-						paragraphs={[
-							"Es urgente optimizar el rendimiento agrícola de manera sostenible para alimentar a la población mundial pues, aunque logremos mitigar el impacto de la acción del hombre sobre el planeta, seguiremos padeciendo los efectos del calentamiento global durante los próximos 100 años, hasta que se logre iniciar su recuperación.",
-							"Frente a esta realidad, y tomando en cuenta los compromisos internacionales de tratados y convenios sobre cambio climático, en diciembre de 2019 la Comisión Europea (CE) decidió implementar el “Pacto Verde Europeo”, con el fin de impulsar la sostenibilidad, reducir el impacto ambiental y garantizar la seguridad alimentaria. El objetivo es transformar el modelo agrícola y alimentario en Europa y alinearlo con la protección al medio ambiente y la lucha contra el cambio climático para alcanzar la neutralidad climática de la UE en 2050.",
-						]}
-					/>
 					<img
 						src={articulo1}
 						className="m-auto my-12 max-w-full"
@@ -101,7 +99,7 @@ const Articles = () => {
 					/>
 					<ArtParagraphs
 						paragraphs={[
-							"Esta postura de la UE ha generado mucha inquietud en instancias ligadas a la agroexportación en otras partes del planeta. Según un análisis del Servicio de Investigación Económica del Departamento de Agricultura de los Estados Unidos, las consecuencias de adoptar las políticas del “pacto verde” en regiones fuera de la UE podrían ocasionar un aumento en el precio de los alimentos de hasta un 89% y una pérdida del bienestar social hasta en 1 trillón de dólares a nivel global. En Latinoamérica, se está alertando a gobiernos, agricultores, universidades y público en general sobre el impacto negativo que podría ocasionar el Pacto Verde en las agroexportaciones  (CropLife, 2021).",
+							'Esta postura de la UE ha generado mucha inquietud en instancias ligadas a la agroexportación en otras partes del planeta. Según un análisis del Servicio de Investigación Económica del Departamento de Agricultura de los Estados Unidos, las consecuencias de adoptar las políticas del "pacto verde" en regiones fuera de la UE podrían ocasionar un aumento en el precio de los alimentos de hasta un 89% y una pérdida del bienestar social hasta en 1 trillón de dólares a nivel global. En Latinoamérica, se está alertando a gobiernos, agricultores, universidades y público en general sobre el impacto negativo que podría ocasionar elpacto verde en las agroexportaciones  (CropLife, 2021).',
 						]}
 					/>
 					<ArtSubtitle text="Importancia de Latinoamérica como proveedora de alimentos a nivel mundial" />
@@ -109,10 +107,10 @@ const Articles = () => {
 					<ArtParagraphs
 						paragraphs={[
 							"La región de América Latina, y específicamente México, es altamente biodiversa y rica en recursos para la producción agropecuaria, lo que la posiciona como una zona determinante para contribuir a los objetivos globales de sostenibilidad ambiental y conservación de especies y líder en producción de alimentos y otros productos agrícolas. Actualmente, la agricultura regional latinoamericana genera el 13% del valor agregado agrícola mundial, pero estudios prospectivos indican que la región debe prepararse para incrementar la producción de alimentos entre 50 y 70% para 2050. Esto implica un enorme desafío productivo-tecnológico que tendrá muchas repercusiones económicas, sociales y ambientales.",
-							"Por su importancia en los flujos comerciales y en la estabilidad política global (seguridad alimentaria), es urgente para la región acelerar las acciones para afrontar los actuales retos ambientales relacionados con el cambio climático, los riesgos a la biodiversidad y a la inseguridad alimentaria (CropLife, 2021), lo cual implica una alta correlación entre los retos del continente y la apuesta del Pacto Verde de la Unión Europea.",
+							"Por su importancia en los flujos comerciales y en la estabilidad política global (seguridad alimentaria), es urgente para la región acelerar las acciones para afrontar los actuales retos ambientales relacionados con el cambio climático, los riesgos a la biodiversidad y a la inseguridad alimentaria (CropLife, 2021), lo cual implica una alta correlación entre los retos del continente y la apuesta del pacto verde de la Unión Europea.",
 							"El sector agropecuario de México ha sufrido cambios importantes a partir de la firma del Tratado de Libre Comercio de América del Norte (TLCAN) en 1992, lo que ha generado una dinámica de competencia que ha fortalecido la producción de ciertos cultivos (principalmente frutas subtropicales y hortalizas) y debilitado las capacidades de algunos otros (granos básicos). Esto desencadenó la consolidación de un sector agroexportador altamente dinámico y logró tasas de crecimiento por encima del PIB total del país, así como un sector campesino dedicado a la producción de granos básicos altamente empobrecido (entre el 72 y 82% de los hogares maiceros rurales destinan su producción al autoconsumo humano y no la comercializan).",
 							"De acuerdo con los antecedentes de la Encuesta Nacional de Salud y Nutrición 2018, en las zonas rurales el 40.6% de la población presentaba inseguridad alimentaria leve, 17.8% moderada y 11.3% severa. A esta realidad, se añade la dependencia de las importaciones de granos básicos, principalmente maíz amarillo, trigo y arroz. Esto revela que la inseguridad y la dependencia alimentaria constituyen un reto de grandes dimensiones para las políticas públicas del país.",
-							"México ha establecido compromisos con la Agenda 2030 para el Desarrollo Sostenible de las Naciones Unidas (ONU) coherentes con el Pacto Verde europeo, y ha emprendido una política pública orientada a la autosuficiencia alimentaria y el rescate del campo, cuyo cumplimiento exige la participación de todos los sectores y actores de la sociedad mediante alianzas para movilizar y compartir conocimientos, capacidades, tecnología y recursos financieros para asegurar su implementación en todos los países.",
+							"México ha establecido compromisos con la Agenda 2030 para el Desarrollo Sostenible de las Naciones Unidas (ONU) coherentes con el pacto verde europeo, y ha emprendido una política pública orientada a la autosuficiencia alimentaria y el rescate del campo, cuyo cumplimiento exige la participación de todos los sectores y actores de la sociedad mediante alianzas para movilizar y compartir conocimientos, capacidades, tecnología y recursos financieros para asegurar su implementación en todos los países.",
 						]}
 					/>
 
@@ -139,19 +137,19 @@ const Articles = () => {
 							"Fomento al uso de energías renovables en el sector agropecuario que independice al sector del uso de las energías fósiles.",
 							"Incentivar el Pago por Servicios Ambientales (PSA): incentivos económicos a los productores de zonas vulnerables (partes altas de las cuencas), de manera que continúen ofreciendo un servicio ambiental que beneficie a la sociedad. Adopción de prácticas de uso que garanticen la provisión de un servicio en particular (cobertura del suelo, secuestro de carbono, curvas de nivel para infiltración del agua y evitar escorrentías, entre otras).",
 							"Participación de las instancias diplomáticas de Latinoamérica y México en el debate sobre las normativas que se están implementando a nivel global y que se expresen las brechas que la región tiene respecto a las normativas que se están desarrollando para una agricultura más sostenible.",
-							"Los inminentes efectos del cambio climático frente a la seguridad alimentaria, en primer orden, y la posición agroexportadora, en segundo lugar, agravado por la crisis que está ocasionando la pandemia del COVID-19, obliga a México a abordar una agenda de agricultura sostenible que permita al país asumir los nuevos retos y un liderazgo en la región. La Agenda 2030 y el Pacto Verde constituyen un gran desafío para el sector y ofrecen una gran oportunidad para asumir dicho liderazgo. Así se posicionaría el sector agroalimentario del país en el contexto del nuevo paradigma de la bioeconomía, que orientará el futuro científico-tecnológico, económico, y social en el siglo XXI.",
+							"Los inminentes efectos del cambio climático frente a la seguridad alimentaria, en primer orden, y la posición agroexportadora, en segundo lugar, agravado por la crisis que está ocasionando la pandemia del COVID-19, obliga a México a abordar una agenda de agricultura sostenible que permita al país asumir los nuevos retos y un liderazgo en la región. La Agenda 2030 y el pacto verde constituyen un gran desafío para el sector y ofrecen una gran oportunidad para asumir dicho liderazgo. Así se posicionaría el sector agroalimentario del país en el contexto del nuevo paradigma de la bioeconomía, que orientará el futuro científico-tecnológico, económico, y social en el siglo XXI.",
 						]}
 					/>
 				</div>
 				<Referencias
 					referencias={[
 						{
-							ref: "CDE (2021). Estrategia de la granja a la mesa. Pacto Verde Europeo. Centro de Documentación Europea, Universidad Francisco Vitoria.",
+							ref: "CDE (2021). Estrategia de la granja a la mesa.pacto verde Europeo. Centro de Documentación Europea, Universidad Francisco Vitoria.",
 							subref: "Disponible en: ",
 							link: "https://centro-documentacion-europea-ufv.eu/estrategia-de-la-granja-a-la-mesa",
 						},
 						{
-							ref: "CropLife (2021). Pacto Verde Europeo y su Impacto en América Latina.",
+							ref: "CropLife (2021).pacto verde Europeo y su Impacto en América Latina.",
 							subref: "Disponible en: ",
 							link: "https://croplifela.org/es/actualidad/articulos/pacto-verde-europeo-y-su-impacto-en-america-latina",
 						},

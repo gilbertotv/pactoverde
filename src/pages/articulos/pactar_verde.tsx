@@ -9,16 +9,13 @@ import autor from "../../images/autores/autor4.jpg";
 import articulo1 from "../../images/articulos/articulo4-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="Pactar verde y caminar hacia 2030"
+			description="Pactar verde y caminar hacia 2030"
+			url="/articulos/pactar_verde"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
 				title="Pactar verde y caminar hacia 2030"
@@ -35,9 +32,9 @@ const Articles = () => {
 				Latina.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Pactar verde y caminar hacia 2030"
 				siguiente="/articulos/regeneracion_ecologica"
+				url="/pactar_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -50,7 +47,7 @@ const Articles = () => {
 						el medio ambiente.
 					</p>
 					<p className="mb-4 font-semibold">
-						Plantear un pacto verde para México debe empezar por entender a
+						Plantear "Un pacto verde para México" debe empezar por entender a
 						nuestro país en el contexto global. Somos un país de ingreso medio
 						con enorme diversidad social, económica y política, y una alta
 						desigualdad en una de las regiones más desiguales del mundo. Desde
@@ -77,7 +74,7 @@ const Articles = () => {
 					/>
 					<p className="mb-4">
 						En general, me refiero a los países que conforman lo que suele
-						llamarse “sur global”. Para todas estas naciones, hablar de pactos
+						llamarse "sur global". Para todas estas naciones, hablar de pactos
 						verdes implica balancear las necesidades del presente y del futuro
 						de millones de personas en sus respectivos territorios. En su
 						conjunto, esos países necesitan atender, con los medios que tienen a
@@ -139,7 +136,7 @@ const Articles = () => {
 						en todo el territorio.
 					</p>
 					<p className="mb-4">
-						Así, un pacto verde para México requiere incorporar la dimensión
+						Así, "Un pacto verde para México" requiere incorporar la dimensión
 						internacional a la conversación, saber ver que compartimos y
 						enfrentamos dilemas imposibles, igual que muchos otros países, y que
 						nuestro camino hacia una organización social más verde lleva ya

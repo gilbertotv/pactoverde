@@ -12,16 +12,13 @@ import articulo2 from "../../images/articulos/articulo11-2.jpg";
 import ArtSubtitle from "../../components/shared/ArtSubtitle";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="Diversificación sostenible: hacia una política industrial verde en México"
+			description="Diversificación sostenible: hacia una política industrial verde en México"
+			url="/articulos/diversificacion_sostenible"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
 				title="Diversificación sostenible: hacia una política industrial verde en México"
@@ -38,9 +35,9 @@ const Articles = () => {
 				Analytics, la CEPAL y Data-Pop Alliance, entre otros.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Diversificación sostenible"
 				siguiente="/articulos/siete_claves"
+				url="/diversificacion_sostenible"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div

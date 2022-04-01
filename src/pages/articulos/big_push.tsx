@@ -11,16 +11,13 @@ import articulo2 from "../../images/articulos/articulo3-2.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="El Big Push mexicano: Plan Verde para un desarrollo sostenible"
+			description="El Big Push mexicano: Plan Verde para un desarrollo sostenible"
+			url="/articulos/big_push"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
 				title="El Big Push mexicano: Plan Verde para un desarrollo sostenible"
@@ -38,9 +35,9 @@ const Articles = () => {
 				regional y de política industrial.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="El Big Push mexicano"
 				siguiente="/articulos/pactar_verde"
+				url="/big_push"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -65,6 +62,7 @@ const Articles = () => {
 						con creciente productividad y de alto contenido tecnológico. Sin
 						embargo, enfocarse solo en eso sería insuficiente. Hoy sabemos que
 						<span className="font-medium">
+							{" "}
 							los cambios estructurales también deben ser progresivos, es decir
 							que deben, además, generar una transformación hacia procesos
 							productivos que incrementen el empleo con derechos, el
@@ -115,7 +113,7 @@ const Articles = () => {
 						ambiental teniendo como contrapartida un salto tecnológico,
 						productivo e institucional que conduzca a un nuevo estilo de
 						desarrollo. La Cepal ha denominado a la combinación de estas
-						dimensiones como el “gran impulso ambiental”. Estamos hablando de un
+						dimensiones como el "gran impulso ambiental". Estamos hablando de un
 						esfuerzo coordinado de inversiones complementarias capaz de
 						redefinir la trayectoria de crecimiento, los patrones de producción
 						y consumo, y la construcción de capacidades en un contexto
@@ -134,10 +132,10 @@ const Articles = () => {
 						privada en nuevos sectores que serán los que muevan y lideren la
 						economía en el futuro. La propuesta de Cepal es que esta
 						coordinación de inversiones cambie la estructura económica y genere
-						un nuevo estilo de desarrollo más igualitario y sostenible. El “gran
-						impulso ambiental” es necesario para el desarrollo sostenible y se
+						un nuevo estilo de desarrollo más igualitario y sostenible. El "gran
+						impulso ambiental" es necesario para el desarrollo sostenible y se
 						alinea con los esfuerzos que están haciendo diversos países y
-						regiones en el mundo, como es el caso del Pacto Verde Europeo, los
+						regiones en el mundo, como es el caso del pacto verde Europeo, los
 						estímulos fiscales y la búsqueda de energías sostenibles en los
 						Estados Unidos, así como los esfuerzos de China por reducir
 						emisiones de gases de efecto invernadero. Esta alineación global

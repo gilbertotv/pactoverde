@@ -16,7 +16,7 @@ const HomeLayoutTitle = (props: IProps) => {
 	const { title, subtitle, color, showed } = props;
 	return (
 		<section>
-			<div className="min-h-screen relative flex items-center py-8 md:py-0 overflow-hidden">
+			<div className="min-h-screen relative flex py-8 md:py-0 overflow-hidden">
 				<div className="container">
 					<h2
 						className={`inline-block relative text-gray1 text-4xl sm:text-6xl pb-4`}

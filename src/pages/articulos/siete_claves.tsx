@@ -12,16 +12,13 @@ import articulo2 from "../../images/articulos/articulo12-2.jpg";
 import ArtList from "../../components/shared/ArtList";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="Siete claves para levantarnos después de la pandemia y construir resiliencia de cara a la emergencia climática"
+			description="Siete claves para levantarnos después de la pandemia y construir resiliencia de cara a la emergencia climática"
+			url="/articulos/siete_claves"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
 				title="Siete claves para levantarnos después de la pandemia y construir resiliencia de cara a la emergencia climática"
@@ -36,19 +33,23 @@ const Articles = () => {
 				sustentabilidad y movilidad urbana a nivel local, nacional y regional.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Siete claves para levantarnos"
 				siguiente="/articulos/inversiones_sostenibles"
+				url="/siete_claves"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
 						className={`hidden sm:block absolute -right-12 top-0 w-px border-l border-gray2 transition-all duration-1000 ease-in-out h-full`}
 					></div>
-					<img src={articulo1} className="m-auto mb-12 max-w-full" alt="Pacto Verde" />
+					<img
+						src={articulo1}
+						className="m-auto mb-12 max-w-full"
+						alt="Pacto Verde"
+					/>
 					<ArtParagraphs
 						paragraphs={[
 							"Las crisis desatadas, agravadas y expuestas a raíz de la pandemia mundial de COVID-19 deben servirnos como un recordatorio de nuestra vulnerabilidad como seres humanos y, a su vez, como un llamado urgente a la acción.",
-							"En cuestión de meses, el coronavirus expuso las fallas, las carencias y la fragilidad de nuestro sistema de desarrollo y de nuestro contrato social, basados en una explotación insostenible de los recursos y en la agudización permanente de las brechas de inequidad. La pandemia nos demostró que nuestros sistemas financieros y de salud, nuestras redes de bienestar y nuestras cadenas de suministro son tan vulnerables que, retomando las palabras del secretario general de Nacionales Unidas, Antonio Guterres, “un virus diminuto es capaz de derrumbarlos”.",
+							'En cuestión de meses, el coronavirus expuso las fallas, las carencias y la fragilidad de nuestro sistema de desarrollo y de nuestro contrato social, basados en una explotación insostenible de los recursos y en la agudización permanente de las brechas de inequidad. La pandemia nos demostró que nuestros sistemas financieros y de salud, nuestras redes de bienestar y nuestras cadenas de suministro son tan vulnerables que, retomando las palabras del secretario general de Nacionales Unidas, Antonio Guterres, "un virus diminuto es capaz de derrumbarlos".',
 							"Según el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC), atravesamos la peor crisis económica y humanitaria en 100 años. Sin embargo, estos impactos peligrosos y costosos que experimentamos ahora parecerán leves en comparación con los que enfrentaremos si no logramos mantener el calentamiento global por debajo de los 1.5 °C (con respecto a la era preindustrial) para finales de este siglo.",
 						]}
 					/>

@@ -10,19 +10,16 @@ import articulo1 from "../../images/articulos/articulo6-1.jpg";
 import Referencias from "../../components/shared/Referencias";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Pilares para "Un pacto verde para México"'
+			description='Pilares para "Un pacto verde para México"'
+			url="/articulos/pilares_pacto_verde"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green2"
-				title="Pilares para un Pacto Verde para México"
+				title='Pilares para "Un pacto verde para México"'
 				titleColor="text-green3"
 				variant="circle"
 				subImage={autor}
@@ -37,9 +34,9 @@ const Articles = () => {
 				Doctorado Honoris causa de la UNAM.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Pilares para un Pacto Verde para México"
+				header='Pilares para "Un pacto verde para México"'
 				siguiente="/articulos/hacia_pacto_verde"
+				url="/pilares_pacto_verde"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -118,10 +115,10 @@ const Articles = () => {
 						económico, garantizando la protección social, generando empleos
 						dignos, verdes e incluyentes, y reconociendo los límites que impone
 						el funcionamiento de los sistemas físico-químico-biológicos del
-						planeta. Incluso la UNCTAD (2019) propuso un Nuevo Pacto Verde
-						Global con nuevas reglas económicas y mecanismos de financiamiento,
-						y la Unión Europea un Pacto Verde Europeo (EU, 2019), ambos desde
-						antes de la pandemia.
+						planeta. Incluso la UNCTAD (2019) propuso un Nuevopacto verde Global
+						con nuevas reglas económicas y mecanismos de financiamiento, y la
+						Unión Europea un pacto verde Europeo (EU, 2019), ambos desde antes
+						de la pandemia.
 					</p>
 					<p className="mb-4">
 						En este contexto global, estamos obligados en México, como señala el
@@ -240,8 +237,8 @@ const Articles = () => {
 						territorio, escuchando y respetando a la ciencia con un horizonte de
 						largo plazo, financiamiento adecuado y un compromiso
 						intergeneracional. Esta pueda ser la base de un Nuevo Pacto para el
-						Desarrollo Sustentable o un Pacto Verde para México para combatir la
-						emergencia. No hay tiempo que perder.
+						Desarrollo Sustentable o "Un pacto verde para México" para combatir
+						la emergencia. No hay tiempo que perder.
 					</p>
 
 					<Referencias

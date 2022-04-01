@@ -13,16 +13,13 @@ import articulo2 from "../../images/articulos/articulo23-2.jpg";
 import articulo3 from "../../images/articulos/articulo23-3.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="La transformación productiva de apoyo a la economía verde"
+			description="La transformación productiva de apoyo a la economía verde"
+			url="/articulos/transformacion_productiva"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
 				title="La transformación productiva de apoyo a la economía verde"
@@ -38,9 +35,9 @@ const Articles = () => {
 				columnista de El Financiero.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="La transformación productiva de apoyo"
 				siguiente="/articulos/irreductibles_pacto_verde"
+				url="/transformacion_productiva"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div

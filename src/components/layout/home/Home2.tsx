@@ -1,9 +1,11 @@
 import React from "react";
+import Button from "../../shared/Button";
 
 import TexturaHome2 from "../../../images/texturaHome2.png";
 import LetreroHome from "../../../images/letreroHome.png";
 import Puno1 from "../../../images/puno1.png";
 import Puno2 from "../../../images/puno2.png";
+import { navigate } from "gatsby";
 
 const Home2 = ({ showed }) => {
 	return (
@@ -24,6 +26,13 @@ const Home2 = ({ showed }) => {
 									bienestar y democracia.
 								</span>
 							</p>
+							<div className="my-8">
+								<Button
+									text="Motivación"
+									variant="red"
+									action={() => navigate("/reflexiones/pactoverde")}
+								/>
+							</div>
 						</div>
 						<div className="w-full md:w-1/2 flex items-center justify-center py-12 md:py-0">
 							<img src={TexturaHome2} alt="Pacto Verde" className="" />

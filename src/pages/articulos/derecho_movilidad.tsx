@@ -12,16 +12,13 @@ import articulo1 from "../../images/articulos/articulo9-1.jpg";
 import articulo2 from "../../images/articulos/articulo9-2.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="El derecho humano a la movilidad"
+			description="El derecho humano a la movilidad"
+			url="/articulos/derecho_movilidad"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
 				title="El derecho humano a la movilidad"
@@ -37,9 +34,9 @@ const Articles = () => {
 				Ciudad de México (2015-2018).
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="El derecho humano a la movilidad"
 				siguiente="/articulos/papel_sector_empresarial"
+				url="/derecho_movilidad"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -48,7 +45,7 @@ const Articles = () => {
 					<img src={articulo1} className="mb-12 max-w-full" alt="Pacto Verde" />
 					<ArtParagraphs
 						paragraphs={[
-							"La gestión de la movilidad de nuestras ciudades está todavía muy lejos de los objetivos planteados por las agendas internacionales  y la visión nacional de “no dejar a nadie atrás”",
+							'La gestión de la movilidad de nuestras ciudades está todavía muy lejos de los objetivos planteados por las agendas internacionales  y la visión nacional de "no dejar a nadie atrás"',
 							"Reconocido en nuestra Constitución Política desde diciembre del 2020, el derecho humano a la movilidad no cuenta con programas presupuestarios federales destinados exclusivamente a la construcción y mejora de infraestructura (emergente o permanente) para caminar, desplazarse con ayudas técnicas, habitar en el espacio público y usar medios no motorizados de manera cómoda y segura, ni para incentivar una prestación del servicio público de transporte de personas y mercancías bajo estándares de calidad; mucho menos para reducir el uso y la velocidad de vehículos motorizados en calles y carreteras del país.",
 						]}
 					/>
@@ -86,7 +83,7 @@ const Articles = () => {
 							"Con respecto a la visión sistémica, esta comienza por dejar de culpar a las personas usuarias de las vías por sus muertes y lesiones, ya que hacerlo es incorrecto y obsoleto.",
 							"Nuestros marcos normativos continúan siendo redactados bajo la visión de condicionar conductas, sin embargo, a pesar de todos los esfuerzos que se han realizado bajo esa perspectiva, no ha sido posible que el error humano desaparezca.",
 							"La gente se distrae, consume alcohol o drogas, se equivoca al manejar y circular por la red vial. Por lo anterior, es necesario redactar leyes que nos permitan incidir en todo el sistema de movilidad para reducir la posibilidad de esos errores y que, en caso de que sucedan, estos no causen muertes o lesiones de gravedad.",
-							"El impulso de la Coalición Movilidad Cero, el trabajo de la Asociación Mexicana de Autoridades por la Movilidad (AMAM), el Encuentro Nacional de Diputados por la Movilidad (Endimov) y las ochos mesas de trabajo organizadas por ambas cámaras del Congreso de la Unión para recopilar las necesidades locales y las diferentes propuestas para legislar en la materia, así como el “proceso de consenso interinstitucional” facilitado por la Secretaría de Gobernación (Segob) y la Secretaría de Desarrollo Agrario, Territorial y Urbano (Sedatu) son muestra de la inminente transformación que se demanda.",
+							'El impulso de la Coalición Movilidad Cero, el trabajo de la Asociación Mexicana de Autoridades por la Movilidad (AMAM), el Encuentro Nacional de Diputados por la Movilidad (Endimov) y las ochos mesas de trabajo organizadas por ambas cámaras del Congreso de la Unión para recopilar las necesidades locales y las diferentes propuestas para legislar en la materia, así como el "proceso de consenso interinstitucional" facilitado por la Secretaría de Gobernación (Segob) y la Secretaría de Desarrollo Agrario, Territorial y Urbano (Sedatu) son muestra de la inminente transformación que se demanda.',
 							"Las diferentes iniciativas en la materia presentadas por las y los legisladores de todas las corrientes políticas representan de alguna manera los diferentes enfoques que existen, no solo en el país sino en el mundo, para abordar la seguridad vial como una política de Estado. Lograr un consenso sistémico entre ellas, con el objetivo de reducir las muertes y lesiones de gravedad por hechos de tránsito es una tarea compleja, pero no imposible.",
 							"Aún falta un largo trecho en el camino; debe aprobarse la Ley General de Movilidad y Seguridad Vial en el Senado de la República, para que después pase a la Cámara de Diputados y, posteriormente, llevar esta visión a los marcos estatales y municipales, sin dejar de trabajar en su armonización con la perspectiva territorial y climática, que aún está pendiente en la mayoría de los gobiernos locales del país.",
 							"Cada día que pasa, gente muere por causas que se pueden evitar. Nos motiva la deuda con las familias y víctimas de hechos de tránsito, su dolor nos obliga a pensar y diseñar acciones que nos permitan afrontar de manera más eficiente esta pandemia silenciosa y otras pandemias presentes y futuras en el territorio.",

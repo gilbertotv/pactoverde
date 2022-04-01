@@ -11,16 +11,13 @@ import autor from "../../images/autores/autor21.jpg";
 import articulo1 from "../../images/articulos/articulo21-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title="La perspectiva de los cuidados para la economía verde"
+			description="La perspectiva de los cuidados para la economía verde"
+			url="/articulos/perspectiva_cuidados"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
 				title="La perspectiva de los cuidados para la economía verde"
@@ -37,9 +34,9 @@ const Articles = () => {
 				California.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="La perspectiva de los cuidados para la economía"
 				siguiente="/articulos/fiscalizacion_emisiones"
+				url="/perspectiva_cuidados"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div

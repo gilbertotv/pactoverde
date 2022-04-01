@@ -14,19 +14,16 @@ import articulo1 from "../../images/articulos/articulo19-1.jpg";
 import articulo2 from "../../images/articulos/articulo19-2.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Una perspectiva norteamericana para "Un pacto verde para México"'
+			description='Una perspectiva norteamericana para "Un pacto verde para México"'
+			url="/articulos/perspectiva_norteamericana"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
-				title="Una perspectiva norteamericana para un Pacto Verde para México"
+				title='Una perspectiva norteamericana para "Un pacto verde para México"'
 				titleColor="text-white"
 				variant="lines"
 				subImage={autor}
@@ -39,9 +36,9 @@ const Articles = () => {
 				tecnológica y política industrial, entre otros temas.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
 				header="Una perspectiva norteamericana"
 				siguiente="/articulos/ciudades_mexicanas"
+				url="/perspectiva_norteamericana"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -87,7 +84,7 @@ const Articles = () => {
 					<ArtList
 						variant="list-decimal"
 						elements={[
-							"En el TLCAN, los países se comprometían a “REFORZAR la elaboración y aplicación de leyes y reglamentos en materia ambiental”2, lo que sí ocurrió en México,3 pero para el T-MEC este compromiso se debilitó debido a la política ambiental de la administración del presidente Donald Trump. Aun así, el T-MEC incluyó el compromiso de “mejorar las capacidades de las Partes para abordar asuntos ambientales relacionados con el comercio, incluso mediante la cooperación, en fomento al desarrollo sostenible” (2020).",
+							'En el TLCAN, los países se comprometían a "REFORZAR la elaboración y aplicación de leyes y reglamentos en materia ambiental"2, lo que sí ocurrió en México,3 pero para el T-MEC este compromiso se debilitó debido a la política ambiental de la administración del presidente Donald Trump. Aun así, el T-MEC incluyó el compromiso de "mejorar las capacidades de las Partes para abordar asuntos ambientales relacionados con el comercio, incluso mediante la cooperación, en fomento al desarrollo sostenible" (2020).',
 							"De no cumplirse los compromisos ambientales en el T-MEC, se pueden imponer sanciones comerciales al país transgresor (instrumento del que en general carecen los AAM). Si bien esta última herramienta no fue muy efectiva en el TLCAN para aplicar sanciones, el T-MEC incorporó los mecanismos para que, de fallar la cooperación entre las Partes para resolver estos incumplimientos, se utilice un procedimiento de solución de controversias que puede llevar a sanciones comerciales. El TLCAN incluyó un mecanismo de peticiones ciudadanas para investigar el incumplimiento de leyes ambientales que subsiste en el T-MEC. Desde su firma hasta 2019 hubo 96 peticiones y, derivado de ellas, la elaboración de 24 expedientes de hechos (CCA, 2019).",
 							"En el TLCAN y en el T-MEC se desarrolló un mecanismo de cooperación ambiental entre los tres socios comerciales apoyado en una estructura institucional relativamente independiente, la Comisión de Cooperación Ambiental (CCA) y su Secretariado. Esta cuenta con un financiamiento propio para desarrollar estudios y tomar acciones en materia ambiental para beneficio de las partes.",
 							"La cooperación internacional del ACAAN ha sido un importante apoyo en los esfuerzos para mejorar la protección al medio ambiente en Norteamérica en términos de generación de información, medición y rastreo de contaminantes, la localización de especies, estudios y mapeos de regiones ecológicas, de creación de programas trilaterales de conservación de la biodiversidad y la adopción de compromisos específicos para reducir los niveles de contaminación de varios elementos químicos a través de los Planes de Acción y de Conservación específicos (NACAP, por sus siglas en inglés). Asimismo, se reforzaron leyes y la cooperación para la formación de capital humano en materia ambiental. El TLCAN que firmó México ha generado una agenda ambiental por varias vías: las peticiones ciudadanas relacionadas al incumplimiento de leyes ambientales; los estudios independientes desarrollados por la CCA sobre temas ambientales que abarcan a los tres países; por planes de acción concretos para reducir contaminantes u otros fines, entre otros. A pesar de que estos esfuerzos han sido insuficientes, han sido importantes y siguen adelante, como se aprecia en los proyectos dentro de su Plan Estratégico 2021-2025 para la protección del ambiente (Morelos, 2021).",

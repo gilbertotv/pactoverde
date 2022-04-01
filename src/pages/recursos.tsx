@@ -65,7 +65,7 @@ const Recursos = () => {
 		{
 			image: thumb6,
 			title:
-				"“El nuevo pacto verde de Corea del Sur en el año de la transición”.",
+				'"El nuevo pacto verde de Corea del Sur en el año de la transición".',
 			subsummary: "De Sarwat Chowdhury, PNUD.",
 			buttonText: "Leer más",
 			url: "https://www.undp.org/es/blog/el-nuevo-pacto-verde-de-corea-del-sur-en-el-ano-de-la-transicion",
@@ -95,14 +95,14 @@ const Recursos = () => {
 		{
 			image: thumb10,
 			title:
-				"“El sistema contra el clima: Por un nuevo pacto verde antineoliberal”.",
+				'"El sistema contra el clima: Por un nuevo pacto verde antineoliberal".',
 			subsummary: "De Ann Petifor, revista Nueva Sociedad.",
 			buttonText: "Leer más",
 			url: "https://nuso.org/articulo/capitalismo-clima-sistema-financiero-dolar-green-new-deal/",
 		},
 		{
 			image: thumb11,
-			title: "Alianza Mundial para un Nuevo Pacto Verde.",
+			title: "Alianza Mundial para un Nuevo pacto verde.",
 			subsummary: "",
 			buttonText: "Leer más",
 			url: "https://www.globalgreennewdeal.org/the-declaration",
@@ -123,18 +123,11 @@ const Recursos = () => {
 		},
 		{
 			image: thumb14,
-			title: "Repensando la recuperación Económica: Un Pacto Verde Mundial.",
+			title: "Repensando la recuperación Económica: Un pacto verde Mundial.",
 			subsummary:
 				"Programa Ambiental de la Organización de las Naciones Unidas (UNEP) (2019). (en inglés).",
 			buttonText: "Leer más",
 			url: "https://www.cbd.int/development/doc/UNEP-global-green-new-deal.pdf",
-		},
-		{
-			image: thumb15,
-			title: "Un acuerdo verde para América Latina.",
-			subsummary: "FES Transformación (2020).",
-			buttonText: "Leer más",
-			url: "https://fes-transformacion.fes.de/e/un-acuerdo-verde-para-america-latina",
 		},
 		{
 			image: thumb16,

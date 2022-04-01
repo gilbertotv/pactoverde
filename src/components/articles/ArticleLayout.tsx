@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext, useMemo } from "react";
 import { Link, navigate } from "gatsby";
 import ArticleHeader from "./ArticleHeader";
 import Button from "../shared/Button";
 
 import { useScrollPercentage } from "react-scroll-percentage";
+import { AppContext } from "../../context/AppContext";
 
 interface IProps {
 	children:
@@ -11,33 +12,43 @@ interface IProps {
 		| React.ReactChild
 		| React.ReactFragment
 		| React.ReactPortal;
-	arts: string[];
 	isArticle?: boolean;
 	header: string;
 	siguiente?: string;
+	url: string;
 }
 
-const LiArticle = ({ title }: { title: string }) => (
+const LiArticle = ({ title, url }: { title: string; url: string }) => (
 	<li className="mb-4">
-		<a href="#">{title}</a>
+		<Link to={url}>{title}</Link>
 	</li>
 );
 
 const ArticleLayout = ({
 	children,
-	arts,
 	isArticle = true,
 	header,
 	siguiente,
+	url,
 }: IProps) => {
 	const [ref, percentage] = useScrollPercentage({
 		threshold: 0,
 	});
+	const { thumbsArticles } = useContext(AppContext);
+
+	const arts = useMemo(
+		() => thumbsArticles.sort(() => 0.5 - Math.random()).slice(0, 5),
+		[thumbsArticles]
+	);
 
 	return (
 		<>
 			{percentage > 0.1 && (
-				<ArticleHeader title={header} percentage={percentage * 1.11 * 100} />
+				<ArticleHeader
+					title={header}
+					percentage={percentage * 1.11 * 100}
+					url={url}
+				/>
 			)}
 			<div ref={ref} className="container">
 				<div className="flex">
@@ -71,7 +82,7 @@ const ArticleLayout = ({
 								</div>
 								<div className="my-8 sm:grid sm:grid-cols-2 lg:grid-cols-2">
 									<div className="sm:text-left py-4 sm:py-0">
-										Escríbenos si te interesa colaborar con nostrxs
+										Escríbenos si te interesa colaborar con nosotrxs
 									</div>
 									<div className="flex justify-center py-4 sm:py-0">
 										<Button
@@ -91,7 +102,11 @@ const ArticleLayout = ({
 							<p className="mb-4">Conoce otros de los artículos</p>
 							<ol className="list-decimal list-outside marker:text-green5 marker:font-bold">
 								{arts.map((art, i) => (
-									<LiArticle key={`${i}article`} title={art} />
+									<LiArticle
+										key={`${i}article`}
+										title={art.title}
+										url={art.url}
+									/>
 								))}
 							</ol>
 						</div>

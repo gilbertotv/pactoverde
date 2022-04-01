@@ -83,7 +83,7 @@ const Home3 = ({ showed }) => {
 			color="green1"
 			subtitle={[
 				"Estos artículos, escritos por un grupo plural, reconocido y diverso de expertas y expertos, componen la revista ",
-				<span className="font-semibold">"Un pacto verde para México”</span>,
+				<span className="font-semibold">"Un pacto verde para México"</span>,
 				" y forman la base de la agenda de trabajo.",
 			]}
 			showed={showed}
@@ -95,7 +95,7 @@ const Home3 = ({ showed }) => {
 			/>
 			<div className="w-full flex flex-col md:flex-row">
 				<ColumnMore
-					title="Los irreductibles en un pacto verde para México"
+					title='Los irreductibles en "Un pacto verde para México"'
 					summary="Visión general de lo que significa un posible pacto, sus elementos
 						principales. y los retos y dificultades para lograrlo."
 					author="Beatriz Paredes Rangel"
@@ -106,7 +106,7 @@ const Home3 = ({ showed }) => {
 					delay={300}
 				/>
 				<ColumnMore
-					title="El papel de los pueblos originarios hacia un pacto verde para México"
+					title='El papel de los pueblos originarios hacia "Un pacto verde para México"'
 					summary="No habrá un pacto transformador sin los pueblos indígenas y las poblaciones vulnerables en el centro de toda política de desarrollo. "
 					author="Leticia Vázquez Esteban"
 					role="Activista masewal y cooperativista de Tosepan"

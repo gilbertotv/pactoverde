@@ -9,19 +9,12 @@ import autor2 from "../../images/autores/autor1.jpg";
 import articulo1 from "../../images/articulos/articulo1-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
 
 	return (
 		<Layout title="Artículos">
 			<HeaderArticle
 				bgcolor="bg-green5"
-				title="Los irreductibles en un pacto verde para México"
+				title='Los irreductibles en "Un pacto verde para México"'
 				titleColor="text-white"
 				variant="lines"
 				subImage={autor2}
@@ -36,8 +29,7 @@ const Articles = () => {
 				públicas para un desarrollo sostenible para México.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Los irreductibles en un pacto verde para México"
+				header='Los irreductibles en "Un pacto verde para México"'
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -67,7 +59,7 @@ const Articles = () => {
 						Acuerdos de París, que tuvieron la aceptación de numerosas naciones
 						del mundo y que fueron suscritos por los representantes del Estado
 						Mexicano. Lo importante debe ser, entonces, entender la necesidad de
-						un pacto verde en México como una oportunidad para avanzar, como el
+						"Un pacto verde en México" como una oportunidad para avanzar, como el
 						diseño de una hoja de ruta y de un calendario de cumplimiento de
 						compromisos, pero, eso sí, lo suficientemente específico por
 						sectores, ramas productivas, áreas de actividad y niveles de

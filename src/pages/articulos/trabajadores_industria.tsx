@@ -13,18 +13,16 @@ import autor from "../../images/autores/autor18.jpg";
 import articulo1 from "../../images/articulos/articulo18-1.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Los trabajadores y la industria dentro de "Un pacto verde para México"'
+			description='Los trabajadores y la industria dentro de "Un pacto verde para México"'
+			url="/articulos/trabajadores_industria"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green6"
-				title="Los trabajadores y la industria dentro de un Pacto Verde para México"
+				title='Los trabajadores y la industria dentro de "Un pacto verde para México"'
 				titleColor="text-black"
 				variant="circle"
 				subImage={autor}
@@ -38,9 +36,9 @@ const Articles = () => {
 				2008.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Política agrícola para un Pacto Verde para México"
+				header='Política agrícola para "Un pacto verde para México"'
 				siguiente="/articulos/perspectiva_norteamericana"
+				url="/trabajadores_industria"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -51,6 +49,17 @@ const Articles = () => {
 							"En la historia de la humanidad han existido momentos que marcaron un antes y un después y que han afectado el flujo cotidiano del mundo entero. El que vivimos ahora es uno de ellos; estamos en un nuevo capítulo con alcances importantes derivado de la pandemia ocasionada por la COVID-19, la cual detuvo el mundo de tal manera que nos ha permitido, dentro de sus aspectos positivos, ubicar la alta vulnerabilidad que como seres vivos padecemos. Esto ha propiciado un espacio para la reflexión sobre las afectaciones que hemos generado a los ecosistemas, de lo cual hemos sido partícipes y testigos, y ha permitido repensar el giro que debemos dar a nuestras actitudes y a nuestro comportamiento en pro del planeta y de la salud ambiental, lo que deberá reflejarse a través de acciones colaborativas con la naturaleza y requerirá el impulso y la contribución de los sectores productivos, los gobiernos y la sociedad.",
 							"Paralelamente, estamos viviendo un proceso de recambio tecnológico denominado Cuarta Revolución Industrial, también conocida como 4.0 o Revolución Tecnológica, el cual no debe estar disociado del cuidado del medio ambiente ni debe ser motivo para continuar en la ruta de deterioro que hemos labrado desde hace ya muchos años. Esta ha profundizado el efecto de fenómenos naturales y provocado afectaciones a los sectores más desprotegidos de la sociedad, por lo que es indispensable, hoy más que nunca, pensar, diseñar, implementar y operar la tecnología colocando como eje central al individuo y al medio ambiente en que se desarrolla.",
 						]}
+					/>
+					<ArtSubtitle text="Situación de los trabajadores, medio ambiente y acciones para un pacto" />
+					<ArtParagraphs
+						paragraphs={[
+							"La lógica del capital por garantizar sus ganancias a costa de la vida misma del planeta construye procesos de trabajo en donde hombres y mujeres viven en una precariedad salarial, de salud y laboral, e incluso violencia, parecida a los inicios de la Revolución Industrial. El mayor impacto de estas políticas se ubica en las mujeres trabajadoras de todo el mundo, migrantes o minorías étnicas expuestas a diferentes sustancias químicas en sus diferentes áreas de trabajo, lo que profundiza las desigualdades existentes.",
+						]}
+					/>
+					<img
+						src={articulo1}
+						className="m-auto my-12 max-w-full"
+						alt="Pacto Verde"
 					/>
 				</div>
 				<div className="relative sm:translate-x-24 lg:translate-x-48 py-8 mb-16 sm:mb-24">
@@ -67,17 +76,6 @@ const Articles = () => {
 					</p>
 				</div>
 				<div className="">
-					<ArtSubtitle text="Situación de los trabajadores, medio ambiente y acciones para un pacto" />
-					<ArtParagraphs
-						paragraphs={[
-							"La lógica del capital por garantizar sus ganancias a costa de la vida misma del planeta construye procesos de trabajo en donde hombres y mujeres viven en una precariedad salarial, de salud y laboral, e incluso violencia, parecida a los inicios de la Revolución Industrial. El mayor impacto de estas políticas se ubica en las mujeres trabajadoras de todo el mundo, migrantes o minorías étnicas expuestas a diferentes sustancias químicas en sus diferentes áreas de trabajo, lo que profundiza las desigualdades existentes.",
-						]}
-					/>
-					<img
-						src={articulo1}
-						className="m-auto my-12 max-w-full"
-						alt="Pacto Verde"
-					/>
 					<ArtParagraphs
 						paragraphs={[
 							"Este panorama ha llevado a las organizaciones sindicales independientes en México a realizar un análisis pormenorizado de los diferentes sectores productivos, así como de las correspondientes acciones que permitan coadyuvar a la mejora de la salud ambiental, del entorno social y, por supuesto, del planeta. El análisis es el siguiente:",

@@ -11,19 +11,16 @@ import articulo1 from "../../images/articulos/articulo15-1.jpg";
 import articulo2 from "../../images/articulos/articulo15-2.jpg";
 
 const Articles = () => {
-	const otherArts = [
-		"El papel de los pueblos originarios hacia un pacto verde para México",
-		"El Big Push mexicano: Plan verde para un desarrollo sostenible",
-		"Pactar verde y caminar hacia 2030",
-		"Economía social y solidaria para la regeneración ecológica en México",
-		"Pilares para un pacto verde para México",
-	];
-
 	return (
-		<Layout title="Artículos">
+		<Layout
+			title='Transición energética a nivel local para "Un pacto verde para México"'
+			description='Transición energética a nivel local para "Un pacto verde para México"'
+			url="/articulos/transicion_energetica"
+			image={articulo1}
+		>
 			<HeaderArticle
 				bgcolor="bg-green5"
-				title="Transición energética a nivel local para un Pacto Verde para México"
+				title='Transición energética a nivel local para "Un pacto verde para México"'
 				titleColor="text-white"
 				variant="lines"
 				subImage={autor}
@@ -38,9 +35,9 @@ const Articles = () => {
 				gestión ambiental, política climática y energética.
 			</HeaderArticle>
 			<ArticleLayout
-				arts={otherArts}
-				header="Transición energética a nivel local para un Pacto Verde"
+				header="Transición energética a nivel local para un pacto verde"
 				siguiente="/articulos/politica_agricola"
+				url="/transicion_energetica"
 			>
 				<div className="relative pb-16 sm:pb-24">
 					<div
@@ -50,7 +47,7 @@ const Articles = () => {
 					<ArtParagraphs
 						paragraphs={[
 							"La transición energética busca la transformación del sector energético mundial de fósiles a cero carbono en la segunda mitad de este siglo,  lo que implica la necesidad de aumentar el uso de energías por fuentes renovables y la eficiencia energética a un ritmo acelerado. La transición energética permitirá contar con soluciones más sostenibles y competitivas para la generación y el suministro de energía y para su aprovechamiento sostenible permitiendo reducir las emisiones de gases contaminantes y la descarbonización del sector energético (urgente a nivel mundial).",
-							"Se reconoce que la eficiencia energética y las energías renovables forman parte de las prioridades de la agenda global, debido a su alto impacto en la mitigación de emisiones de contaminantes y de gases de efecto invernadero causantes del cambio climático. En el último informe del IPCC (Panel Intergubernamental de expertos sobre cambio climático) se señala: “a menos que las emisiones de gases de efecto invernadero se reduzcan de manera inmediata, rápida y a gran escala, limitar el calentamiento a cerca de 1.5 ºC o incluso a 2 ºC será un objetivo inalcanzable”.",
+							'Se reconoce que la eficiencia energética y las energías renovables forman parte de las prioridades de la agenda global, debido a su alto impacto en la mitigación de emisiones de contaminantes y de gases de efecto invernadero causantes del cambio climático. En el último informe del IPCC (Panel Intergubernamental de expertos sobre cambio climático) se señala: "a menos que las emisiones de gases de efecto invernadero se reduzcan de manera inmediata, rápida y a gran escala, limitar el calentamiento a cerca de 1.5 ºC o incluso a 2 ºC será un objetivo inalcanzable".',
 							"México, que firmó el Acuerdo de París, requiere de manera indispensable y urgente la adopción de mejores decisiones y esfuerzos más ambiciosos  para lograr reducir las emisiones de gases y compuestos de efecto invernadero. La transición energética es un camino para abonar a esto, ya que a nivel país el sector de energía representa el 64%  del total de emisiones de gases y compuestos de efecto invernadero. Asimismo, la Agencia Internacional de Energía indica que, para 2050, la población de México aumentará a casi 150 millones de personas, lo cual, ligado al aumento de la productividad y el crecimiento económico, implicará un aumento de la demanda de energía.",
 						]}
 					/>
@@ -68,7 +65,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Desde una visión de “abajo hacia arriba”, se han ido impulsando
+							Desde una visión de "abajo hacia arriba", se han ido impulsando
 							procesos participativos en la toma de decisiones de política
 							energética y climática,{" "}
 						</span>
@@ -81,7 +78,7 @@ const Articles = () => {
 					<ArtParagraphs
 						paragraphs={[
 							"El estado de Tamaulipas, por ejemplo, publicó el pasado septiembre su Ley para el Fomento y Aprovechamiento Sustentable de la Energía, la cual señala los mecanismos e instrumentos para que el estado y los municipios apoyen la innovación tecnológica y técnica para la aplicación de las energías limpias y renovables, así como criterios de eficiencia energética  de manera compatible con el entorno social y ambiental para el impulso del desarrollo energético sostenible en los sectores industrial, agropecuario, residencial, comercial, público y transporte. Además, señala la importancia de la participación de comunidades locales en proyectos de energía sostenible y eficiencia energética. Así, varios estados y municipios han fortalecido sus instrumentos de política impulsando proyectos, mejorando sus reglamentos, llevando a cabo acciones para el aprovechamiento sostenible de la energía, impulsando el uso de tecnologías más eficientes e integrando a la sociedad en las actividades de aprovechamiento sostenible de la energía.",
-							"Desde una visión de “abajo hacia arriba”, se han ido impulsando procesos participativos en la toma de decisiones de política energética y climática, y en el diseño e implementación de proyectos sostenibles que abonan a la mitigación del cambio climático y crean oportunidades de desarrollo.",
+							'Desde una visión de "abajo hacia arriba", se han ido impulsando procesos participativos en la toma de decisiones de política energética y climática, y en el diseño e implementación de proyectos sostenibles que abonan a la mitigación del cambio climático y crean oportunidades de desarrollo.',
 							"Otro gran ejemplo de acciones locales participativas sobre energía son los modelos cooperativos de energía sustentable. Estos son modelos de gran valor que permiten el liderazgo de los ciudadanos organizados hacia un mismo objetivo: el aprovechamiento de la energía por fuentes renovables para la satisfacción de las necesidades energéticas, económicas y sociales que tienen en común. Los modelos cooperativos de energía sustentable permiten el beneficio colectivo creando empresas locales que con sus recursos propios puedan generar a través de proyectos descentralizados de pequeña escala su energía eléctrica, consumirla y hacer un uso eficiente de ella.",
 							"En Alemania, las cooperativas de energía han tenido un despliegue importante, y las 883 empresas cooperativas de energía renovable que existen, con más de 200 mil personas asociadas, generan hasta un 3.5% de la energía renovable del país (DGRV, 2020). En los Estados Unidos, por su parte, las cooperativas de energía renovables acumulan una capacidad de 10 GW, de los cuales 1 GW corresponde a energía solar (NRCA, 2020).",
 							"Los modelos adecuados aún están en etapas tempranas en México, y podrían incluir cooperativas solares para venta de energía y para autoconsumo en las propias actividades productivas generándoles ahorros. El capital social de los pueblos y comunidades de México sienta las bases para la gobernanza y el control de proyectos de energía sostenible para una transición energética inclusiva y el impulso de la economía social.",

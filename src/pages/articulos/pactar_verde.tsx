@@ -27,8 +27,8 @@ const Articles = () => {
 			>
 				Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda
 				2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria
-				en asuntos de pobreza, desigualdades y economía desde el gobierno
-				federal, la sociedad civil y Naciones Unidas, en México y América
+				en asuntos de pobreza, desigualdades y economía desde el gobierno
+				federal, la sociedad civil y Naciones Unidas, en México y América
 				Latina.
 			</HeaderArticle>
 			<ArticleLayout

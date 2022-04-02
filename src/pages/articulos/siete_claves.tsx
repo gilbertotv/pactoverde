@@ -28,8 +28,8 @@ const Articles = () => {
 				subColor="text-white"
 				subAuthor="Por: Adriana Lobo de Almeida"
 			>
-				Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI
-				México), experta en temas de desarrollo de políticas públicas para la
+				Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI
+				México), experta en temas de desarrollo de políticas públicas para la
 				sustentabilidad y movilidad urbana a nivel local, nacional y regional.
 			</HeaderArticle>
 			<ArticleLayout
@@ -65,15 +65,15 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute top-0 left-0"></div>
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
-						Este panorama obliga a ciudadanos, políticos, académicos,
+						Este panorama obliga a ciudadanos, políticos, académicos,
 						financieros, ONG y dirigentes empresariales a{" "}
 						<span className="text-green1 font-medium">
-							embarcarnos colectivamente en un viaje de transformación que nos
+							embarcarnos colectivamente en un viaje de transformación que nos
 							lleve a un nuevo contrato social basado en el compromiso de
-							aumentar el apoyo a los más vulnerables,{" "}
+							aumentar el apoyo a los más vulnerables,{" "}
 						</span>
-						a la protección de los sistemas naturales de los que todos
-						dependemos y a una acción colectiva más eficaz para hacer frente a
+						a la protección de los sistemas naturales de los que todos
+						dependemos y a una acción colectiva más eficaz para hacer frente a
 						las amenazas comunes.
 					</p>
 				</div>

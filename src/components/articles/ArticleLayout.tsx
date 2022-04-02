@@ -37,7 +37,11 @@ const ArticleLayout = ({
 	const { thumbsArticles } = useContext(AppContext);
 
 	const arts = useMemo(
-		() => thumbsArticles.sort(() => 0.5 - Math.random()).slice(0, 5),
+		() =>
+			thumbsArticles
+				.slice()
+				.sort(() => 0.5 - Math.random())
+				.slice(0, 5),
 		[thumbsArticles]
 	);
 
@@ -46,8 +50,8 @@ const ArticleLayout = ({
 			{percentage > 0.1 && (
 				<ArticleHeader
 					title={header}
-					percentage={percentage * 1.11 * 100}
-					url={url}
+					percentage={percentage * 1.16 * 100}
+					url={siguiente ? url : `articulos${url}`}
 				/>
 			)}
 			<div ref={ref} className="container">
@@ -97,9 +101,11 @@ const ArticleLayout = ({
 							<div className="h-36"></div>
 						)}
 					</div>
-					{arts.length > 0 && (
-						<div className="w-full sm:w-1/4 md:w-1/5 hidden sm:block text-base md:text-xl sm:ml-8">
-							<p className="mb-4">Conoce otros de los artículos</p>
+					{siguiente && arts.length > 0 && (
+						<div className="w-full sm:w-1/4 md:w-1/5 hidden sm:block text-base md:text-xl md:ml-8">
+							<p className="mb-4 font-medium text-2xl">
+								Explora más articulos:
+							</p>
 							<ol className="list-decimal list-outside marker:text-green5 marker:font-bold">
 								{arts.map((art, i) => (
 									<LiArticle

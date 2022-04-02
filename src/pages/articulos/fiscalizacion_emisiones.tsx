@@ -33,20 +33,20 @@ const Articles = () => {
 			>
 				<p className="font-medium">Adrián García</p>
 				<p className="mb-4">
-					Maestro en Economía del Medio Ambiente y los Recursos Naturales por la
-					Universidad Nacional de Australia y licenciado en Economía por el
-					ITESM. Se incorporó al Centro de Investigación Económica y
-					Presupuestaria (CIEP) en 2016 y actualmente es coordinador del área de
-					Ingresos e Impuestos. Le interesa la economía ambiental y el sistema
+					Maestro en Economía del Medio Ambiente y los Recursos Naturales por la
+					Universidad Nacional de Australia y licenciado en Economía por el
+					ITESM. Se incorporó al Centro de Investigación Económica y
+					Presupuestaria (CIEP) en 2016 y actualmente es coordinador del área de
+					Ingresos e Impuestos. Le interesa la economía ambiental y el sistema
 					fiscal como instrumento para conseguir igualdad de oportunidades.
 				</p>
 				<p className="font-medium">Tonatiuh Vázquez</p>
 				<p className="mb-4">
-					Egresado de la Facultad de Economía de la UNAM, realizó una maestría
-					en Economía Ambiental en el CIDE. Actualmente funge como coordinador
-					de Energía y Finanzas Públicas en el CIEP. Se interesa por la
-					promoción de la transición energética y la mitigación de los efectos
-					del cambio climático.
+					Egresado de la Facultad de Economía de la UNAM, realizó una maestría
+					en Economía Ambiental en el CIDE. Actualmente funge como coordinador
+					de Energía y Finanzas Públicas en el CIEP. Se interesa por la
+					promoción de la transición energética y la mitigación de los efectos
+					del cambio climático.
 				</p>
 			</HeaderArticle>
 			<ArticleLayout
@@ -75,7 +75,7 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Ante la falta de recursos para atender la emergencia climática, un
+							Ante la falta de recursos para atender la emergencia climática, un
 							impuesto a las emisiones de GEI debe de analizarse como
 							alternativa.
 						</span>

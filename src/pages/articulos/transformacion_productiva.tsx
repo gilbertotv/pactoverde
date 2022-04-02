@@ -30,8 +30,8 @@ const Articles = () => {
 				subAuthor="Por: Clemente Ruiz Durán"
 			>
 				Investigador de la UNAM, miembro del Sistema Nacional de Investigadores
-				nivel III. Investiga sobre desarrollo industrial en América Latina, el
-				futuro de la industria automotriz y los efectos del cambio climático. Es
+				nivel III. Investiga sobre desarrollo industrial en América Latina, el
+				futuro de la industria automotriz y los efectos del cambio climático. Es
 				columnista de El Financiero.
 			</HeaderArticle>
 			<ArticleLayout
@@ -71,10 +71,10 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Se requiere de un gran esfuerzo público-privado para modificar la
-							estructura de generación eléctrica,{" "}
+							Se requiere de un gran esfuerzo público-privado para modificar la
+							estructura de generación eléctrica,{" "}
 						</span>
-						así como de un gran pacto público-privado que impulse este proceso.
+						así como de un gran pacto público-privado que impulse este proceso.
 					</p>
 				</div>
 				<div className="">

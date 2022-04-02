@@ -28,10 +28,10 @@ const Articles = () => {
 				subColor="text-white"
 				subAuthor="Por: Blanca Heredia Rubio"
 			>
-				Doctora en Ciencia Política porla Universidad de Columbia, es académica
-				del CIDE, directora fundadora de la unidad de investigación sobre
-				educación y política educativa. Trabaja y escribe ampliamente sobre
-				política mexicana, política educativa y talento intelectual joven.
+				Doctora en Ciencia Política porla Universidad de Columbia, es académica
+				del CIDE, directora fundadora de la unidad de investigación sobre
+				educación y política educativa. Trabaja y escribe ampliamente sobre
+				política mexicana, política educativa y talento intelectual joven.
 			</HeaderArticle>
 			<ArticleLayout
 				header='Hacia "Un pacto verde para México"'
@@ -61,10 +61,10 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute top-0 left-0"></div>
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
-						Para avanzar en los hechos, también resultará muy importante
-						concentrar la atención en dos ámbitos claves:{" "}
+						Para avanzar en los hechos, también resultará muy importante
+						concentrar la atención en dos ámbitos claves:{" "}
 						<span className="text-red1 font-medium">
-							la formación docente y la incorporación de asignaturas y/o
+							la formación docente y la incorporación de asignaturas y/o
 							contenidos curriculares centrados en el medio ambiente en los
 							planes y programas oficiales de todos los niveles educativos.
 						</span>

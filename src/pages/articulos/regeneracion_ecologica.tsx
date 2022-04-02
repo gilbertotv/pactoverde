@@ -28,9 +28,9 @@ const Articles = () => {
 				subAuthor="Por: Alberto Irezabal Vilaclara"
 			>
 				Ingeniero industrial por la Universidad Iberoamericana y doctor en
-				Gestión Avanzada de Organizaciones y Economía Social por la Universidad
-				Mondragón, en España. Es director del Centro Internacional de
-				Investigación de la Economía Social y Solidaria. Tiene una extensa
+				Gestión Avanzada de Organizaciones y Economía Social por la Universidad
+				Mondragón, en España. Es director del Centro Internacional de
+				Investigación de la Economía Social y Solidaria. Tiene una extensa
 				experiencia de trabajo con comunidades tseltales de Chiapas en finanzas
 				solidarias.
 			</HeaderArticle>
@@ -78,11 +78,11 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Es viable un estilo de producción agroecológica y regenerativa{" "}
+							Es viable un estilo de producción agroecológica y regenerativa{" "}
 						</span>
-						que contribuya tanto a la soberanía alimentaria de las familias
-						campesinas como a la del país, a través de los diversos productos
-						orgánicos que entregan al mercado.
+						que contribuya tanto a la soberanía alimentaria de las familias
+						campesinas como a la del país, a través de los diversos productos
+						orgánicos que entregan al mercado.
 					</p>
 				</div>
 				<div className="border-b border-gray2">

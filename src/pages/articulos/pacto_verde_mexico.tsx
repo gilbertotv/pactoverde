@@ -27,12 +27,12 @@ const Articles = () => {
 				subAuthor="Por: Alfonso Ramírez Cuéllar"
 			>
 				Diputado federal por la LXIV Legislatura y coordinador del grupo de
-				trabajo por la transición hacendaria. Antropólogo, historiador y
-				abogado, es fundador de El Barzón y un líder prominente de la izquierda
+				trabajo por la transición hacendaria. Antropólogo, historiador y
+				abogado, es fundador de El Barzón y un líder prominente de la izquierda
 				mexicana, en donde se destaca su lucha en defensa del consumidor y en
 				contra de los monopolios. En la actual legislatura, su trabajo se ha
-				enfocado en la definición de políticas públicas para una gestión
-				sostenible del agua en el país.
+				enfocado en la definición de políticas públicas para una gestión
+				sostenible del agua en el país.
 			</HeaderArticle>
 			<ArticleLayout
 				header="Un pacto verde para México"
@@ -56,15 +56,15 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-green1 font-medium">
-							La Conagua ha estimado que se requieren, como mínimo, 90,285
-							millones de pesos durante los próximos cuatro años para cumplir
+							La Conagua ha estimado que se requieren, como mínimo, 90,285
+							millones de pesos durante los próximos cuatro años para cumplir
 							con la Agenda del Agua 2030.{" "}
 						</span>
 						En contraste, el presupuesto para Conagua ha disminuido
-						drásticamente: pasó de 32,300 mdp en 2018 a 24,674 mdp en 2021, lo
-						que significó 31% de disminución real. Es importante reconocer que
+						drásticamente: pasó de 32,300 mdp en 2018 a 24,674 mdp en 2021, lo
+						que significó 31% de disminución real. Es importante reconocer que
 						para 2022 se tienen proyectos 33,916.3 mdp, lo que implica un
-						incremento de 31.22% más en términos reales.
+						incremento de 31.22% más en términos reales.
 					</p>
 				</div>
 				<div className="">

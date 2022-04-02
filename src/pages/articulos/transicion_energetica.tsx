@@ -27,12 +27,12 @@ const Articles = () => {
 				subColor="text-white"
 				subAuthor="Por: Adriana Aragón Tapi"
 			>
-				Maestra en Economía Ambiental en Reino Unido, y Especialista en Política
-				y Gestión Energética y Medioambiental por Flacso, actualmente es
-				directora del programa de Apoyo a la Implementación de la Transición
-				Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo
+				Maestra en Economía Ambiental en Reino Unido, y Especialista en Política
+				y Gestión Energética y Medioambiental por Flacso, actualmente es
+				directora del programa de Apoyo a la Implementación de la Transición
+				Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo
 				sustentable en Mexico (GIZ). Es experta en temas de normatividad y
-				gestión ambiental, política climática y energética.
+				gestión ambiental, política climática y energética.
 			</HeaderArticle>
 			<ArticleLayout
 				header="Transición energética a nivel local para un pacto verde"
@@ -65,12 +65,12 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Desde una visión de "abajo hacia arriba", se han ido impulsando
-							procesos participativos en la toma de decisiones de política
-							energética y climática,{" "}
+							Desde una visión de "abajo hacia arriba", se han ido impulsando
+							procesos participativos en la toma de decisiones de política
+							energética y climática,{" "}
 						</span>
-						y en el diseño e implementación de proyectos sostenibles que abonan
-						a la mitigación del cambio climático y crean oportunidades de
+						y en el diseño e implementación de proyectos sostenibles que abonan
+						a la mitigación del cambio climático y crean oportunidades de
 						desarrollo.
 					</p>
 				</div>

@@ -28,10 +28,10 @@ const Articles = () => {
 				subColor="text-white"
 				subAuthor="Por: Patricia Mercado Castro"
 			>
-				Senadora de la LXV Legislatura, preside la Comisión de Zonas
+				Senadora de la LXV Legislatura, preside la Comisión de Zonas
 				Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido
-				candidata a la presidencia de México y secretaria de Gobierno de la
-				Ciudad de México (2015-2018).
+				candidata a la presidencia de México y secretaria de Gobierno de la
+				Ciudad de México (2015-2018).
 			</HeaderArticle>
 			<ArticleLayout
 				header="El derecho humano a la movilidad"

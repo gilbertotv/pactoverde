@@ -7,7 +7,7 @@ require("ts-node").register({
 
 module.exports = {
 	siteMetadata: {
-		siteUrl: `https://www.yourdomain.tld`,
+		siteUrl: `https://www.pactoverde.mx`,
 	},
 	plugins: [
 		"gatsby-plugin-sass",

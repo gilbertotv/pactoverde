@@ -108,161 +108,161 @@ const Autorxs = ({ showed }) => {
 			name: "Beatriz Paredes Rangel",
 			image: Autor1,
 			description:
-				"Actual senadora de la LXV Legislatura, con una extensa trayectoria en el servicio público como legisladora, gobernadora de Tlaxcala (1987-1992), dirigente de la Confederación Nacional Campesina y presidenta del PRI (2007-2011), así como embajadora de México en Brasil (2012-2016) y en Cuba (1993-1994). Tiene especial interés en la generación de políticas públicas para un desarrollo sostenible para México.",
+				"Actual senadora de la LXV Legislatura, con una extensa trayectoria en el servicio público como legisladora, gobernadora de Tlaxcala (1987-1992), dirigente de la Confederación Nacional Campesina y presidenta del PRI (2007-2011), así como embajadora de México en Brasil (2012-2016) y en Cuba (1993-1994). Tiene especial interés en la generación de políticas públicas para un desarrollo sostenible para México.",
 			link: "/articulos/irreductibles_pacto_verde",
 		},
 		{
 			name: "Leticia Vázquez Esteban",
 			image: Autor2,
 			description:
-				"Mujer masewal cooperativista que actualmente coordina el Proyecto de Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió en la Universidad Intercultural del Estado de Puebla la licenciatura en Desarrollo Sustentable y trabaja en temas como defensa del territorio, juventudes y feminismo.",
+				"Mujer masewal cooperativista que actualmente coordina el Proyecto de Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió en la Universidad Intercultural del Estado de Puebla la licenciatura en Desarrollo Sustentable y trabaja en temas como defensa del territorio, juventudes y feminismo.",
 			link: "/articulos/pueblos_originarios",
 		},
 		{
 			name: "Jorge Mario Martínez Piva",
 			image: Autor3,
 			description:
-				"Jefe de la Unidad de Comercio Internacional e Industria de la Sede Subregional de la CEPAL en México. Es licenciado en Derecho por la Universidad de Costa Rica, máster en Economía por la Universidad Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma de Madrid. Su trabajo combina los temas comerciales, de integración regional y de política industrial. ",
+				"Jefe de la Unidad de Comercio Internacional e Industria de la Sede Subregional de la CEPAL en México. Es licenciado en Derecho por la Universidad de Costa Rica, máster en Economía por la Universidad Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma de Madrid. Su trabajo combina los temas comerciales, de integración regional y de política industrial. ",
 			link: "/articulos/big_push",
 		},
 		{
 			name: "Alfredo González",
 			image: Autor4,
 			description:
-				"Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda 2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria en asuntos de pobreza, desigualdades y economía desde el gobierno federal, la sociedad civil y Naciones Unidas, en México y América Latina.",
+				"Encargado del Secretariado Ejecutivo del Consejo Nacional de la Agenda 2030 para el Desarrollo Sostenible desde marzo de 2021, con trayectoria en asuntos de pobreza, desigualdades y economía desde el gobierno federal, la sociedad civil y Naciones Unidas, en México y América Latina.",
 			link: "/articulos/pactar_verde",
 		},
 		{
 			name: "Alberto  Irezabal Vilaclara",
 			image: Autor5,
 			description:
-				"Ingeniero industrial por la Universidad Iberoamericana y doctor en Gestión Avanzada de Organizaciones y Economía Social por la Universidad Mondragón, en España. Es director del Centro Internacional de Investigación de la Economía Social y Solidaria. Tiene una extensa experiencia de trabajo con comunidades tseltales de Chiapas en finanzas solidarias. ",
+				"Ingeniero industrial por la Universidad Iberoamericana y doctor en Gestión Avanzada de Organizaciones y Economía Social por la Universidad Mondragón, en España. Es director del Centro Internacional de Investigación de la Economía Social y Solidaria. Tiene una extensa experiencia de trabajo con comunidades tseltales de Chiapas en finanzas solidarias. ",
 			link: "/articulos/regeneracion_ecologica",
 		},
 		{
 			name: "Julia Carabias Lillo",
 			image: Autor6,
 			description:
-				"Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la conservación, manejo y restauración de ecosistemas tropicales y a las políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el Doctorado Honoris causa de la UNAM.",
+				"Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la conservación, manejo y restauración de ecosistemas tropicales y a las políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el Doctorado Honoris causa de la UNAM.",
 			link: "/articulos/pilares_pacto_verde",
 		},
 		{
 			name: "Blanca Heredia Rubio",
 			image: Autor7,
 			description:
-				"Doctora en Ciencia Política porla Universidad de Columbia, es académica del CIDE, directora fundadora de la unidad de investigación sobre educación y política educativa. Trabaja y escribe ampliamente sobre política mexicana, política educativa y talento intelectual joven. ",
+				"Doctora en Ciencia Política porla Universidad de Columbia, es académica del CIDE, directora fundadora de la unidad de investigación sobre educación y política educativa. Trabaja y escribe ampliamente sobre política mexicana, política educativa y talento intelectual joven. ",
 			link: "/articulos/hacia_pacto_verde",
 		},
 		{
 			name: "Alfonso Ramírez Cuéllar",
 			image: Autor8,
 			description:
-				"Diputado federal por la LXIV Legislatura y coordinador del grupo de trabajo por la transición hacendaria. Antropólogo, historiador y abogado, es fundador de El Barzón y un líder prominente de la izquierda mexicana, en donde se destaca su lucha en defensa del consumidor y en contra de los monopolios. En la actual legislatura, su trabajo se ha enfocado en la definición de políticas públicas para una gestión sostenible del agua en el país. ",
+				"Diputado federal por la LXIV Legislatura y coordinador del grupo de trabajo por la transición hacendaria. Antropólogo, historiador y abogado, es fundador de El Barzón y un líder prominente de la izquierda mexicana, en donde se destaca su lucha en defensa del consumidor y en contra de los monopolios. En la actual legislatura, su trabajo se ha enfocado en la definición de políticas públicas para una gestión sostenible del agua en el país. ",
 			link: "/articulos/pacto_verde_mexico",
 		},
 		{
 			name: "Patricia Mercado Castro",
 			image: Autor9,
 			description:
-				"Senadora de la LXV Legislatura, preside la Comisión de Zonas Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido candidata a la presidencia de México y secretaria de Gobierno de la Ciudad de México (2015-2018).",
+				"Senadora de la LXV Legislatura, preside la Comisión de Zonas Metropolitanas y Movilidad. Economista por la UNAM y feminista. Ha sido candidata a la presidencia de México y secretaria de Gobierno de la Ciudad de México (2015-2018).",
 			link: "/articulos/derecho_movilidad",
 		},
 		{
 			name: "Claudia Jañez Sánchez",
 			image: Autor10,
 			description:
-				"Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas Globales en México (2019 a 2021), presidenta para América Latina y directora global de Diversidad e Inclusión de DuPont hasta febrero de 2021. Ha sido reconocida por diversas revistas (Expansión, Fortune, Forbes y Líderes en México) como una de las líderes más importantes e influyentes en los negocios.",
+				"Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas Globales en México (2019 a 2021), presidenta para América Latina y directora global de Diversidad e Inclusión de DuPont hasta febrero de 2021. Ha sido reconocida por diversas revistas (Expansión, Fortune, Forbes y Líderes en México) como una de las líderes más importantes e influyentes en los negocios.",
 			link: "/articulos/papel_sector_empresarial",
 		},
 		{
 			name: "Luis Fernando Godoy Rueda",
 			image: Autor11,
 			description:
-				"Es director general en la Unidad de Inteligencia Económica Global en la Secretaría de Economía. Es maestro en Administración Pública por la Universidad de Columbia, tiene más de 10 años de experiencia en el sector público, privado y en organismos internacionales como OPI Analytics, la CEPAL y Data-Pop Alliance, entre otros. ",
+				"Es director general en la Unidad de Inteligencia Económica Global en la Secretaría de Economía. Es maestro en Administración Pública por la Universidad de Columbia, tiene más de 10 años de experiencia en el sector público, privado y en organismos internacionales como OPI Analytics, la CEPAL y Data-Pop Alliance, entre otros. ",
 			link: "/articulos/diversificacion_sostenible",
 		},
 		{
-			name: "Adriana Lobo",
+			name: "Adriana Lobo de Almeida",
 			image: Autor12,
 			description:
-				"Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI México), experta en temas de desarrollo de políticas públicas para la sustentabilidad y movilidad urbana a nivel local, nacional y regional.",
+				"Es directora ejecutiva del Instituto de Recursos Mundiales México (WRI México), experta en temas de desarrollo de políticas públicas para la sustentabilidad y movilidad urbana a nivel local, nacional y regional.",
 			link: "/articulos/siete_claves",
 		},
 		{
 			name: "Jorge Máttar",
 			image: Autor13,
 			description:
-				"Licenciado y maestro en Economía por la Universidad de Cambridge. Es investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor en planificación, desarrollo y política industrial de la Comisión Económica para América Latina y el Caribe (CEPAL) y otras organizaciones.",
+				"Licenciado y maestro en Economía por la Universidad de Cambridge. Es investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor en planificación, desarrollo y política industrial de la Comisión Económica para América Latina y el Caribe (CEPAL) y otras organizaciones.",
 			link: "/articulos/inversiones_sostenibles",
 		},
 		{
 			name: "Carlo Altamirano Allende",
 			image: Autor14,
 			description:
-				"Licenciado y maestro en Física por la UNAM y doctor en Dimensiones Sociales y Humanas de la Ciencia y la Tecnología por la Universidad Estatal de Arizona, investiga y es consultor en el área de política científica, tecnológica y de innovación. Ha colaborado con el Conacyt, la Academia Nacional de Ciencias de Estados Unidos y la Asociación Americana para el Avance de la Ciencia (AAAS). ",
+				"Licenciado y maestro en Física por la UNAM y doctor en Dimensiones Sociales y Humanas de la Ciencia y la Tecnología por la Universidad Estatal de Arizona, investiga y es consultor en el área de política científica, tecnológica y de innovación. Ha colaborado con el Conacyt, la Academia Nacional de Ciencias de Estados Unidos y la Asociación Americana para el Avance de la Ciencia (AAAS). ",
 			link: "/articulos/ciencia_tecnologia_innovacion",
 		},
 		{
 			name: "Adriana Aragón Tapia",
 			image: Autor15,
 			description:
-				"Maestra en Economía Ambiental en Reino Unido, y Especialista en Política y Gestión Energética y Medioambiental por Flacso, actualmente es directora del programa de Apoyo a la Implementación de la Transición Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo sustentable en Mexico (GIZ). Es experta en temas de normatividad y gestión ambiental, política climática y energética. ",
+				"Maestra en Economía Ambiental en Reino Unido, y Especialista en Política y Gestión Energética y Medioambiental por Flacso, actualmente es directora del programa de Apoyo a la Implementación de la Transición Energética en Mexico en la Agencia Alemana de Cooperación al desarrollo sustentable en Mexico (GIZ). Es experta en temas de normatividad y gestión ambiental, política climática y energética. ",
 			link: "/articulos/transicion_energetica",
 		},
 		{
 			name: "Marcela Aedo",
 			image: Autor16,
 			description:
-				"Con más de 25 años de experiencia, es colaboradora de instituciones públicas, así como en agencias de cooperación internacional, tanto en Chile como en México, tales como INDAP, FAO, IICA y CEPAL. Participa en todas las etapas del ciclo de políticas públicas. ",
+				"Con más de 25 años de experiencia, es colaboradora de instituciones públicas, así como en agencias de cooperación internacional, tanto en Chile como en México, tales como INDAP, FAO, IICA y CEPAL. Participa en todas las etapas del ciclo de políticas públicas. ",
 			link: "/articulos/politica_agricola",
 		},
 		{
 			name: "Mariana Blanco Puente",
 			image: Autor17,
 			description:
-				"Socióloga por la UNAM y maestra en Estudios Socioambientales por la Flacso Ecuador. Ha trabajado en temas de extractivismo, movimientos socioambientales y agroecología en América Latina. Actualmente es coordinadora en el Proyecto de Transformación Social-Ecológica en América Latina de la Fundación Friedrich-Ebert. ",
+				"Socióloga por la UNAM y maestra en Estudios Socioambientales por la Flacso Ecuador. Ha trabajado en temas de extractivismo, movimientos socioambientales y agroecología en América Latina. Actualmente es coordinadora en el Proyecto de Transformación Social-Ecológica en América Latina de la Fundación Friedrich-Ebert. ",
 			link: "/articulos/transformacion_social",
 		},
 		{
 			name: "Luis Escobar Ramos",
 			image: Autor18,
 			description:
-				"Licenciado en Derecho por la Universidad Veracruzana, es miembro activo del Sindicato de Telefonistas de la República Mexicana desde 1987. Coordinador de sindicatos de los ramos industrial, automotriz, de la salud, periodístico, ciencia y tecnología y textil, entre otros, desde 2008. ",
+				"Licenciado en Derecho por la Universidad Veracruzana, es miembro activo del Sindicato de Telefonistas de la República Mexicana desde 1987. Coordinador de sindicatos de los ramos industrial, automotriz, de la salud, periodístico, ciencia y tecnología y textil, entre otros, desde 2008. ",
 			link: "/articulos/trabajadores_industria",
 		},
 		{
 			name: "Claudia Schatan",
 			image: Autor19,
 			description:
-				"M. A. en Economía por la Universidad de Cambridge, consultora independiente; ex jefa de la Unidad de Industria y Comercio de la CEPAL-México, especialista en comercio y medio ambiente, innovación tecnológica y política industrial, entre otros temas. ",
+				"M. A. en Economía por la Universidad de Cambridge, consultora independiente; ex jefa de la Unidad de Industria y Comercio de la CEPAL-México, especialista en comercio y medio ambiente, innovación tecnológica y política industrial, entre otros temas. ",
 			link: "/articulos/perspectiva_norteamericana",
 		},
 		{
-			name: "Alfonso Iracheta",
+			name: "Alfonso Iracheta Cenecorta",
 			image: Autor20,
 			description:
-				"Doctor en Estudios Regionales, es coordinador del Programa de Estudios Urbanos y Ambientales de El Colegio Mexiquense y fundador de la Facultad de Planeación Urbana y Regional de la Universidad Autónoma del Estado de México. Es miembro del Sistema Nacional de Investigadores nivel II, consultor nacional e internacional y escribe sobre temas de planeación territorial y políticas públicas.",
+				"Doctor en Estudios Regionales, es coordinador del Programa de Estudios Urbanos y Ambientales de El Colegio Mexiquense y fundador de la Facultad de Planeación Urbana y Regional de la Universidad Autónoma del Estado de México. Es miembro del Sistema Nacional de Investigadores nivel II, consultor nacional e internacional y escribe sobre temas de planeación territorial y políticas públicas.",
 			link: "/articulos/ciudades_mexicanas",
 		},
 		{
 			name: "Claudia Maldonado Trujillo",
 			image: Autor21,
 			description:
-				"Profesora-investigadora de la UAM Xochimilco y consejera académica de Coneval. Se especializa en teoría y métodos para la evaluación de políticas, política social y política pública comparada. Actualmente ocupa la Cátedra de Estudios de México en la Universidad del Sur de California.",
+				"Profesora-investigadora de la UAM Xochimilco y consejera académica de Coneval. Se especializa en teoría y métodos para la evaluación de políticas, política social y política pública comparada. Actualmente ocupa la Cátedra de Estudios de México en la Universidad del Sur de California.",
 			link: "/articulos/perspectiva_cuidados",
 		},
 		{
 			name: "Adrián García y Tonatiuh Vázquez",
 			image: Autor22,
 			description:
-				"Adrián García Maestro en Economía del Medio Ambiente y los Recursos Naturales por la Universidad Nacional de Australia y licenciado en Economía por el ITESM. Se incorporó al Centro de Investigación Económica y Presupuestaria (CIEP) en 2016 y actualmente es coordinador del área de Ingresos e Impuestos. Le interesa la economía ambiental y el sistema fiscal como instrumento para conseguir igualdad de oportunidades. Tonatiuh Vázquez Egresado de la Facultad de Economía de la UNAM, realizó una maestría en Economía Ambiental en el CIDE. Actualmente funge como coordinador de Energía y Finanzas Públicas en el CIEP. Se interesa por la promoción de la transición energética y la mitigación de los efectos del cambio climático.",
+				"Adrián García Maestro en Economía del Medio Ambiente y los Recursos Naturales por la Universidad Nacional de Australia y licenciado en Economía por el ITESM. Se incorporó al Centro de Investigación Económica y Presupuestaria (CIEP) en 2016 y actualmente es coordinador del área de Ingresos e Impuestos. Le interesa la economía ambiental y el sistema fiscal como instrumento para conseguir igualdad de oportunidades. Tonatiuh Vázquez Egresado de la Facultad de Economía de la UNAM, realizó una maestría en Economía Ambiental en el CIDE. Actualmente funge como coordinador de Energía y Finanzas Públicas en el CIEP. Se interesa por la promoción de la transición energética y la mitigación de los efectos del cambio climático.",
 			link: "/articulos/fiscalizacion_emisiones",
 		},
 		{
 			name: "Clemente Ruiz Durán",
 			image: Autor23,
 			description:
-				"Investigador de la UNAM, miembro del Sistema Nacional de Investigadores nivel III. Investiga sobre desarrollo industrial en América Latina, el futuro de la industria automotriz y los efectos del cambio climático. Es columnista de El Financiero.",
+				"Investigador de la UNAM, miembro del Sistema Nacional de Investigadores nivel III. Investiga sobre desarrollo industrial en América Latina, el futuro de la industria automotriz y los efectos del cambio climático. Es columnista de El Financiero.",
 			link: "/articulos/transformacion_productiva",
 		},
 	];

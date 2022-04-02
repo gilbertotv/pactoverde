@@ -26,14 +26,14 @@ const Articles = () => {
 				variant="circle"
 				subImage={autor}
 				subColor="text-black"
-				subAuthor="Por: Alfonso Iracheta"
+				subAuthor="Por: Alfonso Iracheta Cenecorta"
 			>
 				Doctor en Estudios Regionales, es coordinador del Programa de Estudios
 				Urbanos y Ambientales de El Colegio Mexiquense y fundador de la Facultad
-				de Planeación Urbana y Regional de la Universidad Autónoma del Estado de
-				México. Es miembro del Sistema Nacional de Investigadores nivel II,
-				consultor nacional e internacional y escribe sobre temas de planeación
-				territorial y políticas públicas.
+				de Planeación Urbana y Regional de la Universidad Autónoma del Estado de
+				México. Es miembro del Sistema Nacional de Investigadores nivel II,
+				consultor nacional e internacional y escribe sobre temas de planeación
+				territorial y políticas públicas.
 			</HeaderArticle>
 			<ArticleLayout
 				header="Hacia una transformación social-ecológica"
@@ -67,14 +67,14 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Una visión progresista del desarrollo latinoamericano enfocada a
+							Una visión progresista del desarrollo latinoamericano enfocada a
 							las ciudades necesita reconocer las limitaciones objetivas que
 							enfrentan en la actualidad los movimientos orientados a la
-							construcción de una "nueva sociedad",{" "}
+							construcción de una "nueva sociedad",{" "}
 						</span>
 						cuando los caminos en este sentido han sido truncados por las
-						presiones y agresiones externas, pero también por los radicalismos y
-						errores internos en los países.
+						presiones y agresiones externas, pero también por los radicalismos y
+						errores internos en los países.
 					</p>
 				</div>
 				<div className="">

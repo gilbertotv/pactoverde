@@ -26,7 +26,7 @@ const Articles = () => {
 				subAuthor="Por: Leticia Vásquez Esteban"
 			>
 				Mujer masewal cooperativista que actualmente coordina el Proyecto de
-				Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió
+				Revitalización Lingüística de la Unión de Cooperativas Tosepan. Estudió
 				en la Universidad Intercultural del Estado de Puebla la licenciatura en
 				Desarrollo Sustentable y trabaja en temas como defensa del territorio,
 				juventudes y feminismo.
@@ -262,7 +262,7 @@ const Articles = () => {
 					</p>
 					<p className="mb-4 font-medium">
 						Dicen los abuelos que la Tierra está viva, por eso nosotros somos
-						lxs guardianes del territorio. •
+						lxs guardianes del territorio.
 					</p>
 				</div>
 			</ArticleLayout>

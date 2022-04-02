@@ -26,11 +26,11 @@ const Articles = () => {
 				subColor="text-black"
 				subAuthor="Por: Julia Carabias Lillo"
 			>
-				Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la
-				conservación, manejo y restauración de ecosistemas tropicales y a las
-				políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos
-				Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario
-				Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el
+				Ecóloga de la Facultad de Ciencias de la UNAM, dedicada a la
+				conservación, manejo y restauración de ecosistemas tropicales y a las
+				políticas ambientales. Fue Secretaria de Medio Ambiente, Recursos
+				Naturales y Pesca de 1994 a 2000. En 2017 recibió la Medalla Belisario
+				Domínguez, en 2018 ingresó a El Colegio Nacional y en 2019 recibió el
 				Doctorado Honoris causa de la UNAM.
 			</HeaderArticle>
 			<ArticleLayout
@@ -98,13 +98,13 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-green1 font-medium">
-							Necesitamos revisar cómo, dónde y qué producimos, quién lo hace y
-							qué consumimos para revertir el deterioro del patrimonio natural y
-							cultural del país.{" "}
+							Necesitamos revisar cómo, dónde y qué producimos, quién lo hace y
+							qué consumimos para revertir el deterioro del patrimonio natural y
+							cultural del país.{" "}
 						</span>
 						Un sistema alimentario sustentable, con soluciones basadas en la
 						naturaleza, debe reconocer las diferencias del territorio nacional
-						tanto económicas, sociales y ambientales, como culturales.
+						tanto económicas, sociales y ambientales, como culturales.
 					</p>
 				</div>
 				<div className="">

@@ -28,10 +28,10 @@ const Articles = () => {
 				subColor="text-black"
 				subAuthor="Por: Luis Fernando Godoy Rueda"
 			>
-				Es director general en la Unidad de Inteligencia Económica Global en la
-				Secretaría de Economía. Es maestro en Administración Pública por la
-				Universidad de Columbia, tiene más de 10 años de experiencia en el
-				sector público, privado y en organismos internacionales como OPI
+				Es director general en la Unidad de Inteligencia Económica Global en la
+				Secretaría de Economía. Es maestro en Administración Pública por la
+				Universidad de Columbia, tiene más de 10 años de experiencia en el
+				sector público, privado y en organismos internacionales como OPI
 				Analytics, la CEPAL y Data-Pop Alliance, entre otros.
 			</HeaderArticle>
 			<ArticleLayout
@@ -61,9 +61,9 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-red1 font-medium">
-							Es fundamental que se generen mecanismos de diálogo y cooperación
-							internacional para que las políticas industriales sostenibles del
-							sur global sean incorporadas en la visión del norte.
+							Es fundamental que se generen mecanismos de diálogo y cooperación
+							internacional para que las políticas industriales sostenibles del
+							sur global sean incorporadas en la visión del norte.
 						</span>
 					</p>
 				</div>

@@ -29,10 +29,10 @@ const Articles = () => {
 				subColor="text-black"
 				subAuthor="Por: Marcela Aedo"
 			>
-				Con más de 25 años de experiencia, es colaboradora de instituciones
-				públicas, así como en agencias de cooperación internacional, tanto en
-				Chile como en México, tales como INDAP, FAO, IICA y CEPAL. Participa en
-				todas las etapas del ciclo de políticas públicas.
+				Con más de 25 años de experiencia, es colaboradora de instituciones
+				públicas, así como en agencias de cooperación internacional, tanto en
+				Chile como en México, tales como INDAP, FAO, IICA y CEPAL. Participa en
+				todas las etapas del ciclo de políticas públicas.
 			</HeaderArticle>
 			<ArticleLayout
 				header='Política agrícola para "Un pacto verde para México"'

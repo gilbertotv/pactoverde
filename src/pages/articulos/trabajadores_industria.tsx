@@ -30,9 +30,9 @@ const Articles = () => {
 				subAuthor="Por: Luis Escobar Ramos"
 			>
 				Licenciado en Derecho por la Universidad Veracruzana, es miembro activo
-				del Sindicato de Telefonistas de la República Mexicana desde 1987.
+				del Sindicato de Telefonistas de la República Mexicana desde 1987.
 				Coordinador de sindicatos de los ramos industrial, automotriz, de la
-				salud, periodístico, ciencia y tecnología y textil, entre otros, desde
+				salud, periodístico, ciencia y tecnología y textil, entre otros, desde
 				2008.
 			</HeaderArticle>
 			<ArticleLayout

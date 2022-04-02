@@ -32,21 +32,21 @@ const ArticleHeader = ({
 						<p className="text-base sm:text-2xl">{title}</p>
 					</div>
 					<div className="flex gap-4 items-center justify-between pl-4 sm:pr-16 md:pr-20 lg:pr-24">
-						<EmailShareButton url={`https://www.pactoverde.mx/articulos${url}`}>
+						<EmailShareButton url={`https://www.pactoverde.mx/${url}`}>
 							<img src={mail} alt="Email" className="cursor-pointer " />
 						</EmailShareButton>
 						<FacebookShareButton
-							url={`https://www.pactoverde.mx/articulos${url}`}
+							url={`https://www.pactoverde.mx/${url}`}
 						>
 							<img src={fb} alt="Facebook" className="cursor-pointer " />
 						</FacebookShareButton>
 						<TwitterShareButton
-							url={`https://www.pactoverde.mx/articulos${url}`}
+							url={`https://www.pactoverde.mx/${url}`}
 						>
 							<img src={tw} alt="Twitter" className="cursor-pointer " />
 						</TwitterShareButton>
 						<WhatsappShareButton
-							url={`https://www.pactoverde.mx/articulos${url}`}
+							url={`https://www.pactoverde.mx/${url}`}
 						>
 							<img src={wa} alt="Whatsapp" className="cursor-pointer " />
 						</WhatsappShareButton>

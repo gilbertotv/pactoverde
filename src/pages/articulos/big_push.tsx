@@ -28,11 +28,11 @@ const Articles = () => {
 				subAuthor="Por: Jorge Mario Martínez Piva"
 			>
 				Jefe de la Unidad de Comercio Internacional e Industria de la Sede
-				Subregional de la CEPAL en México. Es licenciado en Derecho por la
-				Universidad de Costa Rica, máster en Economía por la Universidad
-				Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma
-				de Madrid. Su trabajo combina los temas comerciales, de integración
-				regional y de política industrial.
+				Subregional de la CEPAL en México. Es licenciado en Derecho por la
+				Universidad de Costa Rica, máster en Economía por la Universidad
+				Nacional (Costa Rica), y doctor en Economía por la Universidad Autónoma
+				de Madrid. Su trabajo combina los temas comerciales, de integración
+				regional y de política industrial.
 			</HeaderArticle>
 			<ArticleLayout
 				header="El Big Push mexicano"
@@ -93,8 +93,8 @@ const Articles = () => {
 						Un gran impulso ambiental requiere al menos de tres elementos
 						modernizadores:{" "}
 						<span className="text-green1 font-medium">
-							una política industrial adecuada al siglo XXI; una sólida política
-							de ciencia, tecnología e innovación, y acuerdos público-privados
+							una política industrial adecuada al siglo XXI; una sólida política
+							de ciencia, tecnología e innovación, y acuerdos público-privados
 							para coordinar las inversiones productivas{" "}
 						</span>
 						hacia la sostenibilidad ambiental.

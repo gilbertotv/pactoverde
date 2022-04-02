@@ -27,10 +27,10 @@ const Articles = () => {
 				subColor="text-white"
 				subAuthor="Por: Claudia Maldonado Trujillo"
 			>
-				Profesora-investigadora de la UAM Xochimilco y consejera académica de
-				Coneval. Se especializa en teoría y métodos para la evaluación de
-				políticas, política social y política pública comparada. Actualmente
-				ocupa la Cátedra de Estudios de México en la Universidad del Sur de
+				Profesora-investigadora de la UAM Xochimilco y consejera académica de
+				Coneval. Se especializa en teoría y métodos para la evaluación de
+				políticas, política social y política pública comparada. Actualmente
+				ocupa la Cátedra de Estudios de México en la Universidad del Sur de
 				California.
 			</HeaderArticle>
 			<ArticleLayout
@@ -61,10 +61,10 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						En materia de bienestar, destaca el papel central de las funciones
-						de cuidado en la protección de la vida,{" "}
+						de cuidado en la protección de la vida,{" "}
 						<span className="text-green1 font-medium">
-							la reproducción y el bienestar, por un lado, y el énfasis en una
-							visión postconsumista del bienestar, por otro.
+							la reproducción y el bienestar, por un lado, y el énfasis en una
+							visión postconsumista del bienestar, por otro.
 						</span>
 					</p>
 				</div>

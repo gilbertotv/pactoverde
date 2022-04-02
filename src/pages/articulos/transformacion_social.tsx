@@ -27,11 +27,11 @@ const Articles = () => {
 				subColor="text-black"
 				subAuthor="Por: Mariana Blanco Puente"
 			>
-				Socióloga por la UNAM y maestra en Estudios Socioambientales por la
+				Socióloga por la UNAM y maestra en Estudios Socioambientales por la
 				Flacso Ecuador. Ha trabajado en temas de extractivismo, movimientos
-				socioambientales y agroecología en América Latina. Actualmente es
-				coordinadora en el Proyecto de Transformación Social-Ecológica en
-				América Latina de la Fundación Friedrich-Ebert.
+				socioambientales y agroecología en América Latina. Actualmente es
+				coordinadora en el Proyecto de Transformación Social-Ecológica en
+				América Latina de la Fundación Friedrich-Ebert.
 			</HeaderArticle>
 			<ArticleLayout
 				header="Hacia una transformación social-ecológica en México"

@@ -27,10 +27,10 @@ const Articles = () => {
 				subAuthor="Por: Claudia Jañez Sánchez"
 			>
 				Empresaria mexicana, presidenta del Consejo Ejecutivo de Empresas
-				Globales en México (2019 a 2021), presidenta para América Latina y
-				directora global de Diversidad e Inclusión de DuPont hasta febrero de
-				2021. Ha sido reconocida por diversas revistas (Expansión, Fortune,
-				Forbes y Líderes en México) como una de las líderes más importantes e
+				Globales en México (2019 a 2021), presidenta para América Latina y
+				directora global de Diversidad e Inclusión de DuPont hasta febrero de
+				2021. Ha sido reconocida por diversas revistas (Expansión, Fortune,
+				Forbes y Líderes en México) como una de las líderes más importantes e
 				influyentes en los negocios.
 			</HeaderArticle>
 			<ArticleLayout
@@ -55,14 +55,14 @@ const Articles = () => {
 					<div className="h-px w-full border-t border-gray2 absolute bottom-0 left-0"></div>
 					<p className="text-2xl sm:text-3xl italic">
 						<span className="text-green1 font-medium">
-							El sector público, el sector privado y la sociedad civil debemos
-							apostar por un diálogo mucho más constructivo, basado en la
+							El sector público, el sector privado y la sociedad civil debemos
+							apostar por un diálogo mucho más constructivo, basado en la
 							confianza mutua y en la corresponsabilidad,{" "}
 						</span>
-						así como unir esfuerzos para rediseñar la actividad productiva y
-						económica de México para lograr un país más competitivo, moderno,
-						innovador e incluyente que sea mucho más atractivo para la
-						inversión.
+						así como unir esfuerzos para rediseñar la actividad productiva y
+						económica de México para lograr un país más competitivo, moderno,
+						innovador e incluyente que sea mucho más atractivo para la
+						inversión.
 					</p>
 				</div>
 				<div className="">

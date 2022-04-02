@@ -28,10 +28,10 @@ const Articles = () => {
 				subColor="text-black"
 				subAuthor="Por: Jorge Máttar"
 			>
-				Licenciado y maestro en Economía por la Universidad de Cambridge. Es
-				investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor
-				en planificación, desarrollo y política industrial de la Comisión
-				Económica para América Latina y el Caribe (CEPAL) y otras
+				Licenciado y maestro en Economía por la Universidad de Cambridge. Es
+				investigador asociado al Centro Tepoztlán Víctor L. Urquidi y consultor
+				en planificación, desarrollo y política industrial de la Comisión
+				Económica para América Latina y el Caribe (CEPAL) y otras
 				organizaciones.
 			</HeaderArticle>
 			<ArticleLayout

@@ -60,7 +60,7 @@ const Modal = ({ shown, close }) => {
 				}}
 			>
 				<ReactPlayer
-					url="https://www.youtube.com/watch?v=htDn2oFkVc0"
+					url="https://www.youtube.com/watch?v=fR8piihSues"
 					width="100%"
 					height="100%"
 					playing={shown}

@@ -3,10 +3,11 @@ import React from "react";
 interface IProps {
 	text: string;
 	variant: string;
-	action?: () => {};
+	action?: () => void;
+	disabled?: boolean;
 }
 
-const Button = ({ text, variant, action }: IProps) => {
+const Button = ({ text, variant, action, disabled }: IProps) => {
 	return (
 		<>
 			{variant === "green" && (
@@ -21,6 +22,7 @@ const Button = ({ text, variant, action }: IProps) => {
 				<button
 					className="w-full sm:w-52 border-solid border border-red1 text-lg p-2 font-medium text-red1 hover:bg-red1 hover:text-white hover:border-red1"
 					onClick={action}
+					disabled={disabled}
 				>
 					{text}
 				</button>

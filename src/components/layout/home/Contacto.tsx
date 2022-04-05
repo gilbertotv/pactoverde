@@ -1,14 +1,60 @@
 import React, { useState, useRef } from "react";
+import axios from "axios";
+import { BeatLoader } from "react-spinners";
+
 import Button from "../../shared/Button";
 import Footer from "../Footer";
 
+const convertJsontoUrlencoded = (obj) => {
+	let str = [];
+	for (let key in obj) {
+		if (obj.hasOwnProperty(key)) {
+			str.push(encodeURIComponent(key) + "=" + encodeURIComponent(obj[key]));
+		}
+	}
+	return str.join("&");
+};
+
 const Contacto = ({ showed }) => {
-	const [form, setForm] = useState({ name: "", email: "", message: "" });
+	const [form, setForm] = useState({ name: "", email: "" });
+	const [loading, setLoading] = useState(false);
+	const [formMessage, setFormMessage] = useState("");
 	const comment = useRef(null);
+	const TOKEN =
+		typeof window !== "undefined" &&
+		window.btoa(`daniela.castro:P4ct0V3rd32022`);
 
 	const handleChanges = (e) => {
 		e.preventDefault();
 		setForm({ ...form, [e.target.name]: e.target.value });
+	};
+
+	const sendForm = async (e) => {
+		e.preventDefault();
+		setLoading(true);
+		try {
+			await axios({
+				url: `https://pactoverde.mx/wp/wp-json/contact-form-7/v1/contact-forms/5/feedback`,
+				headers: {
+					Authorization: `Basic ${TOKEN}`,
+					"Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+				},
+				method: "POST",
+				data: convertJsontoUrlencoded({
+					["your-subject"]: "Contacto",
+					["your-name"]: form.name,
+					["your-email"]: form.email,
+					["your-message"]: comment.current.innerText,
+				}),
+			});
+			setLoading(false);
+			setFormMessage("Tu mensaje ha sido enviado");
+			setForm({ name: "", email: "" });
+			comment.current.innerText = "";
+		} catch (error) {
+			setLoading(false);
+			setFormMessage("Ocurrió un error");
+		}
 	};
 
 	return (
@@ -18,7 +64,10 @@ const Contacto = ({ showed }) => {
 					<h2 className={`inline-block text-gray1 text-4xl sm:text-6xl`}>
 						Escríbenos si te interesa colaborar con nosotrxs
 					</h2>
-					<form className="w-full text-black mt-12 my-4">
+					<form
+						className="w-full text-black mt-12 my-4"
+						onSubmit={(e) => sendForm(e)}
+					>
 						<div className="sm:grid sm:grid-cols-2 sm:gap-12 ">
 							<div className="relative flex flex-col items-center py-2 mt-4 sm:mt-0 sm:w-4/5">
 								<input
@@ -77,7 +126,17 @@ const Contacto = ({ showed }) => {
 								></div>
 							</div>
 							<div className="text-center sm:text-left mt-8 sm:mt-4">
-								<Button text="Enviar" variant="red" />
+								{loading ? (
+									<BeatLoader color="#FF4A53" />
+								) : formMessage === "" ? (
+									<Button
+										text="Enviar"
+										variant="red"
+										disabled={form.email === ""}
+									/>
+								) : (
+									<p className="text-base text-red1 text-xl">{formMessage}</p>
+								)}
 							</div>
 						</div>
 					</form>

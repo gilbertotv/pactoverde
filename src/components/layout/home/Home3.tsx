@@ -5,6 +5,15 @@ import HomeLayoutTitle from "./HomeLayoutTitle";
 
 import TexturaHome3 from "../../../images/texturaHome3.png";
 
+export interface IPreviewWP {
+	order: number;
+	author: string;
+	resume: string;
+	summary: string;
+	title: string;
+	url: string;
+}
+
 const ForwardIcon = () => (
 	<svg
 		width="11"
@@ -76,7 +85,13 @@ const ColumnMore = ({
 	</div>
 );
 
-const Home3 = ({ showed }) => {
+const Home3 = ({
+	showed,
+	preview,
+}: {
+	showed: boolean;
+	preview: IPreviewWP[];
+}) => {
 	return (
 		<HomeLayoutTitle
 			title="Artículos"
@@ -94,38 +109,19 @@ const Home3 = ({ showed }) => {
 				className="absolute bottom-full translate-y-24 -right-48 sm:right-0"
 			/>
 			<div className="w-full flex flex-col md:flex-row">
-				<ColumnMore
-					title='Los irreductibles en "Un pacto verde para México"'
-					summary="Visión general de lo que significa un posible pacto, sus elementos
-						principales. y los retos y dificultades para lograrlo."
-					author="Beatriz Paredes Rangel"
-					role="Senadora de la LXV Legislatura de México"
-					linktext="Leer más"
-					link="/articulos/irreductibles_pacto_verde"
-					showed={showed}
-					delay={300}
-				/>
-				<ColumnMore
-					title='El papel de los pueblos originarios hacia "Un pacto verde para México"'
-					summary="No habrá un pacto transformador sin los pueblos indígenas y las poblaciones vulnerables en el centro de toda política de desarrollo. "
-					author="Leticia Vázquez Esteban"
-					role="Activista masewal y cooperativista de Tosepan"
-					linktext="Leer más"
-					link="/articulos/pueblos_originarios"
-					showed={showed}
-					delay={500}
-				/>
-				<ColumnMore
-					title="El Big Push mexicano: Plan verde para un desarrollo sostenible"
-					summary="Un cambio estructural necesita impulsar al empleo, la innovación, distribución del ingreso y acuerdos público-privados."
-					author="Jorge Mario Martínez Piva"
-					role="Titular de la Unidad de Comercio Internacional e Industria de la CEPAL"
-					linktext="Leer más"
-					link="/articulos/big_push"
-					showed={showed}
-					delay={1000}
-					border={false}
-				/>
+				{preview.map((prev, i) => (
+					<ColumnMore
+						key={`prevArt${i}`}
+						title={prev.title}
+						summary={prev.summary}
+						author={prev.author}
+						role={prev.resume}
+						linktext="Leer más"
+						link={prev.url}
+						showed={showed}
+						delay={300}
+					/>
+				))}
 			</div>
 			<Button
 				text="Ver Todos"

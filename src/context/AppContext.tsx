@@ -2,8 +2,11 @@ import React, {
 	createContext,
 	Dispatch,
 	SetStateAction,
+	useEffect,
+	useMemo,
 	useState,
 } from "react";
+import axios from "axios";
 
 import thumb1 from "../images/articulos/thumbs/thumb1.png";
 import thumb2 from "../images/articulos/thumbs/thumb2.png";
@@ -42,17 +45,23 @@ interface IContext {
 	menuOpen: boolean;
 	setMenuOpen: Dispatch<SetStateAction<boolean>>;
 	thumbsArticles: IThumbProps[];
+	baseUrl: string;
+	categories: Map<string, number>;
 }
 
 const AppContext = createContext<IContext>({
 	menuOpen: false,
 	setMenuOpen: () => {},
 	thumbsArticles: [],
+	baseUrl: "",
+	categories: new Map(),
 });
 const { Provider } = AppContext;
 
 const AppProvider = (props: IProps) => {
+	const baseUrl = "https://pactoverde.mx/wp/wp-json/wp/v2";
 	const [menuOpen, setMenuOpen] = useState<boolean>(false);
+	const [catData, setCatData] = useState(new Map());
 
 	const thumbsArticles: IThumbProps[] = [
 		{
@@ -269,8 +278,25 @@ const AppProvider = (props: IProps) => {
 		},
 	];
 
+	const categories = useMemo(() => {
+		const cats = new Map();
+		catData.forEach((cat) => cats.set(cat.slug, cat.id));
+
+		return cats;
+	}, [catData]);
+
+	useEffect(() => {
+		axios
+			.get(`${baseUrl}/categories?timestamp=${new Date().getTime()}`)
+			.then((res) => {
+				setCatData(res.data);
+			});
+	}, []);
+
 	return (
-		<Provider value={{ menuOpen, setMenuOpen, thumbsArticles }}>
+		<Provider
+			value={{ menuOpen, setMenuOpen, thumbsArticles, baseUrl, categories }}
+		>
 			{props.children}
 		</Provider>
 	);

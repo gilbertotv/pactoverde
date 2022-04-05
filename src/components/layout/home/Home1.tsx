@@ -53,7 +53,7 @@ const Modal = ({ shown, close }) => {
 			}}
 		>
 			<div
-				className="modal-content relative w-9/12 sm:w-9/12 h-1/2 sm:h-3/4"
+				className="modal-content relative"
 				onClick={(e) => {
 					// do not close modal if anything inside modal content is clicked
 					e.stopPropagation();
